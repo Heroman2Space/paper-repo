@@ -1,0 +1,1774 @@
+{
+  "conference": "NeurIPS 2026",
+  "snapshot_date": "2026-11-02",
+  "source_url": "https://neurips.cc/static/virtual/data/neurips-2026-orals-posters.json",
+  "source_sha256": "d0dfe097586a068c4de0006f11a0f1ba578e1e0cf0a86628a390a8e5a8fee9e0",
+  "filter": "decision.lower() == \"accept (oral)\"",
+  "deduplication_key": "paper_url (OpenReview forum URL)",
+  "scope_note": "Current publicly listed records, not a certified final acceptance count. Workshop papers are not included.",
+  "counts": {
+    "Conference": 86,
+    "Evaluations_and_Datasets_Track": 12,
+    "Position_Paper_Track": 4
+  },
+  "total": 102,
+  "papers": [
+    {
+      "title": "AdaSRU: Adaptive Source-Free Recommendation Unlearning via Gradient-Constrained Optimization",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=CsOU0pWrTZ",
+      "authors": [
+        "Xiaoran Zhao",
+        "Weiming Liu",
+        "Lianyong Qi",
+        "Weiyi Zhong",
+        "Yuwen Liu",
+        "Xiaolong Xu",
+        "Haolong Xiang",
+        "Qiang Ni",
+        "Xuyun Zhang",
+        "Wanchun Dou",
+        "Xiaokang Zhou"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154534",
+        "https://neurips.cc/virtual/2026/oral/154535"
+      ]
+    },
+    {
+      "title": "APS: Bias-Controlled Adaptive Prototype Simulation for Population-Scale LLM Agents",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=pVNs5UOYq3",
+      "authors": [
+        "Quan ZHENG",
+        "Yan Gao",
+        "shaobin he",
+        "Haoxiang Guan",
+        "Yuanhe Tian",
+        "Jie Feng",
+        "Ming Wang",
+        "Shuxin Zheng",
+        "Zhen Liu"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/149524"
+      ]
+    },
+    {
+      "title": "BEAST3D: animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=nWHsSjFVA0",
+      "authors": [
+        "Yanchen Wang",
+        "Lenny Aharon",
+        "Wangshu Zhu",
+        "Kyle Daruwalla",
+        "Linghua Zhang",
+        "Jiaru Zou",
+        "Selmaan N Chettih",
+        "X Helen Hou",
+        "Liam Paninski",
+        "Matthew Whiteway"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/149763",
+        "https://neurips.cc/virtual/2026/poster/149762"
+      ]
+    },
+    {
+      "title": "Behavioral Geometric Supervision Aligns Video Foundation Models with Human Social Perception",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=rVX7LF9vry",
+      "authors": [
+        "Kathy Garcia",
+        "Leyla Isik"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/149278"
+      ]
+    },
+    {
+      "title": "Beyond Family Labels: A Taxonomic Ornstein-Uhlenbeck Prior for Avian 3D Shape Recovery",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=WHGRxkYCGV",
+      "authors": [
+        "Yunchan Jeon",
+        "Soo Gon Kim",
+        "Seungwook Kim",
+        "CheolWon Lee",
+        "Jongmin Lee"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151996",
+        "https://neurips.cc/virtual/2026/oral/151997"
+      ]
+    },
+    {
+      "title": "BrainWorld: A Structural-Prior-Conditioned Generative Model for Whole-Brain 4D fMRI Dynamics",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=5rS8m8pxgo",
+      "authors": [
+        "Junfeng XIA",
+        "Wenhao Ye",
+        "Junxiang Zhang",
+        "Xuanye Pan",
+        "Mo WANG",
+        "Quanying Liu"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155412",
+        "https://neurips.cc/virtual/2026/oral/155413"
+      ]
+    },
+    {
+      "title": "Breakeven complexity: A new perspective on neural partial differential equation solvers",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=wBeG0ytI2l",
+      "authors": [
+        "Yijing Zhang",
+        "Nicholas Roberts",
+        "Tanya Marwah",
+        "Misha Khodak"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148644",
+        "https://neurips.cc/virtual/2026/oral/148645"
+      ]
+    },
+    {
+      "title": "Bridging Compute- and Data-Optimal Pretraining",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=6HVSfPO1cT",
+      "authors": [
+        "Tian Qin",
+        "Kimia Hamidieh",
+        "David Alvarez-Melis"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155350",
+        "https://neurips.cc/virtual/2026/oral/155351"
+      ]
+    },
+    {
+      "title": "C3P: Contrastive promoter-protein pretraining yields representations capturing bacterial gene regulation",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=0pWBLS7Kzj",
+      "authors": [
+        "Cameron Dufault",
+        "Scott Xu",
+        "Alan Moses"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/156046"
+      ]
+    },
+    {
+      "title": "Can In-Context Learning Support Intrinsic Curiosity?",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=aHSKeImV3Z",
+      "authors": [
+        "Eric Elmoznino",
+        "Sangnie Bhardwaj",
+        "Johannes von Oswald",
+        "Rajai Nasser",
+        "Blaise Aguera y Arcas",
+        "João Sacramento",
+        "Rif A. Saurous",
+        "Guillaume Lajoie"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151481",
+        "https://neurips.cc/virtual/2026/oral/151482"
+      ]
+    },
+    {
+      "title": "Certifiably Optimal Robust Angular Synchronization",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=M7UwJ21cjC",
+      "authors": [
+        "Daniel Barath",
+        "Keisuke Tateno",
+        "Marc Pollefeys",
+        "Federico Tombari"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/153331",
+        "https://neurips.cc/virtual/2026/oral/153332"
+      ]
+    },
+    {
+      "title": "CLIOPATRA: Extracting Private Information from LLM Insights",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=SNNm5MJ9dg",
+      "authors": [
+        "Meenatchi Sundaram Muthu Selva Annamalai",
+        "Emiliano De Cristofaro",
+        "Peter Kairouz"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/152543"
+      ]
+    },
+    {
+      "title": "Colored Noise Diffusion Sampling",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=ta2pzgldj0",
+      "authors": [
+        "Hadar Davidson",
+        "Noam Issachar",
+        "Sagie Benaim"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148997",
+        "https://neurips.cc/virtual/2026/oral/148998"
+      ]
+    },
+    {
+      "title": "Compact SO(3) Equivariant Atomistic Foundation Models via Structural Pruning",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=AJ8IWO0noE",
+      "authors": [
+        "Chen Wang",
+        "Siyu Hu",
+        "Guangming Tan",
+        "Weile Jia"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154865",
+        "https://neurips.cc/virtual/2026/oral/154866"
+      ]
+    },
+    {
+      "title": "Computer Use at the Edge of the Statistical Precipice",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=We2oXEmu4W",
+      "authors": [
+        "Pierluca D Oro",
+        "Sneha Silwal",
+        "William R Wong",
+        "Yuxuan Sun",
+        "Fanyi Xiao",
+        "Manchen Wang",
+        "Eric Gan",
+        "Allen Bolourchi",
+        "Joseph Tighe"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151946",
+        "https://neurips.cc/virtual/2026/oral/151947"
+      ]
+    },
+    {
+      "title": "Coordination Connectivity: Shared Initialization Shapes the Joint-Policy Landscape in MARL",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=D2HpZYZ8aI",
+      "authors": [
+        "Yixiang Fan",
+        "Zhiqiang Pu",
+        "Hao Ma",
+        "Dongmin Li",
+        "Weihao Zhang",
+        "Yinxing Dai",
+        "Shijie Zheng",
+        "Jingjing Huang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154512"
+      ]
+    },
+    {
+      "title": "DD-CAM: Minimal Sufficient Explanations for Vision Models Using Delta Debugging",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=a30XWAYlaJ",
+      "authors": [
+        "Krishna Khadka",
+        "Yu Lei",
+        "Raghu Kacker",
+        "D. R Kuhn"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151520",
+        "https://neurips.cc/virtual/2026/oral/151521"
+      ]
+    },
+    {
+      "title": "Decomposing Earth Embeddings with Sparse Autoencoders",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=kB29xkjNQK",
+      "authors": [
+        "Vitus Benson",
+        "Fanny Yang",
+        "Markus Reichstein"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/150168"
+      ]
+    },
+    {
+      "title": "Do We Need Asynchronous SGD? On the Near-Optimality of Synchronous Methods",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=6NIyk8iU5e",
+      "authors": [
+        "Grigory Begunov",
+        "Alexander Tyurin"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155336",
+        "https://neurips.cc/virtual/2026/oral/155337"
+      ]
+    },
+    {
+      "title": "Déjà View: Looping Transformers for Multi-View 3D Reconstruction",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=Eidz3t6qmk",
+      "authors": [
+        "Alessandro Burzio",
+        "Tobias Fischer",
+        "Sven Elflein",
+        "Qunjie Zhou",
+        "Riccardo de Lutio",
+        "Jiawei Ren",
+        "Jiahui Huang",
+        "Shengyu Huang",
+        "Marc Pollefeys",
+        "Laura Leal-Taixé",
+        "Zan Gojcic",
+        "Haithem Turki"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/154304",
+        "https://neurips.cc/virtual/2026/poster/154303"
+      ]
+    },
+    {
+      "title": "Emergence of Physical Intelligence via Controllable Information Production",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=S15gujrcKN",
+      "authors": [
+        "Tristan Shah",
+        "Stas Tiomkin"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/152583",
+        "https://neurips.cc/virtual/2026/poster/152582"
+      ]
+    },
+    {
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=q9dbc5lOWi",
+      "authors": [
+        "Adi Mashiach"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/149424",
+        "https://neurips.cc/virtual/2026/oral/149425"
+      ]
+    },
+    {
+      "title": "EntiRE: Invariant Learning for Robust Concept Erasure in Text-to-Image Generative Models",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=ch8Vn8e6ZM",
+      "authors": [
+        "Fengyuan Yu",
+        "Yuyuan Li",
+        "Xiaohua Feng",
+        "Li Zhang",
+        "Jiaming Zhang",
+        "Xiang Liu",
+        "Jun Wang",
+        "Chaochao Chen"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151144",
+        "https://neurips.cc/virtual/2026/oral/151145"
+      ]
+    },
+    {
+      "title": "ExComm: Exploration-Stage Communication for Error-Resilient Agentic Test-Time Scaling",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=EXtXoqNLl3",
+      "authors": [
+        "Woomin Song",
+        "Beomjun Kim",
+        "Daewon Choi",
+        "Sai Muralidhar Jayanthi",
+        "Saket Dingliwal",
+        "Jinwoo Shin",
+        "Aram Galstyan"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154319",
+        "https://neurips.cc/virtual/2026/oral/154320"
+      ]
+    },
+    {
+      "title": "Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=yglphSefi0",
+      "authors": [
+        "Linru Zhang",
+        "Jun Jie Sim",
+        "Xiangning Wang",
+        "Jiahao Zhong",
+        "Kaiyu Zhou",
+        "Huanyi Ye",
+        "Yongsen Zheng",
+        "Lushan Song",
+        "Xiaojian Liang",
+        "Yingting Liu",
+        "Yujing Sun",
+        "Huaxiong Wang",
+        "Pu Duan",
+        "Kwok-Yan Lam"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148321",
+        "https://neurips.cc/virtual/2026/oral/148322"
+      ]
+    },
+    {
+      "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=ShMNgympCf",
+      "authors": [
+        "Jiacheng Miao",
+        "Jin Mu",
+        "Guanhua Chen",
+        "James Zou"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/152494",
+        "https://neurips.cc/virtual/2026/oral/152495"
+      ]
+    },
+    {
+      "title": "FLIP: Fast and Accurate Global Lipschitz Estimation for Large Feedforward Networks",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=TJXYYcODy8",
+      "authors": [
+        "Hongbo Chen",
+        "Zihao Ren"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/152411",
+        "https://neurips.cc/virtual/2026/oral/152412"
+      ]
+    },
+    {
+      "title": "Follow the Regularized Leader Does Not Converge in Constrained Optimization",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=dmNapb9nHG",
+      "authors": [
+        "Ioannis Anagnostides",
+        "Ioannis Panageas",
+        "Nikolas Patris",
+        "Tuomas Sandholm"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/150986",
+        "https://neurips.cc/virtual/2026/oral/150987"
+      ]
+    },
+    {
+      "title": "Fractional State Space Transition for Long Sequence Modeling",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=i6ZEbxGeKu",
+      "authors": [
+        "Ivan Kobyzev",
+        "Abbas Ghaddar",
+        "Ali Nasiri-Sarvi",
+        "Lifeng Shang",
+        "Yufei CUI"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/150428",
+        "https://neurips.cc/virtual/2026/poster/150427"
+      ]
+    },
+    {
+      "title": "Free Decompression with Algebraic Spectral Curves",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=4fadvXVZXs",
+      "authors": [
+        "Siavash Ameli",
+        "Chris van der Heide",
+        "Liam Hodgkinson",
+        "Michael Mahoney"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155558",
+        "https://neurips.cc/virtual/2026/oral/155559"
+      ]
+    },
+    {
+      "title": "From Average Sensitivity to Small-Loss Regret Bounds under Random-Order Model",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=ByO41cYGxg",
+      "authors": [
+        "Shinsaku Sakaue",
+        "Yuichi Yoshida"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154659",
+        "https://neurips.cc/virtual/2026/oral/154660"
+      ]
+    },
+    {
+      "title": "Generative Modeling via Drifting",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=FCkkBolf4o",
+      "authors": [
+        "Mingyang Deng",
+        "He Li",
+        "Tianhong Li",
+        "Yilun Du",
+        "Kaiming He"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/154241",
+        "https://neurips.cc/virtual/2026/poster/154240"
+      ]
+    },
+    {
+      "title": "Graph Cascades: Contagion-Based Mesoscopic Rewiring for Structure-Aware Graph Machine Learning",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=8R0BMd5zmJ",
+      "authors": [
+        "Meher Chaitanya Pindiprolu",
+        "My Le",
+        "Luana Ruiz"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155097",
+        "https://neurips.cc/virtual/2026/oral/155098"
+      ]
+    },
+    {
+      "title": "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=xMqv6BYsZv",
+      "authors": [
+        "Saehun Chun",
+        "Wonje Choi",
+        "Jinwoo Jang",
+        "TaeYoon Kwack",
+        "Honguk Woo"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148497",
+        "https://neurips.cc/virtual/2026/oral/148498"
+      ]
+    },
+    {
+      "title": "Impossibility of Distribution-Free Predictive Inference for Individual Treatment Effects",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=pyIv9zfcdd",
+      "authors": [
+        "Chongguang Tao",
+        "Zheng Zhou",
+        "Yuhong Yang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/149451",
+        "https://neurips.cc/virtual/2026/oral/149452"
+      ]
+    },
+    {
+      "title": "Incentivizing Medical Vision Capabilities from Large-Scale Multimodal Pre-training",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=0BXKsjKlFJ",
+      "authors": [
+        "Junying Chen",
+        "Zhenyang Cai",
+        "Yunjin Yang",
+        "Kunyuan Cai",
+        "Rongsheng Wang",
+        "Xidong Wang",
+        "Geyang Yu",
+        "Xiangyi Feng",
+        "Benyou Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/156129",
+        "https://neurips.cc/virtual/2026/poster/156128"
+      ]
+    },
+    {
+      "title": "Language-Conditioned World Modeling for Visual Navigation",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=DOtvhTItcX",
+      "authors": [
+        "Yifei Dong",
+        "Fengyi Wu",
+        "Yilong Dai",
+        "Lingdong Kong",
+        "Guangyu Chen",
+        "Qiyu Hu",
+        "Yetong Sha",
+        "Feng Liu",
+        "Siyu Huang",
+        "Qi Dai",
+        "Zhi-Qi Cheng"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154464",
+        "https://neurips.cc/virtual/2026/oral/154465"
+      ]
+    },
+    {
+      "title": "LatentUM: Unleashing the Potential of Interleaved Cross-Modal Reasoning via a Latent-Space Unified Model",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=aoP7r2nyxb",
+      "authors": [
+        "Jiachun Jin",
+        "Zetong Zhou",
+        "Xiao Yang",
+        "Hao Zhang",
+        "Pengfei Liu",
+        "Jun Zhu",
+        "Zhijie Deng"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151424",
+        "https://neurips.cc/virtual/2026/oral/151425"
+      ]
+    },
+    {
+      "title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=VbWRUbpIUv",
+      "authors": [
+        "Eve Fleisig",
+        "Joachim Baumann",
+        "Dylan Hadfield-Menell",
+        "Dirk Hovy"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/152086",
+        "https://neurips.cc/virtual/2026/poster/152085"
+      ]
+    },
+    {
+      "title": "Learning interpretable Schur forms of recurrent weight matrices",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=8gcHRPsjr5",
+      "authors": [
+        "Alexander Lanine",
+        "Liana Akobian",
+        "N Alex Cayco Gajic"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155071"
+      ]
+    },
+    {
+      "title": "Learning Reveals Invisible Structure in Low-Rank RNNs",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=UB2Xsj6ZZA",
+      "authors": [
+        "Yoav Ger",
+        "Omri Barak"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/152289",
+        "https://neurips.cc/virtual/2026/oral/152290"
+      ]
+    },
+    {
+      "title": "Learning Sparse Semantic-Cortical Atoms for Multisubject Naturalistic fMRI Encoding",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=YcEZoSqrxa",
+      "authors": [
+        "Alicia Zeng"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/151713"
+      ]
+    },
+    {
+      "title": "LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=iCXoa3VMy0",
+      "authors": [
+        "Chiyu Zhang",
+        "Huiqin Yang",
+        "Bendong Jiang",
+        "Xiaolei Zhang",
+        "Yiran Zhao",
+        "Ruyi Chen",
+        "Lu Zhou",
+        "Xiaogang Xu",
+        "Jiafei Wu",
+        "Liming Fang",
+        "Zhe Liu"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/150415",
+        "https://neurips.cc/virtual/2026/oral/150416"
+      ]
+    },
+    {
+      "title": "LittleLearner: Language Models Under Pedagogically-Controlled Knowledge Exposure",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=zSwgtp9S5a",
+      "authors": [
+        "Fanfei Li",
+        "Jana Zeller",
+        "Manuel Prada-Corral",
+        "Thaddäus Wiedemer",
+        "Prasanna Mayilvahanan",
+        "Ryan Cotterell",
+        "Wieland Brendel"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148220",
+        "https://neurips.cc/virtual/2026/oral/148221"
+      ]
+    },
+    {
+      "title": "LoRAcles: Self-Supervised Weight-Space Interpretability at Scale",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=EOoc3j4hW8",
+      "authors": [
+        "Celeste De Schamphelaere",
+        "Jan Bauer",
+        "Neel Nanda",
+        "Euan Ong"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154333"
+      ]
+    },
+    {
+      "title": "MindAlign: Bridging EEG, Vision, and Language for Zero-Shot Visual Decoding",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=riv0NRuHeq",
+      "authors": [
+        "Zexuan Chen",
+        "Sichao Liu",
+        "Runhao Lu",
+        "Huichao Qi",
+        "Alexandra Woolgar",
+        "Xi V Wang",
+        "Lihui Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/149255",
+        "https://neurips.cc/virtual/2026/oral/149256"
+      ]
+    },
+    {
+      "title": "Mitigating Confidence Miscalibration in Open-World Semi-Supervised Learning",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=LfaHJnaV9L",
+      "authors": [
+        "Wenqiang Wu",
+        "Feng Wang",
+        "Jiye Liang",
+        "Liang Bai"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/153397",
+        "https://neurips.cc/virtual/2026/oral/153398"
+      ]
+    },
+    {
+      "title": "Neural Chameleons: Language Models Can Learn to Hide Their Thoughts from Unseen Activation Monitors",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=zLwGdQLBbW",
+      "authors": [
+        "Max McGuinness",
+        "Alex Serrano Terre",
+        "Luke Bailey",
+        "Scott Emmons"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148241"
+      ]
+    },
+    {
+      "title": "Non-Colliding Biometric Identities for Digital Entities: Geometry, Capacity, and Million-Scale Virtual Identity Provisioning",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=NmbGjaLeN2",
+      "authors": [
+        "Yuyang Ji",
+        "Yixuan Shen",
+        "Anil Jain",
+        "Xiaoming Liu",
+        "Feng Liu"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/153119",
+        "https://neurips.cc/virtual/2026/oral/153120"
+      ]
+    },
+    {
+      "title": "ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=FikEkhzT3F",
+      "authors": [
+        "Shelly Golan",
+        "Michael Finkelson",
+        "Ariel Bereslavsky",
+        "Yotam Nitzan",
+        "Or Patashnik"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154172",
+        "https://neurips.cc/virtual/2026/oral/154173"
+      ]
+    },
+    {
+      "title": "PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=dZhUeQa53U",
+      "authors": [
+        "Yufei Guo",
+        "Yinan Wu",
+        "Haoran Duan",
+        "guiguang ding",
+        "Jungong Han"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151017",
+        "https://neurips.cc/virtual/2026/oral/151018"
+      ]
+    },
+    {
+      "title": "Proactive Instance Navigation with Comparative Judgment for Ambiguous User Queries",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=LR1XtBSs7q",
+      "authors": [
+        "Junhyuk Kwon",
+        "Seungjoon Lee",
+        "Hyejin Park",
+        "Kyle Min",
+        "Jungseul Ok"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/153423",
+        "https://neurips.cc/virtual/2026/oral/153424"
+      ]
+    },
+    {
+      "title": "Pruning and Distilling Mixture-of-Experts into Dense Language Models",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=hmvlyb1yQu",
+      "authors": [
+        "Junhyuck Kim",
+        "Jihun Yun",
+        "Haechan Kim",
+        "Gyeongman Kim",
+        "Joonghyun Bae",
+        "Jaewoong Cho"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/150472",
+        "https://neurips.cc/virtual/2026/oral/150473"
+      ]
+    },
+    {
+      "title": "Quantized Reasoning Models Think They Need to Think Longer, but They Do Not",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=YulzlhXlgy",
+      "authors": [
+        "Sanae Lotfi",
+        "Polina Kirichenko",
+        "Steven Li",
+        "Zechun Liu"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151668",
+        "https://neurips.cc/virtual/2026/oral/151669"
+      ]
+    },
+    {
+      "title": "Query Lower Bounds for Diffusion Sampling",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=ZXOqN26lhR",
+      "authors": [
+        "Zhiyang Xun",
+        "Eric Price"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151581",
+        "https://neurips.cc/virtual/2026/oral/151582"
+      ]
+    },
+    {
+      "title": "Reference-Guided Training: Adaptive Gradient Scaling via Per-Sample Loss Comparisons",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=y7zQMhy4Gr",
+      "authors": [
+        "Israel Rodrigues Soares",
+        "Pedro Benedetti",
+        "Thanda Shwe",
+        "Israel Mendonca",
+        "Masayoshi Aritsugi"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148399",
+        "https://neurips.cc/virtual/2026/oral/148400"
+      ]
+    },
+    {
+      "title": "Releasing Anchors from Cross-View Correspondence: Probabilistic Multi-View Anchor Graph Clustering",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=CQIfXmGpTl",
+      "authors": [
+        "Zhoumin Lu",
+        "Yongbo Yu",
+        "Yu Duan",
+        "Feiping Nie",
+        "Yicong Zhou"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/154594",
+        "https://neurips.cc/virtual/2026/poster/154593"
+      ]
+    },
+    {
+      "title": "Representation Fréchet Loss for Visual Generation",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=9OK87o8Wkf",
+      "authors": [
+        "Jiawei Yang",
+        "Zhengyang Geng",
+        "Xuan Ju",
+        "Yonglong Tian",
+        "Yue Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154990",
+        "https://neurips.cc/virtual/2026/oral/154991"
+      ]
+    },
+    {
+      "title": "Resilience Matters for Embodied Agents System: New Metrics, Systematic Evaluation, and Optimization",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=u2TS1Rxun2",
+      "authors": [
+        "Yapeng Liu",
+        "Yuanzhao Zhai",
+        "Xudong Gong",
+        "Feng Dawei",
+        "Bo Ding",
+        "Lin Wang",
+        "Huaimin Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148940"
+      ]
+    },
+    {
+      "title": "SAM 3D Animal: Promptable Animal 3D Reconstruction from Images in the Wild",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=3pqVVK0kW3",
+      "authors": [
+        "Xuyi Hu",
+        "Jin Lyu",
+        "Jiuming Liu",
+        "Yebin Liu",
+        "Silvia Zuffi",
+        "Liang An",
+        "Stefan Goetz"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155674",
+        "https://neurips.cc/virtual/2026/oral/155675"
+      ]
+    },
+    {
+      "title": "Scale-Sensitive Shattering: Learnability and Evaluability at Optimal Scale",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=qoanAQUemS",
+      "authors": [
+        "Shashaank Aiyer",
+        "Yishay Mansour",
+        "Shay Moran",
+        "Han Shao",
+        "Tom Waknine"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/149340",
+        "https://neurips.cc/virtual/2026/oral/149341"
+      ]
+    },
+    {
+      "title": "Self-Programmed Execution for Language-Model Agents",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=47M69IISIM",
+      "authors": [
+        "Luke J O&amp;#x27;Connor"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155631"
+      ]
+    },
+    {
+      "title": "SMART: Scalable Multi-Agent Role-conditioned  Teaming via LLM-free Tree Search",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=mYzIBNy0LN",
+      "authors": [
+        "Runzhe Zhang",
+        "Ning Li",
+        "Xingshan Zeng",
+        "Letian Chen",
+        "Yasheng Wang",
+        "Weinan Zhang",
+        "Yong Yu",
+        "Weiwen Liu"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/149875",
+        "https://neurips.cc/virtual/2026/poster/149874"
+      ]
+    },
+    {
+      "title": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=9url1EFMaU",
+      "authors": [
+        "Deyuan (Mike) He",
+        "Ankush Desai",
+        "Sharad Malik",
+        "Aarti Gupta"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/154927",
+        "https://neurips.cc/virtual/2026/oral/154928"
+      ]
+    },
+    {
+      "title": "Spectral Energy Allocation Enables Source-Free Domain Adaptation in Time Series Forecasting",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=9zd8FaFWpx",
+      "authors": [
+        "Zhimin Mei",
+        "Gezheng Xu",
+        "Mohammad Hossein Moslemi",
+        "Ruiyi Fang",
+        "Nima Hosseini Dashtbayaz",
+        "Ziyan Wang",
+        "Jincheng Zhou",
+        "Haolin Jiang",
+        "Song Tang",
+        "Charles Ling",
+        "Boyu Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/154915"
+      ]
+    },
+    {
+      "title": "Strong Stochastic Flow Maps",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=ppj0Eq4Y6y",
+      "authors": [
+        "Sam McCallum",
+        "Zander Blasingame",
+        "Timothy Herschell",
+        "Niklas Rindtorff",
+        "Alexander Tong",
+        "James Foster"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/149475",
+        "https://neurips.cc/virtual/2026/oral/149476"
+      ]
+    },
+    {
+      "title": "Surprises in Proper Positive-Only Learning",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=v81L38ZyrQ",
+      "authors": [
+        "Shai Ben-David",
+        "Farnam Mansouri",
+        "Anay Mehrotra",
+        "Manolis Zampetakis"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/148778",
+        "https://neurips.cc/virtual/2026/oral/148779"
+      ]
+    },
+    {
+      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=lj7OHtUYX1",
+      "authors": [
+        "Yuncong Yang",
+        "Zhengtao Han",
+        "Furkan Ozyurt",
+        "Zeyuan Yang",
+        "Han Yang",
+        "Junyi Cao",
+        "Haoyu Zhen",
+        "Yilun Du",
+        "Chuang Gan"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/149982"
+      ]
+    },
+    {
+      "title": "TALK: One-Shot Batch Design for Protein Variant Effect Prediction",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=3DiNfT64V7",
+      "authors": [
+        "qiao huang",
+        "Ao Shen",
+        "Jie Du",
+        "Manning Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/155751",
+        "https://neurips.cc/virtual/2026/poster/155750"
+      ]
+    },
+    {
+      "title": "Tessellations of Semi-Discrete Flow Matching",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=JbKDDvGT8o",
+      "authors": [
+        "Emile Pierret",
+        "Johannes Hertrich",
+        "Samuel Hurault",
+        "Julie Delon"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/153678",
+        "https://neurips.cc/virtual/2026/poster/153677"
+      ]
+    },
+    {
+      "title": "Testable and Actionable Calibration for Full Swap Regret",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=yls0nG3VKg",
+      "authors": [
+        "Konstantina Bairaktari",
+        "Lunjia Hu",
+        "Huy Nguyen",
+        "Jonathan Ullman"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/148312",
+        "https://neurips.cc/virtual/2026/poster/148311"
+      ]
+    },
+    {
+      "title": "The Algorithm Is Not the Behavior: Learned Priors Override Look-Ahead in a Chess-Playing Neural Network",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=ULhusDnCQy",
+      "authors": [
+        "Elias Sandmann",
+        "Sebastian Lapuschkin",
+        "Wojciech Samek"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/152268"
+      ]
+    },
+    {
+      "title": "The Attacker in the Mirror: Breaking Self-Consistency in Safety via Anchored Bipolicy Self-Play",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=a5qQCbrc2b",
+      "authors": [
+        "Gabriele La Malfa",
+        "Emanuele La Malfa",
+        "Saar Cohen",
+        "Jie Zhang",
+        "Michael Luck",
+        "Michael Wooldridge",
+        "Elizabeth Black"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151513",
+        "https://neurips.cc/virtual/2026/oral/151514"
+      ]
+    },
+    {
+      "title": "The Sign Code: The Hidden Binary Nature of Deep Networks",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=4WN4vV8RCR",
+      "authors": [
+        "Niclas A Göring",
+        "Shuofeng Zhang",
+        "Roi Holtzman",
+        "yoonsoo nam",
+        "Ard Louis"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155585",
+        "https://neurips.cc/virtual/2026/oral/155586"
+      ]
+    },
+    {
+      "title": "The Stability of Online Algorithms in Performative Prediction",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=YYzvip7hPZ",
+      "authors": [
+        "Gabriele Farina",
+        "Juan C Perdomo"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151725",
+        "https://neurips.cc/virtual/2026/oral/151726"
+      ]
+    },
+    {
+      "title": "They Can See It but not Say It: Iterative Self Knowledge Re-expression in Visual Reasoning Relative Pose Identification",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=b4HCV0e0V8",
+      "authors": [
+        "MENGYU WANG",
+        "Ken Deng",
+        "Yftah Ziser",
+        "Shay Cohen",
+        "Tiejun Ma"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/151373"
+      ]
+    },
+    {
+      "title": "Thinking with Images as Continuous Policy: Numerical Visual Chain-of-Thought",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=kqCpiR360C",
+      "authors": [
+        "Kesen Zhao",
+        "Beier Zhu",
+        "Junbao Zhou",
+        "Xingyu Zhu",
+        "Zhongqi Yue",
+        "Hanwang Zhang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/150085",
+        "https://neurips.cc/virtual/2026/oral/150086"
+      ]
+    },
+    {
+      "title": "TiRex-2: Generalizing TiRex to Multivariate Data and Streaming",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=YgN3LimhOJ",
+      "authors": [
+        "Patrick Podest",
+        "Marco Pichler",
+        "Elias Bürger",
+        "Levente Zólyomi",
+        "Bernhard Voggenberger",
+        "Wilhelm F Berghammer",
+        "Daniel Klotz",
+        "Sebastian Böck",
+        "Günter Klambauer",
+        "Sepp Hochreiter"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/151700",
+        "https://neurips.cc/virtual/2026/oral/151701"
+      ]
+    },
+    {
+      "title": "Training Generalizable Collaborative Agents via Strategic Risk Aversion",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=YmGCdpjNNh",
+      "authors": [
+        "Chengrui Qu",
+        "Yizhou Zhang",
+        "Nicolas Lanzetti",
+        "Eric Mazumdar"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/151686"
+      ]
+    },
+    {
+      "title": "TransmissiveGS: Residual-Guided Disentangled Gaussian Splatting for Transmissive Scene Reconstruction and Rendering",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=69qwhyHQTB",
+      "authors": [
+        "Zhenyu Liang",
+        "Xiao Zhang",
+        "Tianchao Li",
+        "Jack C Cheng",
+        "Chi-Keung Tang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/155367",
+        "https://neurips.cc/virtual/2026/oral/155368"
+      ]
+    },
+    {
+      "title": "Trellis4D: Complex 4D Mesh Generation",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=Hse0SKGx7y",
+      "authors": [
+        "Jiraphon Yenphraphai",
+        "Jianqi Chen",
+        "Jian Wang",
+        "Guocheng Qian",
+        "Sergey Tulyakov",
+        "Rameen Abdal",
+        "Raymond A. Yeh",
+        "Peter Wonka",
+        "Chaoyang Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/153900",
+        "https://neurips.cc/virtual/2026/poster/153899"
+      ]
+    },
+    {
+      "title": "UECO: A Unified Encoder with Structure-Aware Attention Mixture via Iterative Edge Evolving for Neural Combinatorial Optimization",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=M2lqt23VO7",
+      "authors": [
+        "Wenzheng Pan",
+        "Shuyi Yan",
+        "Nuoyan Chen",
+        "Yiyang Qu",
+        "Jiale Ma",
+        "Junchi Yan"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/153347"
+      ]
+    },
+    {
+      "title": "Uniform-in-Time Weak Propagation of Chaos in Shallow Neural Networks",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=Aupfb8A52K",
+      "authors": [
+        "Margalit Glasgow",
+        "Joan Bruna"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/154795",
+        "https://neurips.cc/virtual/2026/poster/154794"
+      ]
+    },
+    {
+      "title": "Unifying Goal-Conditioned RL and Unsupervised Skill Learning via Control-Maximization",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=MHeZHmPRnt",
+      "authors": [
+        "Alireza Modirshanechi",
+        "Benjamin Eysenbach",
+        "Peter Dayan",
+        "Eric Schulz"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/153300",
+        "https://neurips.cc/virtual/2026/oral/153301"
+      ]
+    },
+    {
+      "title": "Unlocking Volition: Proactive Intention Decoding via Interpretable Graph Learning of Multi-Region ECoG",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=IRTohTNxhM",
+      "authors": [
+        "Kaizhong Zheng",
+        "JiaJunMA",
+        "Hongru Liu",
+        "Xinjian LI",
+        "Wei Xi",
+        "Liangjun Chen",
+        "Badong Chen"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/153825",
+        "https://neurips.cc/virtual/2026/poster/153824"
+      ]
+    },
+    {
+      "title": "Video Forensic Self-Descriptions: Leveraging Temporally Distributed Forensic Microstructures for Zero-Shot Detection of AI-Generated Videos",
+      "track": "Conference",
+      "openreview_url": "https://openreview.net/forum?id=pnZvRHgjWk",
+      "authors": [
+        "Aref Azizpour",
+        "Tai Nguyen",
+        "Matthew Stamm"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/149484",
+        "https://neurips.cc/virtual/2026/oral/149485"
+      ]
+    },
+    {
+      "title": "AgentAbstain: Do LLM Agents Know When Not to Act?",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=Iee7eL6QV0",
+      "authors": [
+        "Xun Liu",
+        "Yi Evie Zhang",
+        "Vira Kasprova",
+        "Parisa Rabbani",
+        "Pardissadat Zahraei",
+        "Tianyu Zhang",
+        "Ali Ebrahimpour-Boroojeny",
+        "Varun Chandrasekaran"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/139558",
+        "https://neurips.cc/virtual/2026/oral/139559"
+      ]
+    },
+    {
+      "title": "ALTER: An Allen's Algebra-Based Evaluation Framework for Temporal Reasoning of LLMs",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=ay0UXDsniW",
+      "authors": [
+        "Hongkai Zhou",
+        "Yanhui Li"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/139266",
+        "https://neurips.cc/virtual/2026/poster/139265"
+      ]
+    },
+    {
+      "title": "Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=tsoDWPkJOz",
+      "authors": [
+        "Longyuan Zhu",
+        "Hairan Hua",
+        "Linlin Miao",
+        "Wei Wang",
+        "必应 赵"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/138960",
+        "https://neurips.cc/virtual/2026/oral/138961"
+      ]
+    },
+    {
+      "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=5UIA41EzVg",
+      "authors": [
+        "Junjue Wang",
+        "Weihao Xuan",
+        "Heli Qi",
+        "Pengyu Dai",
+        "Kunyi Liu",
+        "Hongruixuan Chen",
+        "Zhuo Zheng",
+        "Junshi Xia",
+        "Stefano Ermon",
+        "Naoto YOKOYA"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/139774",
+        "https://neurips.cc/virtual/2026/oral/139775"
+      ]
+    },
+    {
+      "title": "DD-Ranking: Rethinking the Evaluation of Dataset Distillation",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=UreH0QGZXp",
+      "authors": [
+        "Zekai Li",
+        "Xinhao Zhong",
+        "Samir Khaki",
+        "Zhiyuan Liang",
+        "Yuhao Zhou",
+        "Mingjia Shi",
+        "Ziqiao Wang",
+        "Xuanlei Zhao",
+        "Wangbo Zhao",
+        "Ziheng Qin",
+        "Mengxuan Wu",
+        "Pengfei Zhou",
+        "Haonan Wang",
+        "David Junhao Zhang",
+        "Jia-Wei Liu",
+        "Shaobo Wang",
+        "Dai Liu",
+        "Linfeng Zhang",
+        "Guang Li",
+        "Kun Wang",
+        "Zheng Zhu",
+        "Zhiheng Ma",
+        "Joey Tianyi Zhou",
+        "Jiancheng Lv",
+        "Yaochu Jin",
+        "Peihao Wang",
+        "Kaipeng Zhang",
+        "Yiran Huang",
+        "Zhiwei Deng",
+        "Xindi Wu",
+        "George Cazenavette",
+        "Yuzhang Shang",
+        "Justin CUI",
+        "Jindong Gu",
+        "Qian Zheng",
+        "Hao Ye",
+        "Shuo Wang",
+        "Xiaobo Wang",
+        "Yan Yan",
+        "Angela Yao",
+        "Mike Zheng Shou",
+        "Tianlong Chen",
+        "Hakan Bilen",
+        "Baharan Mirzasoleiman",
+        "Manolis Kellis",
+        "Konstantinos N Plataniotis",
+        "Zhangyang &amp;quot;Atlas&amp;quot; Wang",
+        "Bo Zhao",
+        "Yang You",
+        "Kai Wang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/139356"
+      ]
+    },
+    {
+      "title": "Evaluating Neural Data Tokenizers: A Framework for Assessing Learned Representations of Spiking Activity",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=jYb8X9iFPY",
+      "authors": [
+        "Federico D&amp;#x27;Agostino",
+        "Alex Gilbert",
+        "Susanne Keller",
+        "Jaivardhan Kapoor",
+        "Nicolas Reategui",
+        "Vedang Lad",
+        "Matthias Kümmerer",
+        "Jai Bhagat",
+        "Emin Orhan",
+        "Hasan A Bedel",
+        "Nikos Karantzas",
+        "Fabian Sinz",
+        "Surya Ganguli",
+        "Jakob H Macke",
+        "Sophia Sanborn",
+        "Alexander Ecker",
+        "Katrin Franke",
+        "Matthias Bethge",
+        "Andreas Tolias",
+        "Konstantin Willeke"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/139125",
+        "https://neurips.cc/virtual/2026/oral/139126"
+      ]
+    },
+    {
+      "title": "HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=2MmzwEyeO2",
+      "authors": [
+        "Jaehwi Song",
+        "Suchae Jeong",
+        "Byeongguk Jeon",
+        "Sungdong Kim",
+        "Hyungmok Son",
+        "Kimin Lee"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/139829",
+        "https://neurips.cc/virtual/2026/poster/139828"
+      ]
+    },
+    {
+      "title": "HearSayBench: Can LLMs Navigate from Abstract Human Rights to Lived Lives?",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=ZqbnpmPYvV",
+      "authors": [
+        "Sobhan Lotfi",
+        "Ava Iranmanesh",
+        "Ali Iranmanesh",
+        "Liwei Jiang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/139279",
+        "https://neurips.cc/virtual/2026/poster/139278"
+      ]
+    },
+    {
+      "title": "MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=EaF7FneBfZ",
+      "authors": [
+        "Bohan Lyu",
+        "Yucheng Yang",
+        "Siqiao Huang",
+        "Jiaru Zhang",
+        "Qixin Xu",
+        "Xinghan Li",
+        "Xinyang Han",
+        "Yicheng Zhang",
+        "Huaqing Zhang",
+        "Runhan Huang",
+        "Kaicheng Yang",
+        "Zitao Chen",
+        "Wentao Guo",
+        "Junlin Yang",
+        "Xinyue Ai",
+        "Wenhao Chai",
+        "Yadi Cao",
+        "Ziran Yang",
+        "Kun Wang",
+        "Dapeng Jiang",
+        "Huan-ang Gao",
+        "Shange Tang",
+        "Chengshuai Shi",
+        "Simon Du",
+        "Max Simchowitz",
+        "Jiantao Jiao",
+        "Dawn Song",
+        "Chi Jin"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/139626",
+        "https://neurips.cc/virtual/2026/oral/139627"
+      ]
+    },
+    {
+      "title": "MOVEBENCH: A Benchmark for Global-Scale Wildlife Movement Forecasting",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=6ss3Wyzv27",
+      "authors": [
+        "Justin Kay",
+        "Shir Bar",
+        "Ellen O Aikens",
+        "Martin Becker",
+        "Francesca Cagnacci",
+        "Juliet Cohen",
+        "Scott W Forrest",
+        "Jessica Kendall-Bar",
+        "Madeleine Lucas",
+        "Macon Overcast",
+        "Meredith S Palmer",
+        "Will Rogers",
+        "Nicholas J Russo",
+        "Christian Rutz",
+        "Larissa T Beumer",
+        "Michael B Brown",
+        "Ying-Chi Chan",
+        "Sarah C Davidson",
+        "Diego E Soto",
+        "Anne G Hertel",
+        "Roland Kays",
+        "Benjamin Koger",
+        "Guram Mikaberidze",
+        "Thomas Mueller",
+        "Ruth Oliver",
+        "Thorsten Papenbrock",
+        "Robert Patchett",
+        "Jared A Stabach",
+        "Dane Taylor",
+        "Scott W Yanco",
+        "Sara Beery"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/139749",
+        "https://neurips.cc/virtual/2026/oral/139750"
+      ]
+    },
+    {
+      "title": "Offloading Score: Measuring AI Reliance through Counterfactual Workflows",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=TT3ACb02l4",
+      "authors": [
+        "Vishakh Padmakumar",
+        "Lujain Ibrahim",
+        "Zora Wang",
+        "Jennifer Wang",
+        "Q.Vera Liao",
+        "Diyi Yang"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/139388",
+        "https://neurips.cc/virtual/2026/oral/139389"
+      ]
+    },
+    {
+      "title": "SALART-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images",
+      "track": "Evaluations_and_Datasets_Track",
+      "openreview_url": "https://openreview.net/forum?id=iVvXeIwD1f",
+      "authors": [
+        "Xiaoxiao Sun",
+        "Ruotian Zhang",
+        "Junzhe Huang",
+        "James Burgess",
+        "Serena Yeung-Levy"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/139140"
+      ]
+    },
+    {
+      "title": "Agent Security is a Systems Problem",
+      "track": "Position_Paper_Track",
+      "openreview_url": "https://openreview.net/forum?id=8gDb2bnWWf",
+      "authors": [
+        "Mihai Christodorescu",
+        "Earlence Fernandes",
+        "Ashish Hooda",
+        "Somesh Jha",
+        "Johann Rehberger",
+        "Kamalika Chaudhuri",
+        "Xiaohan Fu",
+        "Khawaja Shams",
+        "Guy Amir",
+        "Jihye Choi",
+        "Sarthak Choudhary",
+        "Nils Palumbo",
+        "Andrey Labunets",
+        "Nishit V Pandya"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/140106"
+      ]
+    },
+    {
+      "title": "Position: Fair Representations Cannot Hold What They Promise",
+      "track": "Position_Paper_Track",
+      "openreview_url": "https://openreview.net/forum?id=lmeLparD9S",
+      "authors": [
+        "Shai Ben-David",
+        "Tosca Lechner",
+        "Ruth Urner"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/176362",
+        "https://neurips.cc/virtual/2026/poster/140022"
+      ]
+    },
+    {
+      "title": "The Dead Salmons of AI Interpretability: The Need for a Statistical Inference Perspective",
+      "track": "Position_Paper_Track",
+      "openreview_url": "https://openreview.net/forum?id=w0wOa4UDHv",
+      "authors": [
+        "Maxime Méloux",
+        "Giada Dirupo",
+        "François Portet",
+        "Maxime Peyrard"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/poster/140002",
+        "https://neurips.cc/virtual/2026/oral/176361"
+      ]
+    },
+    {
+      "title": "We Should Distinguish Unlearning From Untraining",
+      "track": "Position_Paper_Track",
+      "openreview_url": "https://openreview.net/forum?id=U9dDSCabjP",
+      "authors": [
+        "Eleni Triantafillou",
+        "Imtiaz Humayun",
+        "Mónica Ribero",
+        "Alexander Turner",
+        "Michael Mozer",
+        "Georgios Kaissis"
+      ],
+      "official_urls": [
+        "https://neurips.cc/virtual/2026/oral/176363"
+      ]
+    }
+  ]
+}
