@@ -1,0 +1,3968 @@
+{
+  "conference": "CVPR 2026",
+  "snapshot_date": "2026-11-02",
+  "source_url": "https://cvpr.thecvf.com/virtual/2026/events/oral",
+  "source_sha256": "7679168c885b89b57a1f9d1bda111fe37d5f95d8827e30de6d2126c1e5c9e2a8",
+  "sources": [
+    {
+      "url": "https://cvpr.thecvf.com/virtual/2026/events/oral",
+      "sha256": "7679168c885b89b57a1f9d1bda111fe37d5f95d8827e30de6d2126c1e5c9e2a8"
+    },
+    {
+      "url": "https://openaccess.thecvf.com/CVPR2026?day=all",
+      "sha256": "8af49e25ae802a5150596890723adbca037730365503682aa4cb1b3735ab6c74"
+    }
+  ],
+  "filter": "All individual entries on the official 2026 Oral event listing",
+  "deduplication_key": "official oral event ID",
+  "scope_note": "Current public official Oral records; workshops excluded. Not a certified final acceptance count.",
+  "notes": [
+    "以官方 Oral 专页为准，页面显示 141 个 Oral 事件；按事件 ID 去重，共 141 篇。",
+    "作者取自官方 Oral 专页；按规范化标题匹配 CVF 官方论文集，匹配成功时提供论文页和 PDF 链接，其余保留 Oral 详情页。",
+    "静态 JSON 入口仅返回前 200 条记录，因此未用该不完整数据集统计总数。"
+  ],
+  "counts": {
+    "Conference": 141
+  },
+  "total": 141,
+  "papers": [
+    {
+      "title": "3D-LATTE: Latent Space 3D Editing from Textual Instructions",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Parelli_3D-LATTE_Latent_Space_3D_Editing_from_Textual_Instructions_CVPR_2026_paper.html",
+      "authors": [
+        "Maria Parelli",
+        "Michael Oechsle",
+        "Michael Niemeyer",
+        "Federico Tombari",
+        "Andreas Geiger"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40368"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40368,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "3D-LATTE: Latent Space 3D Editing from Textual Instructions",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Parelli_3D-LATTE_Latent_Space_3D_Editing_from_Textual_Instructions_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Parelli_3D-LATTE_Latent_Space_3D_Editing_from_Textual_Instructions_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_3DReflecNet_A_Large-Scale_Dataset_for_3D_Reconstruction_of_Reflective_Transparent_CVPR_2026_paper.html",
+      "authors": [
+        "Zhicheng Liang",
+        "Haoyi Yu",
+        "Boyan Li",
+        "Dayou Zhang",
+        "Zijian Cao",
+        "Tianyi Gong",
+        "Junhua Liu",
+        "Shuguang Cui",
+        "Fangxin Wang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40310"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40310,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "3DReflecNet: A Large-Scale Dataset for 3D Reconstruction of Reflective, Transparent, and Low-Texture Objects",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_3DReflecNet_A_Large-Scale_Dataset_for_3D_Reconstruction_of_Reflective_Transparent_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liang_3DReflecNet_A_Large-Scale_Dataset_for_3D_Reconstruction_of_Reflective_Transparent_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "4D Primitive-Mâché: Glueing Primitives for Persistent 4D Scene Reconstruction",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Mazur_4D_Primitive-Mache_Glueing_Primitives_for_Persistent_4D_Scene_Reconstruction_CVPR_2026_paper.html",
+      "authors": [
+        "Kirill Mazur",
+        "Marwan Taher",
+        "Andrew J. Davison"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40358"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40358,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "4D Primitive-Mache: Glueing Primitives for Persistent 4D Scene Reconstruction",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Mazur_4D_Primitive-Mache_Glueing_Primitives_for_Persistent_4D_Scene_Reconstruction_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Mazur_4D_Primitive-Mache_Glueing_Primitives_for_Persistent_4D_Scene_Reconstruction_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_A_Style_is_Worth_One_Code_Unlocking_Code-to-Style_Image_Generation_CVPR_2026_paper.html",
+      "authors": [
+        "Huijie Liu",
+        "Shuhao Cui",
+        "Haoxiang Cao",
+        "Shuai Ma",
+        "Kai Wu",
+        "Guoliang Kang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40271"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40271,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_A_Style_is_Worth_One_Code_Unlocking_Code-to-Style_Image_Generation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_A_Style_is_Worth_One_Code_Unlocking_Code-to-Style_Image_Generation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Advancing Image Classification with Discrete Diffusion Classification Modeling",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Belhasin_Advancing_Image_Classification_with_Discrete_Diffusion_Classification_Modeling_CVPR_2026_paper.html",
+      "authors": [
+        "Omer Belhasin",
+        "Shelly Golan",
+        "Ran El-Yaniv",
+        "Michael Elad"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40273"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40273,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Advancing Image Classification with Discrete Diffusion Classification Modeling",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Belhasin_Advancing_Image_Classification_with_Discrete_Diffusion_Classification_Modeling_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Belhasin_Advancing_Image_Classification_with_Discrete_Diffusion_Classification_Modeling_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Adversarial_Style_Optimization_Enhancing_VLM_Jailbreaks_by_GRPO-based_Stylistic_Triggers_CVPR_2026_paper.html",
+      "authors": [
+        "Bingjun Luo",
+        "Jialin Guo",
+        "Yue Yao",
+        "Xinpeng Ding"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40299"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40299,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Adversarial_Style_Optimization_Enhancing_VLM_Jailbreaks_by_GRPO-based_Stylistic_Triggers_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Luo_Adversarial_Style_Optimization_Enhancing_VLM_Jailbreaks_by_GRPO-based_Stylistic_Triggers_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "AnchorFlow: Training-Free 3D Editing via Latent Anchor-Aligned Flows",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_AnchorFlow_Training-Free_3D_Editing_via_Latent_Anchor-Aligned_Flows_CVPR_2026_paper.html",
+      "authors": [
+        "Zhenglin Zhou",
+        "Fan Ma",
+        "Chengzhuo Gui",
+        "Xiaobo Xia",
+        "Hehe Fan",
+        "Yi Yang",
+        "Tat-seng Chua"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40380"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40380,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "AnchorFlow: Training-Free 3D Editing via Latent Anchor-Aligned Flows",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_AnchorFlow_Training-Free_3D_Editing_via_Latent_Anchor-Aligned_Flows_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_AnchorFlow_Training-Free_3D_Editing_via_Latent_Anchor-Aligned_Flows_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_ANTS_Adaptive_Negative_Textual_Space_Shaping_for_OOD_Detection_via_CVPR_2026_paper.html",
+      "authors": [
+        "Wenjie Zhu",
+        "Yabin Zhang",
+        "Xin Jin",
+        "Wenjun Zeng",
+        "Lei Zhang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40292"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40292,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_ANTS_Adaptive_Negative_Textual_Space_Shaping_for_OOD_Detection_via_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_ANTS_Adaptive_Negative_Textual_Space_Shaping_for_OOD_Detection_via_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "ARGUS: Defending Against Multimodal Indirect Prompt Injection via Steering Instruction-Following Behavior",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_ARGUS_Defending_Against_Multimodal_Indirect_Prompt_Injection_via_Steering_Instruction-Following_CVPR_2026_paper.html",
+      "authors": [
+        "Weikai Lu",
+        "Ziqian Zeng",
+        "Kehua Zhang",
+        "Haoran Li",
+        "Huiping Zhuang",
+        "Ruidong Wang",
+        "Cen Chen",
+        "Hao Peng"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40371"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40371,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "ARGUS: Defending Against Multimodal Indirect Prompt Injection via Steering Instruction-Following Behavior",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_ARGUS_Defending_Against_Multimodal_Indirect_Prompt_Injection_via_Steering_Instruction-Following_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_ARGUS_Defending_Against_Multimodal_Indirect_Prompt_Injection_via_Steering_Instruction-Following_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "AT-VLA: Adaptive Tactile Injection for Enhanced Feedback Reaction in Vision-Language-Action Models",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_AT-VLA_Adaptive_Tactile_Injection_for_Enhanced_Feedback_Reaction_in_Vision-Language-Action_CVPR_2026_paper.html",
+      "authors": [
+        "Xiaoqi Li",
+        "Muhe Cai",
+        "Jiadong Xu",
+        "Juan Zhu",
+        "Hongwei Fan",
+        "Yan Shen",
+        "Guangrui Ren",
+        "Hao Dong"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40363"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40363,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "AT-VLA: Adaptive Tactile Injection for Enhanced Feedback Reaction in Vision-Language-Action Models",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_AT-VLA_Adaptive_Tactile_Injection_for_Enhanced_Feedback_Reaction_in_Vision-Language-Action_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_AT-VLA_Adaptive_Tactile_Injection_for_Enhanced_Feedback_Reaction_in_Vision-Language-Action_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "AToken: A Unified Tokenizer for Vision",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_AToken_A_Unified_Tokenizer_for_Vision_CVPR_2026_paper.html",
+      "authors": [
+        "Jiasen Lu",
+        "Liangchen Song",
+        "Mingze Xu",
+        "Byeongjoo Ahn",
+        "Yanjun Wang",
+        "Chen Chen",
+        "Afshin Dehghan",
+        "Yinfei Yang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40282"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40282,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "AToken: A Unified Tokenizer for Vision",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_AToken_A_Unified_Tokenizer_for_Vision_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_AToken_A_Unified_Tokenizer_for_Vision_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Black-box Membership Inference Attacks on the Pre-training Data of Image-generation Models",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Qi_Black-box_Membership_Inference_Attacks_on_the_Pre-training_Data_of_Image-generation_CVPR_2026_paper.html",
+      "authors": [
+        "Tao Qi",
+        "Huili Wang",
+        "Yuanhong Huang",
+        "Wendan Wang",
+        "Lianchao Zhao",
+        "Jinrui Wang",
+        "Zichen Qin",
+        "Shangguang Wang",
+        "Yongfeng Huang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40315"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40315,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Black-box Membership Inference Attacks on the Pre-training Data of Image-generation Models",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Qi_Black-box_Membership_Inference_Attacks_on_the_Pre-training_Data_of_Image-generation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Black-box_Membership_Inference_Attacks_on_the_Pre-training_Data_of_Image-generation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "BoostSLT: Boosting Sign Language Translation via a Plug-and-Play Diffusion-Based Semantic Enhancer",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_BoostSLT_Boosting_Sign_Language_Translation_via_a_Plug-and-Play_Diffusion-Based_Semantic_CVPR_2026_paper.html",
+      "authors": [
+        "Changzhou Han",
+        "Wanlun Ma",
+        "XI TANG",
+        "Kun Hu",
+        "Sheng Wen",
+        "Yang Xiang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40375"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40375,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "BoostSLT: Boosting Sign Language Translation via a Plug-and-Play Diffusion-Based Semantic Enhancer",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_BoostSLT_Boosting_Sign_Language_Translation_via_a_Plug-and-Play_Diffusion-Based_Semantic_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Han_BoostSLT_Boosting_Sign_Language_Translation_via_a_Plug-and-Play_Diffusion-Based_Semantic_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Breaking Semantic Boundaries: Distribution-Guided Semantic Exploration for Creative Generation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Feng_Breaking_Semantic_Boundaries_Distribution-Guided_Semantic_Exploration_for_Creative_Generation_CVPR_2026_paper.html",
+      "authors": [
+        "Fu Feng",
+        "Yucheng Xie",
+        "Ruixiao Shi",
+        "Xu Yang",
+        "Jing Wang",
+        "Xin Geng"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40319"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40319,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Breaking Semantic Boundaries: Distribution-Guided Semantic Exploration for Creative Generation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Feng_Breaking_Semantic_Boundaries_Distribution-Guided_Semantic_Exploration_for_Creative_Generation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Feng_Breaking_Semantic_Boundaries_Distribution-Guided_Semantic_Exploration_for_Creative_Generation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Breaking the Scalability Limit of Multi-Projector Calibration with Embedded Cameras",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kawano_Breaking_the_Scalability_Limit_of_Multi-Projector_Calibration_with_Embedded_Cameras_CVPR_2026_paper.html",
+      "authors": [
+        "Takumi Kawano",
+        "Kohei Miura",
+        "Daisuke Iwai"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40265"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40265,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Breaking the Scalability Limit of Multi-Projector Calibration with Embedded Cameras",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kawano_Breaking_the_Scalability_Limit_of_Multi-Projector_Calibration_with_Embedded_Cameras_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kawano_Breaking_the_Scalability_Limit_of_Multi-Projector_Calibration_with_Embedded_Cameras_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "ChordEdit: One-Step Low-Energy Transport for Image Editing",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_ChordEdit_One-Step_Low-Energy_Transport_for_Image_Editing_CVPR_2026_paper.html",
+      "authors": [
+        "Liangsi Lu",
+        "Xuhang Chen",
+        "Minzhe Guo",
+        "Shichu Li",
+        "Jingchao Wang",
+        "Yang Shi"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40352"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40352,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "ChordEdit: One-Step Low-Energy Transport for Image Editing",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_ChordEdit_One-Step_Low-Energy_Transport_for_Image_Editing_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_ChordEdit_One-Step_Low-Energy_Transport_for_Image_Editing_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Chorus_Multi-Teacher_Pretraining_for_Holistic_3D_Gaussian_Scene_Encoding_CVPR_2026_paper.html",
+      "authors": [
+        "Yue Li",
+        "Qi Ma",
+        "Runyi Yang",
+        "Mengjiao Ma",
+        "Bin Ren",
+        "Nikola Popovic",
+        "Nicu Sebe",
+        "Theo Gevers",
+        "Luc Van Gool",
+        "Danda Paudel",
+        "Martin R. Oswald"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40395"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40395,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Chorus_Multi-Teacher_Pretraining_for_Holistic_3D_Gaussian_Scene_Encoding_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Chorus_Multi-Teacher_Pretraining_for_Holistic_3D_Gaussian_Scene_Encoding_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html",
+      "authors": [
+        "Jianxiong Gao",
+        "Yichang Liu",
+        "baofeng yang",
+        "Jianfeng Feng",
+        "Yanwei Fu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40343"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40343,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_CodeV_Code_with_Images_for_Faithful_Visual_Reasoning_via_Tool-Aware_CVPR_2026_paper.html",
+      "authors": [
+        "Xinhai Hou",
+        "Shaoyuan Xu",
+        "Manan Biyani",
+        "Moyan Li",
+        "Jia Liu",
+        "Todd C. Hollon",
+        "Bryan Wang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40386"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40386,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_CodeV_Code_with_Images_for_Faithful_Visual_Reasoning_via_Tool-Aware_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hou_CodeV_Code_with_Images_for_Faithful_Visual_Reasoning_via_Tool-Aware_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "ComPose: A Unified Completion-Pose Framework for Robust Category-Level Object Pose Estimation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ren_ComPose_A_Unified_Completion-Pose_Framework_for_Robust_Category-Level_Object_Pose_CVPR_2026_paper.html",
+      "authors": [
+        "Huan Ren",
+        "Yihan Chen",
+        "Chuxin Wang",
+        "Nailong Liu",
+        "Wenfei Yang",
+        "Tianzhu Zhang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40391"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40391,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "ComPose: A Unified Completion-Pose Framework for Robust Category-Level Object Pose Estimation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ren_ComPose_A_Unified_Completion-Pose_Framework_for_Robust_Category-Level_Object_Pose_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ren_ComPose_A_Unified_Completion-Pose_Framework_for_Robust_Category-Level_Object_Pose_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Confusion-Aware Spectral Regularizer for Long-Tailed Recognition",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Confusion-Aware_Spectral_Regularizer_for_Long-Tailed_Recognition_CVPR_2026_paper.html",
+      "authors": [
+        "Ziquan Zhu",
+        "Gaojie Jin",
+        "Hanruo Zhu",
+        "Si-Yuan Lu",
+        "Yunxiao Zhang",
+        "ZEYU FU",
+        "Ronghui Mu",
+        "Guoqiang Zhang",
+        "Zhao Sun",
+        "Yuhang Xia",
+        "Jiaxing Shang",
+        "Xiang Li",
+        "Lu Liu",
+        "Tianjin Huang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40340"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40340,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Confusion-Aware Spectral Regularizer for Long-Tailed Recognition",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Confusion-Aware_Spectral_Regularizer_for_Long-Tailed_Recognition_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_Confusion-Aware_Spectral_Regularizer_for_Long-Tailed_Recognition_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "CoSMo3D: Open-World Promptable 3D Semantic Segmentation through LLM-Guided Canonical Spatial Modeling",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jin_CoSMo3D_Open-World_Promptable_3D_Semantic_Segmentation_through_LLM-Guided_Canonical_Spatial_CVPR_2026_paper.html",
+      "authors": [
+        "Li Jin",
+        "Weikai Chen",
+        "Yujie Wang",
+        "Yingda Yin",
+        "Zeyu HU",
+        "Runze Zhang",
+        "Keyang Luo",
+        "Shengju Qian",
+        "Xin Wang",
+        "Xueying Qin"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40362"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40362,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "CoSMo3D: Open-World Promptable 3D Semantic Segmentation through LLM-Guided Canonical Spatial Modeling",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jin_CoSMo3D_Open-World_Promptable_3D_Semantic_Segmentation_through_LLM-Guided_Canonical_Spatial_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jin_CoSMo3D_Open-World_Promptable_3D_Semantic_Segmentation_through_LLM-Guided_Canonical_Spatial_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "CURE: Curriculum-guided Multi-task Training for Reliable Anatomy Grounded Report Generation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Messina_CURE_Curriculum-guided_Multi-task_Training_for_Reliable_Anatomy_Grounded_Report_Generation_CVPR_2026_paper.html",
+      "authors": [
+        "Pablo Messina",
+        "Andrés Villa",
+        "Juan León Alcázar",
+        "Karen Sanchez",
+        "Carlos Hinojosa",
+        "Denis Parra",
+        "Alvaro Soto",
+        "Bernard Ghanem"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40373"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40373,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "CURE: Curriculum-guided Multi-task Training for Reliable Anatomy Grounded Report Generation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Messina_CURE_Curriculum-guided_Multi-task_Training_for_Reliable_Anatomy_Grounded_Report_Generation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Messina_CURE_Curriculum-guided_Multi-task_Training_for_Reliable_Anatomy_Grounded_Report_Generation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Customized Fusion: A Closed-Loop Dynamic Network for Adaptive Multi-Task-Aware Infrared-Visible Image Fusion",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Customized_Fusion_A_Closed-Loop_Dynamic_Network_for_Adaptive_Multi-Task-Aware_Infrared-Visible_CVPR_2026_paper.html",
+      "authors": [
+        "Zengyi Yang",
+        "Yu Liu",
+        "Juan Cheng",
+        "Zhiqin Zhu",
+        "Yafei Zhang",
+        "Huafeng Li"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40295"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40295,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Customized Fusion: A Closed-Loop Dynamic Network for Adaptive Multi-Task-Aware Infrared-Visible Image Fusion",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Customized_Fusion_A_Closed-Loop_Dynamic_Network_for_Adaptive_Multi-Task-Aware_Infrared-Visible_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Customized_Fusion_A_Closed-Loop_Dynamic_Network_for_Adaptive_Multi-Task-Aware_Infrared-Visible_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Data Leakage Detection and De-duplication in Large Scale Geospatial Image Datasets",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Adimoolam_Data_Leakage_Detection_and_De-duplication_in_Large_Scale_Geospatial_Image_CVPR_2026_paper.html",
+      "authors": [
+        "Yeshwanth Kumar Adimoolam",
+        "Charalambos Poullis",
+        "Melinos Averkiou"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40377"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40377,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Data Leakage Detection and De-duplication in Large Scale Geospatial Image Datasets",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Adimoolam_Data_Leakage_Detection_and_De-duplication_in_Large_Scale_Geospatial_Image_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Adimoolam_Data_Leakage_Detection_and_De-duplication_in_Large_Scale_Geospatial_Image_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Differentiable Laplacian Matrix Guided Superpixel Segmentation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Juybari_Differentiable_Laplacian_Matrix_Guided_Superpixel_Segmentation_CVPR_2026_paper.html",
+      "authors": [
+        "Jeremy Juybari",
+        "Joshua Hamilton",
+        "Shuvra Das",
+        "Chaofan Chen",
+        "Andre Khalil",
+        "Yifeng Zhu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40374"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40374,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Differentiable Laplacian Matrix Guided Superpixel Segmentation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Juybari_Differentiable_Laplacian_Matrix_Guided_Superpixel_Segmentation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Juybari_Differentiable_Laplacian_Matrix_Guided_Superpixel_Segmentation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Differentiable_Vector_Quantization_for_Rate-Distortion_Optimization_of_Generative_Image_Compression_CVPR_2026_paper.html",
+      "authors": [
+        "SHIYIN JIANG",
+        "Wei Long",
+        "Minghao Han",
+        "Zhenghao Chen",
+        "Ce Zhu",
+        "Shuhang Gu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40298"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40298,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Differentiable Vector Quantization for Rate-Distortion Optimization of Generative Image Compression",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Differentiable_Vector_Quantization_for_Rate-Distortion_Optimization_of_Generative_Image_Compression_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Differentiable_Vector_Quantization_for_Rate-Distortion_Optimization_of_Generative_Image_Compression_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "DK-DDIL: Adaptive Knowledge Retention for Dynamic Domain-Incremental Learning in Medical Imaging",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_DK-DDIL_Adaptive_Knowledge_Retention_for_Dynamic_Domain-Incremental_Learning_in_Medical_CVPR_2026_paper.html",
+      "authors": [
+        "Yuxi Ma",
+        "Sujie Liu",
+        "Jing Yang",
+        "Jiacheng Wang",
+        "Yiping Chen",
+        "Baptiste Magnier",
+        "Liansheng Wang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40281"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40281,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "DK-DDIL: Adaptive Knowledge Retention for Dynamic Domain-Incremental Learning in Medical Imaging",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_DK-DDIL_Adaptive_Knowledge_Retention_for_Dynamic_Domain-Incremental_Learning_in_Medical_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ma_DK-DDIL_Adaptive_Knowledge_Retention_for_Dynamic_Domain-Incremental_Learning_in_Medical_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Does YOLO Really Need to See Every Training Image in Every Epoch?",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xie_Does_YOLO_Really_Need_to_See_Every_Training_Image_in_CVPR_2026_paper.html",
+      "authors": [
+        "Xingxing Xie",
+        "Jiahua Dong",
+        "Junwei Han",
+        "Gong Cheng"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40385"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40385,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Does YOLO Really Need to See Every Training Image in Every Epoch?",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xie_Does_YOLO_Really_Need_to_See_Every_Training_Image_in_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xie_Does_YOLO_Really_Need_to_See_Every_Training_Image_in_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Dual Band Thermal Videography: Separating Time-Varying Reflection and Emission Near Ambient Conditions",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Narayanan_Dual_Band_Thermal_Videography_Separating_Time-Varying_Reflection_and_Emission_Near_CVPR_2026_paper.html",
+      "authors": [
+        "Sriram Narayanan",
+        "Mani Ramanagopal",
+        "Srinivasa G. Narasimhan"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40314"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40314,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Dual Band Thermal Videography: Separating Time-Varying Reflection and Emission Near Ambient Conditions",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Narayanan_Dual_Band_Thermal_Videography_Separating_Time-Varying_Reflection_and_Emission_Near_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Narayanan_Dual_Band_Thermal_Videography_Separating_Time-Varying_Reflection_and_Emission_Near_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Dual-level Adapter Boosting Prompt-free Curvilinear Structure Segmentation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Dual-level_Adapter_Boosting_Prompt-free_Curvilinear_Structure_Segmentation_CVPR_2026_paper.html",
+      "authors": [
+        "Kai Zhu",
+        "Li Chen",
+        "Jun Cheng"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40317"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40317,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Dual-level Adapter Boosting Prompt-free Curvilinear Structure Segmentation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Dual-level_Adapter_Boosting_Prompt-free_Curvilinear_Structure_Segmentation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_Dual-level_Adapter_Boosting_Prompt-free_Curvilinear_Structure_Segmentation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Efficient Unrolled Networks for Large-Scale 3D Inverse Problems",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Vo_Efficient_Unrolled_Networks_for_Large-Scale_3D_Inverse_Problems_CVPR_2026_paper.html",
+      "authors": [
+        "Romain Vo",
+        "Julián Tachella"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40269"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40269,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Efficient Unrolled Networks for Large-Scale 3D Inverse Problems",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Vo_Efficient_Unrolled_Networks_for_Large-Scale_3D_Inverse_Problems_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Vo_Efficient_Unrolled_Networks_for_Large-Scale_3D_Inverse_Problems_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Efficiently_Reconstructing_Dynamic_Scenes_One_D4RT_at_a_Time_CVPR_2026_paper.html",
+      "authors": [
+        "Chuhan Zhang",
+        "Guillaume Le Moing",
+        "Skanda Koppula",
+        "Ignacio Rocco",
+        "Liliane Momeni",
+        "Junyu Xie",
+        "Shuyang Sun",
+        "Rahul Sukthankar",
+        "Joëlle K. Barral",
+        "Raia Hadsell",
+        "Zoubin Ghahramani",
+        "Andrew Zisserman",
+        "Junlin Zhang",
+        "Mehdi S. M. Sajjadi"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40345"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40345,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Efficiently_Reconstructing_Dynamic_Scenes_One_D4RT_at_a_Time_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Efficiently_Reconstructing_Dynamic_Scenes_One_D4RT_at_a_Time_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Energy-GS: Image Energy-guided Pose Alignment Gaussian Splatting with redesigned pose gradient flow",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_Energy-GS_Image_Energy-guided_Pose_Alignment_Gaussian_Splatting_with_redesigned_pose_CVPR_2026_paper.html",
+      "authors": [
+        "Yu Gao",
+        "Lutong Su",
+        "Ruixiang Huang",
+        "Tianji Jiang",
+        "Jiadong Tang",
+        "Yufeng Yue",
+        "Yi Yang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40277"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40277,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Energy-GS: Image Energy-guided Pose Alignment Gaussian Splatting with redesigned pose gradient flow",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_Energy-GS_Image_Energy-guided_Pose_Alignment_Gaussian_Splatting_with_redesigned_pose_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Energy-GS_Image_Energy-guided_Pose_Alignment_Gaussian_Splatting_with_redesigned_pose_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Evidential Neural Radiance Fields",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Duan_Evidential_Neural_Radiance_Fields_CVPR_2026_paper.html",
+      "authors": [
+        "Ruxiao Duan",
+        "Alex Wong"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40372"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40372,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Evidential Neural Radiance Fields",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Duan_Evidential_Neural_Radiance_Fields_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Duan_Evidential_Neural_Radiance_Fields_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Faithful Contouring: Near-Lossless 3D Voxel Representation Free from Iso-surface",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Faithful_Contouring_Near-Lossless_3D_Voxel_Representation_Free_from_Iso-surface_CVPR_2026_paper.html",
+      "authors": [
+        "Yihao Luo",
+        "Xianglong He",
+        "Chuanyu Pan",
+        "Yiwen Chen",
+        "Jiaqi Wu",
+        "Yangguang Li",
+        "Wanli Ouyang",
+        "Yuanming Hu",
+        "Guang Yang",
+        "Choon Hwai Yap"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40325"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40325,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Faithful Contouring: Near-Lossless 3D Voxel Representation Free from Iso-surface",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Faithful_Contouring_Near-Lossless_3D_Voxel_Representation_Free_from_Iso-surface_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Luo_Faithful_Contouring_Near-Lossless_3D_Voxel_Representation_Free_from_Iso-surface_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Featurising Pixels from Dynamic 3D Scenes with Linear In-Context Learners",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Araslanov_Featurising_Pixels_from_Dynamic_3D_Scenes_with_Linear_In-Context_Learners_CVPR_2026_paper.html",
+      "authors": [
+        "Nikita Araslanov",
+        "Martin Sundermeyer",
+        "Hidenobu Matsuki",
+        "David Joseph Tan",
+        "Federico Tombari"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40366"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40366,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Featurising Pixels from Dynamic 3D Scenes with Linear In-Context Learners",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Araslanov_Featurising_Pixels_from_Dynamic_3D_Scenes_with_Linear_In-Context_Learners_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Araslanov_Featurising_Pixels_from_Dynamic_3D_Scenes_with_Linear_In-Context_Learners_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "FedAdamom: Adaptive Momentum for Improved Generalization in Federated Optimization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_FedAdamom_Adaptive_Momentum_for_Improved_Generalization_in_Federated_Optimization_CVPR_2026_paper.html",
+      "authors": [
+        "Wenjie Hou",
+        "Tianxiang Chen",
+        "Feng Wang",
+        "Tiantong Wu",
+        "Zhiming Zheng",
+        "Shaoting Tang",
+        "Wei Yang Bryan Lim"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40272"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40272,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "FedAdamom: Adaptive Momentum for Improved Generalization in Federated Optimization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_FedAdamom_Adaptive_Momentum_for_Improved_Generalization_in_Federated_Optimization_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hou_FedAdamom_Adaptive_Momentum_for_Improved_Generalization_in_Federated_Optimization_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "FILTR: Extracting Topological Features from Pretrained 3D Models",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Martinez_FILTR_Extracting_Topological_Features_from_Pretrained_3D_Models_CVPR_2026_paper.html",
+      "authors": [
+        "Louis Martinez",
+        "Maks Ovsjanikov"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40323"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40323,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "FILTR: Extracting Topological Features from Pretrained 3D Models",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Martinez_FILTR_Extracting_Topological_Features_from_Pretrained_3D_Models_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Martinez_FILTR_Extracting_Topological_Features_from_Pretrained_3D_Models_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Fine-grained_Image_Aesthetic_Assessment_Learning_Discriminative_Scores_from_Relative_Ranks_CVPR_2026_paper.html",
+      "authors": [
+        "Zhichao Yang",
+        "Jianjie Wang",
+        "Zhixianhe Zhang",
+        "Pangu Xie",
+        "Xiangfei Sheng",
+        "Pengfei Chen",
+        "Leida Li"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40349"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40349,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Fine-grained_Image_Aesthetic_Assessment_Learning_Discriminative_Scores_from_Relative_Ranks_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Fine-grained_Image_Aesthetic_Assessment_Learning_Discriminative_Scores_from_Relative_Ranks_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "FINER: MLLMs Hallucinate under Fine-grained Negative Queries",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_FINER_MLLMs_Hallucinate_under_Fine-grained_Negative_Queries_CVPR_2026_paper.html",
+      "authors": [
+        "Rui Xiao",
+        "Sanghwan Kim",
+        "Yongqin Xian",
+        "Zeynep Akata",
+        "Stephan Alaniz"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40318"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40318,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "FINER: MLLMs Hallucinate under Fine-grained Negative Queries",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_FINER_MLLMs_Hallucinate_under_Fine-grained_Negative_Queries_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_FINER_MLLMs_Hallucinate_under_Fine-grained_Negative_Queries_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "From Pairs to Sequences: Track-Aware Policy Gradients for Keypoint Detection",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Pairs_to_Sequences_Track-Aware_Policy_Gradients_for_Keypoint_Detection_CVPR_2026_paper.html",
+      "authors": [
+        "yepeng liu",
+        "Hao Li",
+        "Liwen Yang",
+        "Fangzhen Li",
+        "Xudi Ge",
+        "Yuliang Gu",
+        "kuang Gao",
+        "Bing Wang",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Yongchao Xu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40275"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40275,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "From Pairs to Sequences: Track-Aware Policy Gradients for Keypoint Detection",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_From_Pairs_to_Sequences_Track-Aware_Policy_Gradients_for_Keypoint_Detection_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_From_Pairs_to_Sequences_Track-Aware_Policy_Gradients_for_Keypoint_Detection_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "FUSER: Feed-Forward Multiview 3D Registration Transformer and SE(3)^N Diffusion Refinement",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_FUSER_Feed-Forward_Multiview_3D_Registration_Transformer_and_SE3N_Diffusion_Refinement_CVPR_2026_paper.html",
+      "authors": [
+        "Haobo Jiang",
+        "Jin Xie",
+        "Jian Yang",
+        "Liang Yu",
+        "Jianmin Zheng"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40330"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40330,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "FUSER: Feed-Forward Multiview 3D Registration Transformer and SE(3)$^N$ Diffusion Refinement",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_FUSER_Feed-Forward_Multiview_3D_Registration_Transformer_and_SE3N_Diffusion_Refinement_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_FUSER_Feed-Forward_Multiview_3D_Registration_Transformer_and_SE3N_Diffusion_Refinement_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "GaussianFluent: Gaussian Simulation for Dynamic Scenes with Mixed Materials",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_GaussianFluent_Gaussian_Simulation_for_Dynamic_Scenes_with_Mixed_Materials_CVPR_2026_paper.html",
+      "authors": [
+        "Bei Huang",
+        "Yixin Chen",
+        "Ruijie Lu",
+        "Gang Zeng",
+        "Hongbin Zha",
+        "Yuru Pei",
+        "Siyuan Huang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40287"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40287,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "GaussianFluent: Gaussian Simulation for Dynamic Scenes with Mixed Materials",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_GaussianFluent_Gaussian_Simulation_for_Dynamic_Scenes_with_Mixed_Materials_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_GaussianFluent_Gaussian_Simulation_for_Dynamic_Scenes_with_Mixed_Materials_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "GeoViS: Geospatially Rewarded Visual Search for Remote Sensing Visual Grounding",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_GeoViS_Geospatially_Rewarded_Visual_Search_for_Remote_Sensing_Visual_Grounding_CVPR_2026_paper.html",
+      "authors": [
+        "Peirong Zhang",
+        "Yidan Zhang",
+        "Luxiao Xu",
+        "Jinliang Lin",
+        "Zonghao Guo",
+        "Fengxiang Wang",
+        "Xue Yang",
+        "Kaiwen Wei",
+        "Lei Wang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40303"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40303,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "GeoViS: Geospatially Rewarded Visual Search for Remote Sensing Visual Grounding",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_GeoViS_Geospatially_Rewarded_Visual_Search_for_Remote_Sensing_Visual_Grounding_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_GeoViS_Geospatially_Rewarded_Visual_Search_for_Remote_Sensing_Visual_Grounding_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "GLINT: Modeling Scene-Scale Transparency via Gaussian Radiance Transport",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Na_GLINT_Modeling_Scene-Scale_Transparency_via_Gaussian_Radiance_Transport_CVPR_2026_paper.html",
+      "authors": [
+        "Youngju Na",
+        "Jaeseong Yun",
+        "Soohyun Ryu",
+        "Hyunsu Kim",
+        "Sung-Eui Yoon",
+        "Suyong Yeon"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40261"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40261,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "GLINT: Modeling Scene-Scale Transparency via Gaussian Radiance Transport",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Na_GLINT_Modeling_Scene-Scale_Transparency_via_Gaussian_Radiance_Transport_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Na_GLINT_Modeling_Scene-Scale_Transparency_via_Gaussian_Radiance_Transport_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Global-Aware Edge Prioritization for Pose Graph Initialization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_Global-Aware_Edge_Prioritization_for_Pose_Graph_Initialization_CVPR_2026_paper.html",
+      "authors": [
+        "Tong Wei",
+        "Giorgos Tolias",
+        "Jiri Matas",
+        "Daniel Barath"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40302"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40302,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Global-Aware Edge Prioritization for Pose Graph Initialization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_Global-Aware_Edge_Prioritization_for_Pose_Graph_Initialization_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_Global-Aware_Edge_Prioritization_for_Pose_Graph_Initialization_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Guiding a Diffusion Model by Swapping Its Tokens",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Guiding_a_Diffusion_Model_by_Swapping_Its_Tokens_CVPR_2026_paper.html",
+      "authors": [
+        "Weijia Zhang",
+        "Yuehao Liu",
+        "Shanyan Guan",
+        "Wu Ran",
+        "Yanhao Ge",
+        "Wei Li",
+        "Chao Ma"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40306"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40306,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Guiding a Diffusion Model by Swapping Its Tokens",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Guiding_a_Diffusion_Model_by_Swapping_Its_Tokens_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Guiding_a_Diffusion_Model_by_Swapping_Its_Tokens_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Hearing the Room Through the Shape of the Drum: Modal-Guided Sound Recovery from Multi-Point Surface Vibrations",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bagon_Hearing_the_Room_Through_the_Shape_of_the_Drum_Modal-Guided_CVPR_2026_paper.html",
+      "authors": [
+        "Shai Bagon",
+        "Matan Kichler",
+        "Mark Sheinin"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40307"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40307,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Hearing the Room Through the Shape of the Drum: Modal-Guided Sound Recovery from Multi-Point Surface Vibrations",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bagon_Hearing_the_Room_Through_the_Shape_of_the_Drum_Modal-Guided_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Bagon_Hearing_the_Room_Through_the_Shape_of_the_Drum_Modal-Guided_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "ImmerIris: A Large-Scale Dataset and Benchmark for Off-Axis and Unconstrained Iris Recognition in Immersive Applications",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Mi_ImmerIris_A_Large-Scale_Dataset_and_Benchmark_for_Off-Axis_and_Unconstrained_CVPR_2026_paper.html",
+      "authors": [
+        "Yuxi Mi",
+        "Qiuyang Yuan",
+        "Zhizhou Zhong",
+        "Xuan Zhao",
+        "Jiaogen Zhou",
+        "Fubao Zhu",
+        "Jihong Guan",
+        "Shuigeng Zhou"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40280"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40280,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "ImmerIris: A Large-Scale Dataset and Benchmark for Off-Axis and Unconstrained Iris Recognition in Immersive Applications",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Mi_ImmerIris_A_Large-Scale_Dataset_and_Benchmark_for_Off-Axis_and_Unconstrained_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Mi_ImmerIris_A_Large-Scale_Dataset_and_Benchmark_for_Off-Axis_and_Unconstrained_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "InfiniBench: Infinite Benchmarking for Visual Spatial Reasoning with Customizable Scene Complexity",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_InfiniBench_Infinite_Benchmarking_for_Visual_Spatial_Reasoning_with_Customizable_Scene_CVPR_2026_paper.html",
+      "authors": [
+        "Haoming Wang",
+        "Qiyao Xue",
+        "Wei Gao"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40382"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40382,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "InfiniBench: Infinite Benchmarking for Visual Spatial Reasoning with Customizable Scene Complexity",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_InfiniBench_Infinite_Benchmarking_for_Visual_Spatial_Reasoning_with_Customizable_Scene_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_InfiniBench_Infinite_Benchmarking_for_Visual_Spatial_Reasoning_with_Customizable_Scene_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "INSID3: Training-Free In-Context Segmentation with DINOv3",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cuttano_INSID3_Training-Free_In-Context_Segmentation_with_DINOv3_CVPR_2026_paper.html",
+      "authors": [
+        "Claudia Cuttano",
+        "Gabriele Trivigno",
+        "Christoph Reich",
+        "Daniel Cremers",
+        "Carlo Masone",
+        "Stefan Roth"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40263"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40263,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "INSID3: Training-Free In-Context Segmentation with DINOv3",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cuttano_INSID3_Training-Free_In-Context_Segmentation_with_DINOv3_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Cuttano_INSID3_Training-Free_In-Context_Segmentation_with_DINOv3_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bozorgtabar_LATA_Laplacian-Assisted_Transductive_Adaptation_for_Conformal_Uncertainty_in_Medical_VLMs_CVPR_2026_paper.html",
+      "authors": [
+        "Behzad Bozorgtabar",
+        "Dwarikanath Mahapatra",
+        "Sudipta Roy",
+        "Muzammal Naseer",
+        "Imran Razzak",
+        "Zongyuan Ge"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40270"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40270,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bozorgtabar_LATA_Laplacian-Assisted_Transductive_Adaptation_for_Conformal_Uncertainty_in_Medical_VLMs_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Bozorgtabar_LATA_Laplacian-Assisted_Transductive_Adaptation_for_Conformal_Uncertainty_in_Medical_VLMs_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cao_LDP-Slicing_Local_Differential_Privacy_for_Images_via_Randomized_Bit-Plane_Slicing_CVPR_2026_paper.html",
+      "authors": [
+        "Yuanming Cao",
+        "Chengqi Li",
+        "Wenbo He"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40383"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40383,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cao_LDP-Slicing_Local_Differential_Privacy_for_Images_via_Randomized_Bit-Plane_Slicing_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Cao_LDP-Slicing_Local_Differential_Privacy_for_Images_via_Randomized_Bit-Plane_Slicing_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Learning Convex Decomposition via Feature Fields",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Learning_Convex_Decomposition_via_Feature_Fields_CVPR_2026_paper.html",
+      "authors": [
+        "Yuezhi Yang",
+        "Qixing Huang",
+        "Mikaela Angelina Uy",
+        "Nicholas Sharp"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40259"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40259,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Learning Convex Decomposition via Feature Fields",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Learning_Convex_Decomposition_via_Feature_Fields_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Learning_Convex_Decomposition_via_Feature_Fields_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Learning Diffeomorphism for Medical Image Registration with Time-Embedded Architectures Using Semigroup Regularization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Matinkia_Learning_Diffeomorphism_for_Medical_Image_Registration_with_Time-Embedded_Architectures_Using_CVPR_2026_paper.html",
+      "authors": [
+        "Mohammadjavad Matinkia",
+        "Nilanjan Ray"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40376"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40376,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Learning Diffeomorphism for Medical Image Registration with Time-Embedded Architectures Using Semigroup Regularization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Matinkia_Learning_Diffeomorphism_for_Medical_Image_Registration_with_Time-Embedded_Architectures_Using_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Matinkia_Learning_Diffeomorphism_for_Medical_Image_Registration_with_Time-Embedded_Architectures_Using_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Learning Eigenstructures of Unstructured Data Manifolds",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Velich_Learning_Eigenstructures_of_Unstructured_Data_Manifolds_CVPR_2026_paper.html",
+      "authors": [
+        "Roy Velich",
+        "Arkadi Piven",
+        "David Bensaid",
+        "Daniel Cremers",
+        "Thomas Dagès",
+        "Ron Kimmel"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40276"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40276,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Learning Eigenstructures of Unstructured Data Manifolds",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Velich_Learning_Eigenstructures_of_Unstructured_Data_Manifolds_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Velich_Learning_Eigenstructures_of_Unstructured_Data_Manifolds_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Learning Latent Concepts for Detecting Out-of-Distribution Objects",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Learning_Latent_Concepts_for_Detecting_Out-of-Distribution_Objects_CVPR_2026_paper.html",
+      "authors": [
+        "Ting Peng",
+        "Junhao Dong",
+        "Yew-Soon Ong"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40266"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40266,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Learning Latent Concepts for Detecting Out-of-Distribution Objects",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Learning_Latent_Concepts_for_Detecting_Out-of-Distribution_Objects_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Peng_Learning_Latent_Concepts_for_Detecting_Out-of-Distribution_Objects_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Learning Like Humans: Analogical Concept Learning for Generalized Category Discovery",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Learning_Like_Humans_Analogical_Concept_Learning_for_Generalized_Category_Discovery_CVPR_2026_paper.html",
+      "authors": [
+        "Jizhou Han",
+        "Chenhao Ding",
+        "Yuhang He",
+        "Qiang Wang",
+        "Shaokun Wang",
+        "SongLin Dong",
+        "Yihong Gong"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40316"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40316,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Learning Like Humans: Analogical Concept Learning for Generalized Category Discovery",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Learning_Like_Humans_Analogical_Concept_Learning_for_Generalized_Category_Discovery_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Han_Learning_Like_Humans_Analogical_Concept_Learning_for_Generalized_Category_Discovery_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Linear Fundamental Matrix Estimation from 7 or 5 Points",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kucukpinar_Linear_Fundamental_Matrix_Estimation_from_7_or_5_Points_CVPR_2026_paper.html",
+      "authors": [
+        "Taci Ata Kucukpinar",
+        "Juan Mogollon",
+        "Joshua Fraser",
+        "Timothy Duff",
+        "Kannappan Palaniappan"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40341"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40341,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Linear Fundamental Matrix Estimation from 7 or 5 Points",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kucukpinar_Linear_Fundamental_Matrix_Estimation_from_7_or_5_Points_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kucukpinar_Linear_Fundamental_Matrix_Estimation_from_7_or_5_Points_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "MAGICIAN: Efficient Long-Term Planning with Imagined Gaussians for Active Mapping",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_MAGICIAN_Efficient_Long-Term_Planning_with_Imagined_Gaussians_for_Active_Mapping_CVPR_2026_paper.html",
+      "authors": [
+        "Shiyao Li",
+        "Antoine Guédon",
+        "Shizhe Chen",
+        "Vincent Lepetit"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40384"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40384,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "MAGICIAN: Efficient Long-Term Planning with Imagined Gaussians for Active Mapping",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_MAGICIAN_Efficient_Long-Term_Planning_with_Imagined_Gaussians_for_Active_Mapping_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_MAGICIAN_Efficient_Long-Term_Planning_with_Imagined_Gaussians_for_Active_Mapping_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "MAMMA: Markerless Accurate Multi-person Motion Acquisition",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Velasquez_MAMMA_Markerless_Accurate_Multi-person_Motion_Acquisition_CVPR_2026_paper.html",
+      "authors": [
+        "Hanz Cuevas Velasquez",
+        "Anastasios Yiannakidis",
+        "Soyong Shin",
+        "Giorgio Becherini",
+        "Markus Höschle",
+        "Joachim Tesch",
+        "Taylor Obersat",
+        "Tsvetelina Alexiadis",
+        "Eni Halilaj",
+        "Michael J. Black"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40350"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40350,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "MAMMA: Markerless Accurate Multi-person Motion Acquisition",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Velasquez_MAMMA_Markerless_Accurate_Multi-person_Motion_Acquisition_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Velasquez_MAMMA_Markerless_Accurate_Multi-person_Motion_Acquisition_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Mapping Networks",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sen_Mapping_Networks_CVPR_2026_paper.html",
+      "authors": [
+        "Lord Sen",
+        "Shyamapada Mukherjee"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40260"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40260,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Mapping Networks",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sen_Mapping_Networks_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sen_Mapping_Networks_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "MARCO: Navigating the Unseen Space of Semantic Correspondence",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cuttano_MARCO_Navigating_the_Unseen_Space_of_Semantic_Correspondence_CVPR_2026_paper.html",
+      "authors": [
+        "Claudia Cuttano",
+        "Gabriele Trivigno",
+        "Carlo Masone",
+        "Stefan Roth"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40305"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40305,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "MARCO: Navigating the Unseen Space of Semantic Correspondence",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cuttano_MARCO_Navigating_the_Unseen_Space_of_Semantic_Correspondence_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Cuttano_MARCO_Navigating_the_Unseen_Space_of_Semantic_Correspondence_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "MDCS-MoAME: Multi-directional Composite Scanning with Mixture of Attention and Mamba Experts for Cancer Survival Prediction",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Qu_MDCS-MoAME_Multi-directional_Composite_Scanning_with_Mixture_of_Attention_and_Mamba_CVPR_2026_paper.html",
+      "authors": [
+        "Linjie Qu",
+        "Jin Xiao",
+        "Xiangrong Liu",
+        "Changming Sun",
+        "Hui Cui",
+        "Yuqi Fang",
+        "Ran Su",
+        "Qiangguo Jin",
+        "leyi wei"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40347"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40347,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "MDCS-MoAME: Multi-directional Composite Scanning with Mixture of Attention and Mamba Experts for Cancer Survival Prediction",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Qu_MDCS-MoAME_Multi-directional_Composite_Scanning_with_Mixture_of_Attention_and_Mamba_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Qu_MDCS-MoAME_Multi-directional_Composite_Scanning_with_Mixture_of_Attention_and_Mamba_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Medic-AD: Towards Medical Vision-Language Model's Clinical Intelligence",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Park_Medic-AD_Towards_Medical_Vision-Language_Models_Clinical_Intelligence_CVPR_2026_paper.html",
+      "authors": [
+        "Woohyeon Park",
+        "Jaeik Kim",
+        "Sunghwan Steve Cho",
+        "Pa Hong",
+        "Wookyoung Jeong",
+        "Yoojin Nam",
+        "Namjoon Kim",
+        "Ginny Y. Wong",
+        "Ka Chun Cheung",
+        "Jaeyoung Do"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40369"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40369,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Medic-AD: Towards Medical Vision-Language Model's Clinical Intelligence",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Park_Medic-AD_Towards_Medical_Vision-Language_Models_Clinical_Intelligence_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Park_Medic-AD_Towards_Medical_Vision-Language_Models_Clinical_Intelligence_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Memory-Augmented Scene Understanding and Exploration for Open-World Aerial Object-Goal Navigation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Memory-Augmented_Scene_Understanding_and_Exploration_for_Open-World_Aerial_Object-Goal_Navigation_CVPR_2026_paper.html",
+      "authors": [
+        "Jiacong Zhou",
+        "Jiaxu Miao",
+        "Yourun Lin",
+        "Xianyun Wang",
+        "Jun Xiao",
+        "Jun Yu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40327"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40327,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Memory-Augmented Scene Understanding and Exploration for Open-World Aerial Object-Goal Navigation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Memory-Augmented_Scene_Understanding_and_Exploration_for_Open-World_Aerial_Object-Goal_Navigation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_Memory-Augmented_Scene_Understanding_and_Exploration_for_Open-World_Aerial_Object-Goal_Navigation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "MeshSplatting: Differentiable Rendering with Opaque Meshes",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Held_MeshSplatting_Differentiable_Rendering_with_Opaque_Meshes_CVPR_2026_paper.html",
+      "authors": [
+        "Jan Held",
+        "Sanghyun Son",
+        "Renaud Vandeghen",
+        "Daniel Rebain",
+        "Matheus Gadelha",
+        "Yi Zhou",
+        "Anthony Cioppa",
+        "Ming C. Lin",
+        "Marc Van Droogenbroeck",
+        "Andrea Tagliasacchi"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40333"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40333,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "MeshSplatting: Differentiable Rendering with Opaque Meshes",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Held_MeshSplatting_Differentiable_Rendering_with_Opaque_Meshes_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Held_MeshSplatting_Differentiable_Rendering_with_Opaque_Meshes_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_MetaSpectra_A_Compact_Broadband_Metasurface_Camera_for_Snapshot_Hyperspectral_Imaging_CVPR_2026_paper.html",
+      "authors": [
+        "Yuxuan Liu",
+        "Wei Xu",
+        "Qi Guo"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40361"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40361,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_MetaSpectra_A_Compact_Broadband_Metasurface_Camera_for_Snapshot_Hyperspectral_Imaging_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_MetaSpectra_A_Compact_Broadband_Metasurface_Camera_for_Snapshot_Hyperspectral_Imaging_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Clark_Molmo2_Open_Weights_and_Data_for_Vision-Language_Models_with_Video_CVPR_2026_paper.html",
+      "authors": [
+        "Christopher Clark",
+        "Jieyu Zhang",
+        "Zixian Ma",
+        "Jae Sung Park",
+        "Rohun Tripathi",
+        "Sangho Lee",
+        "Reza Salehi",
+        "Jason Ren",
+        "Chris Dongjoo Kim",
+        "Yinuo Yang",
+        "Vincent Shao",
+        "Yue Yang",
+        "Weikai Huang",
+        "Ziqi Gao",
+        "Taira Anderson",
+        "Jianrui Zhang",
+        "Jitesh Jain",
+        "George Stoica",
+        "Ali Farhadi",
+        "Ranjay Krishna"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40278"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40278,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Clark_Molmo2_Open_Weights_and_Data_for_Vision-Language_Models_with_Video_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Clark_Molmo2_Open_Weights_and_Data_for_Vision-Language_Models_with_Video_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Monocular_Open_Vocabulary_Occupancy_Prediction_for_Indoor_Scenes_CVPR_2026_paper.html",
+      "authors": [
+        "Changqing Zhou",
+        "Yueru Luo",
+        "Han Zhang",
+        "Zeyu Jiang",
+        "Changhao Chen"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40324"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40324,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Monocular_Open_Vocabulary_Occupancy_Prediction_for_Indoor_Scenes_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_Monocular_Open_Vocabulary_Occupancy_Prediction_for_Indoor_Scenes_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Native and Compact Structured Latents for 3D Generation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiang_Native_and_Compact_Structured_Latents_for_3D_Generation_CVPR_2026_paper.html",
+      "authors": [
+        "Jianfeng XIANG",
+        "Xiaoxue Chen",
+        "Sicheng Xu",
+        "Ruicheng Wang",
+        "Zelong Lv",
+        "Yu Deng",
+        "Hongyuan Zhu",
+        "Yue Dong",
+        "Hao Zhao",
+        "Nicholas Jing Yuan",
+        "Jiaolong Yang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40283"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40283,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Native and Compact Structured Latents for 3D Generation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiang_Native_and_Compact_Structured_Latents_for_3D_Generation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiang_Native_and_Compact_Structured_Latents_for_3D_Generation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_Natural_Human_Motion_Recovery_by_Aligning_High-Order_Temporal_Dynamics_from_CVPR_2026_paper.html",
+      "authors": [
+        "Dingkun Wei",
+        "Zehong Shen",
+        "Yan Xia",
+        "Yujun Shen",
+        "Georgios Pavlakos",
+        "Xiaowei Zhou"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40351"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40351,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_Natural_Human_Motion_Recovery_by_Aligning_High-Order_Temporal_Dynamics_from_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_Natural_Human_Motion_Recovery_by_Aligning_High-Order_Temporal_Dynamics_from_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Neural_Field-Based_3D_Surface_Reconstruction_of_Microstructures_from_Multi-Detector_Signals_CVPR_2026_paper.html",
+      "authors": [
+        "Shuo Chen",
+        "Yijin Li",
+        "Xi Zheng",
+        "Guofeng Zhang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40257"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40257,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Neural_Field-Based_3D_Surface_Reconstruction_of_Microstructures_from_Multi-Detector_Signals_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Neural_Field-Based_3D_Surface_Reconstruction_of_Microstructures_from_Multi-Detector_Signals_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Magne_NitroGen_An_Open_Foundation_Model_for_Generalist_Gaming_Agents_CVPR_2026_paper.html",
+      "authors": [
+        "Loïc Magne",
+        "Anas Awadalla",
+        "Guanzhi Wang",
+        "Yinzhen Xu",
+        "Joshua Belofsky",
+        "Fengyuan Hu",
+        "Joohwan Kim",
+        "Ludwig Schmidt",
+        "Georgia Gkioxari",
+        "Jan Kautz",
+        "Yisong Yue",
+        "Yejin Choi",
+        "Yuke Zhu",
+        "Jim Fan"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40365"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40365,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Magne_NitroGen_An_Open_Foundation_Model_for_Generalist_Gaming_Agents_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Magne_NitroGen_An_Open_Foundation_Model_for_Generalist_Gaming_Agents_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "NOWA: Null-space Optical Watermark for Invisible Capture Fingerprinting and Tamper Localization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Vargas_NOWA_Null-space_Optical_Watermark_for_Invisible_Capture_Fingerprinting_and_Tamper_CVPR_2026_paper.html",
+      "authors": [
+        "Edwin Vargas",
+        "Jhon Lopez",
+        "Henry Arguello",
+        "Ashok Veeraraghavan"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40342"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40342,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "NOWA: Null-space Optical Watermark for Invisible Capture Fingerprinting and Tamper Localization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Vargas_NOWA_Null-space_Optical_Watermark_for_Invisible_Capture_Fingerprinting_and_Tamper_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Vargas_NOWA_Null-space_Optical_Watermark_for_Invisible_Capture_Fingerprinting_and_Tamper_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "NuWa: Deriving Lightweight Class-Specific Vision Transformers for Edge Devices",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_NuWa_Deriving_Lightweight_Class-Specific_Vision_Transformers_for_Edge_Devices_CVPR_2026_paper.html",
+      "authors": [
+        "Ziteng Wei",
+        "Qiang He",
+        "Bing Li",
+        "Feifei Chen",
+        "Hai Jin",
+        "Yun Yang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40262"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40262,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "NuWa: Deriving Lightweight Class-Specific Vision Transformers for Edge Devices",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wei_NuWa_Deriving_Lightweight_Class-Specific_Vision_Transformers_for_Edge_Devices_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_NuWa_Deriving_Lightweight_Class-Specific_Vision_Transformers_for_Edge_Devices_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "OccuFly: A 3D Vision Benchmark for Semantic Scene Completion from the Aerial Perspective",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gross_OccuFly_A_3D_Vision_Benchmark_for_Semantic_Scene_Completion_from_CVPR_2026_paper.html",
+      "authors": [
+        "Markus Gross",
+        "Sai B. Matha",
+        "Aya Fahmy",
+        "Rui Song",
+        "Daniel Cremers",
+        "Henri Meeß"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40308"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40308,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "OccuFly: A 3D Vision Benchmark for Semantic Scene Completion from the Aerial Perspective",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gross_OccuFly_A_3D_Vision_Benchmark_for_Semantic_Scene_Completion_from_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gross_OccuFly_A_3D_Vision_Benchmark_for_Semantic_Scene_Completion_from_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_OLATverse_A_Large-scale_Real-world_Object_Dataset_with_Precise_Lighting_Control_CVPR_2026_paper.html",
+      "authors": [
+        "Xilong Zhou",
+        "Jianchun Chen",
+        "Pramod Rao",
+        "Timo Teufel",
+        "Linjie Lyu",
+        "Tigran Minasian",
+        "Oleksandr Sotnychenko",
+        "Xiaoxiao Long",
+        "Marc Habermann",
+        "Christian Theobalt"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40328"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40328,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting Control",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_OLATverse_A_Large-scale_Real-world_Object_Dataset_with_Precise_Lighting_Control_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_OLATverse_A_Large-scale_Real-world_Object_Dataset_with_Precise_Lighting_Control_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "OpenDance: Multimodal Controllable 3D Dance Generation with Large-scale Internet Data",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_OpenDance_Multimodal_Controllable_3D_Dance_Generation_with_Large-scale_Internet_Data_CVPR_2026_paper.html",
+      "authors": [
+        "Jinlu Zhang",
+        "Zixi Kang",
+        "Libin Liu",
+        "Jianlong Chang",
+        "Qi Tian",
+        "Feng Gao",
+        "Yizhou Wang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40388"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40388,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "OpenDance: Multimodal Controllable 3D Dance Generation with Large-scale Internet Data",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_OpenDance_Multimodal_Controllable_3D_Dance_Generation_with_Large-scale_Internet_Data_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_OpenDance_Multimodal_Controllable_3D_Dance_Generation_with_Large-scale_Internet_Data_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Optical Flow Matching: Reframing Optical Flow as Continuous Transport Dynamics",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Optical_Flow_Matching_Reframing_Optical_Flow_as_Continuous_Transport_Dynamics_CVPR_2026_paper.html",
+      "authors": [
+        "Ao Luo",
+        "XIN LI",
+        "Fan Yang",
+        "Yuezun Li",
+        "Zhaoquan Yuan",
+        "SHAN ZHAO",
+        "Bing Su",
+        "Xiao WU"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40348"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40348,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Optical Flow Matching: Reframing Optical Flow as Continuous Transport Dynamics",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Optical_Flow_Matching_Reframing_Optical_Flow_as_Continuous_Transport_Dynamics_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Luo_Optical_Flow_Matching_Reframing_Optical_Flow_as_Continuous_Transport_Dynamics_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PAI-Bench: A Comprehensive Benchmark For Physical AI",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_PAI-Bench_A_Comprehensive_Benchmark_For_Physical_AI_CVPR_2026_paper.html",
+      "authors": [
+        "Fengzhe Zhou",
+        "Jiannan Huang",
+        "Jialuo Li",
+        "Deva Ramanan",
+        "Humphrey Shi"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40335"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40335,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PAI-Bench: A Comprehensive Benchmark For Physical AI",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_PAI-Bench_A_Comprehensive_Benchmark_For_Physical_AI_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_PAI-Bench_A_Comprehensive_Benchmark_For_Physical_AI_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_PAS_A_Training-Free_Stabilizer_for_Temporal_Encoding_in_Video_LLMs_CVPR_2026_paper.html",
+      "authors": [
+        "Bowen Sun",
+        "Yujun Cai",
+        "Ming-Hsuan Yang",
+        "Hang Wu",
+        "Yiwei Wang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40326"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40326,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_PAS_A_Training-Free_Stabilizer_for_Temporal_Encoding_in_Video_LLMs_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_PAS_A_Training-Free_Stabilizer_for_Temporal_Encoding_in_Video_LLMs_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PAVAS: Physics-Aware Video-to-Audio Synthesis",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hyun-Bin_PAVAS_Physics-Aware_Video-to-Audio_Synthesis_CVPR_2026_paper.html",
+      "authors": [
+        "Oh Hyun-Bin",
+        "Yuhta Takida",
+        "Toshimitsu Uesaka",
+        "Tae-Hyun Oh",
+        "Yuki Mitsufuji"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40364"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40364,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PAVAS: Physics-Aware Video-to-Audio Synthesis",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hyun-Bin_PAVAS_Physics-Aware_Video-to-Audio_Synthesis_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hyun-Bin_PAVAS_Physics-Aware_Video-to-Audio_Synthesis_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PhyGaP: Physically-Grounded Gaussians with Polarization Cues",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_PhyGaP_Physically-Grounded_Gaussians_with_Polarization_Cues_CVPR_2026_paper.html",
+      "authors": [
+        "Jiale Wu",
+        "Xiaoyang Bai",
+        "Zongqi He",
+        "Weiwei Xu",
+        "YIFAN PENG"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40313"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40313,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PhyGaP: Physically-Grounded Gaussians with Polarization Cues",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_PhyGaP_Physically-Grounded_Gaussians_with_Polarization_Cues_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_PhyGaP_Physically-Grounded_Gaussians_with_Polarization_Cues_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PixelDiT: Pixel Diffusion Transformers for Image Generation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yu_PixelDiT_Pixel_Diffusion_Transformers_for_Image_Generation_CVPR_2026_paper.html",
+      "authors": [
+        "Yongsheng Yu",
+        "Wei Xiong",
+        "Weili Nie",
+        "Yichen Sheng",
+        "Shiqiu Liu",
+        "Jiebo Luo"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40304"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40304,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PixelDiT: Pixel Diffusion Transformers for Image Generation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yu_PixelDiT_Pixel_Diffusion_Transformers_for_Image_Generation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yu_PixelDiT_Pixel_Diffusion_Transformers_for_Image_Generation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Plant Taxonomy Meets Plant Counting: A Fine-Grained, Taxonomic Dataset for Counting Hundreds of Plant Species",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Plant_Taxonomy_Meets_Plant_Counting_A_Fine-Grained_Taxonomic_Dataset_for_CVPR_2026_paper.html",
+      "authors": [
+        "Jinyu Xu",
+        "Tianqi Hu",
+        "Xiaonan Hu",
+        "Letian Zhou",
+        "Songliang Cao",
+        "Meng Zhang",
+        "Hao Lu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40331"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40331,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Plant Taxonomy Meets Plant Counting: A Fine-Grained, Taxonomic Dataset for Counting Hundreds of Plant Species",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Plant_Taxonomy_Meets_Plant_Counting_A_Fine-Grained_Taxonomic_Dataset_for_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Plant_Taxonomy_Meets_Plant_Counting_A_Fine-Grained_Taxonomic_Dataset_for_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "POLAR: A Portrait OLAT Dataset and Generative Framework for Illumination-Aware Face Modeling",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_POLAR_A_Portrait_OLAT_Dataset_and_Generative_Framework_for_Illumination-Aware_CVPR_2026_paper.html",
+      "authors": [
+        "Zhuo Chen",
+        "Chengqun Yang",
+        "Zhuo Su",
+        "Zheng Lv",
+        "Jingnan Gao",
+        "Xiaoyuan Zhang",
+        "Xiaokang Yang",
+        "Yichao Yan"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40290"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40290,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "POLAR: A Portrait OLAT Dataset and Generative Framework for Illumination-Aware Face Modeling",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_POLAR_A_Portrait_OLAT_Dataset_and_Generative_Framework_for_Illumination-Aware_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_POLAR_A_Portrait_OLAT_Dataset_and_Generative_Framework_for_Illumination-Aware_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_PoseGAM_Robust_Unseen_Object_Pose_Estimation_via_Geometry-Aware_Multi-View_Reasoning_CVPR_2026_paper.html",
+      "authors": [
+        "Jianqi Chen",
+        "Biao Zhang",
+        "Xiangjun Tang",
+        "Peter Wonka"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40268"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40268,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_PoseGAM_Robust_Unseen_Object_Pose_Estimation_via_Geometry-Aware_Multi-View_Reasoning_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_PoseGAM_Robust_Unseen_Object_Pose_Estimation_via_Geometry-Aware_Multi-View_Reasoning_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PPISP: Physically-Plausible Compensation and Control of Photometric Variations in Radiance Field Reconstruction",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Deutsch_PPISP_Physically-Plausible_Compensation_and_Control_of_Photometric_Variations_in_Radiance_CVPR_2026_paper.html",
+      "authors": [
+        "Isaac Deutsch",
+        "Nicolas Moënne-Loccoz",
+        "Gavriel State",
+        "Žan Gojčič"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40274"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40274,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PPISP: Physically-Plausible Compensation and Control of Photometric Variations in Radiance Field Reconstruction",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Deutsch_PPISP_Physically-Plausible_Compensation_and_Control_of_Photometric_Variations_in_Radiance_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Deutsch_PPISP_Physically-Plausible_Compensation_and_Control_of_Photometric_Variations_in_Radiance_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "PR-MaGIC: Prompt Refinement Via Mask Decoder Gradient Flow For In-Context Segmentation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_PR-MaGIC_Prompt_Refinement_Via_Mask_Decoder_Gradient_Flow_For_In-Context_CVPR_2026_paper.html",
+      "authors": [
+        "Minjae Lee",
+        "Sungwoo Hur",
+        "Soojin Hwang",
+        "Won Hwa Kim"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40321"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40321,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "PR-MaGIC: Prompt Refinement Via Mask Decoder Gradient Flow For In-Context Segmentation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_PR-MaGIC_Prompt_Refinement_Via_Mask_Decoder_Gradient_Flow_For_In-Context_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lee_PR-MaGIC_Prompt_Refinement_Via_Mask_Decoder_Gradient_Flow_For_In-Context_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "ProPhy: Progressive Physical Alignment for Dynamic World Simulation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_ProPhy_Progressive_Physical_Alignment_for_Dynamic_World_Simulation_CVPR_2026_paper.html",
+      "authors": [
+        "Zijun Wang",
+        "Panwen Hu",
+        "Jing Wang",
+        "Terry Jingchen Zhang",
+        "Yuhao Cheng",
+        "Long Chen",
+        "Yiqiang Yan",
+        "Zutao Jiang",
+        "Hanhui Li",
+        "Xiaodan Liang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40256"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40256,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "ProPhy: Progressive Physical Alignment for Dynamic World Simulation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_ProPhy_Progressive_Physical_Alignment_for_Dynamic_World_Simulation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_ProPhy_Progressive_Physical_Alignment_for_Dynamic_World_Simulation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Proxy-GS: Unified Occlusion Priors for Training and Inference in Structured 3D Gaussian Splatting",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_Proxy-GS_Unified_Occlusion_Priors_for_Training_and_Inference_in_Structured_CVPR_2026_paper.html",
+      "authors": [
+        "Yuanyuan Gao",
+        "YUNING GONG",
+        "Yifei Liu",
+        "Jingfeng Li",
+        "Dan Xu",
+        "Yanci Zhang",
+        "Dingwen Zhang",
+        "Xiao Sun",
+        "Zhihang Zhong"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40289"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40289,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Proxy-GS: Unified Occlusion Priors for Training and Inference in Structured 3D Gaussian Splatting",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_Proxy-GS_Unified_Occlusion_Priors_for_Training_and_Inference_in_Structured_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Proxy-GS_Unified_Occlusion_Priors_for_Training_and_Inference_in_Structured_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Miao_QuadSync_Quadrifocal_Tensor_Synchronization_via_Tucker_Decomposition_CVPR_2026_paper.html",
+      "authors": [
+        "Daniel Miao",
+        "Gilad Lerman",
+        "Joe Kileel"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40264"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40264,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "QuadSync: Quadrifocal Tensor Synchronization via Tucker Decomposition",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Miao_QuadSync_Quadrifocal_Tensor_Synchronization_via_Tucker_Decomposition_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Miao_QuadSync_Quadrifocal_Tensor_Synchronization_via_Tucker_Decomposition_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "R^2-Seg: Training-Free OOD Medical Tumor Segmentation via Anatomical Reasoning and Statistical Rejection",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shen_R2-Seg_Training-Free_OOD_Medical_Tumor_Segmentation_via_Anatomical_Reasoning_and_CVPR_2026_paper.html",
+      "authors": [
+        "Shuaike Shen",
+        "Ke Liu",
+        "Jiaqing Xie",
+        "Shangde Gao",
+        "Chunhua Shen",
+        "Ge Liu",
+        "Mireia Crispin-Ortuzar",
+        "Shangqi Gao"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40334"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40334,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "R2-Seg: Training-Free OOD Medical Tumor Segmentation via Anatomical Reasoning and Statistical Rejection",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shen_R2-Seg_Training-Free_OOD_Medical_Tumor_Segmentation_via_Anatomical_Reasoning_and_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shen_R2-Seg_Training-Free_OOD_Medical_Tumor_Segmentation_via_Anatomical_Reasoning_and_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shamshad_RAVEN_Erasing_Invisible_Watermarks_via_Novel_View_Synthesis_CVPR_2026_paper.html",
+      "authors": [
+        "Fahad Shamshad",
+        "Nils Lukas",
+        "Karthik Nandakumar"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40294"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40294,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shamshad_RAVEN_Erasing_Invisible_Watermarks_via_Novel_View_Synthesis_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shamshad_RAVEN_Erasing_Invisible_Watermarks_via_Novel_View_Synthesis_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "RefAV: Towards Planning-Centric Scenario Mining",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Davidson_RefAV_Towards_Planning-Centric_Scenario_Mining_CVPR_2026_paper.html",
+      "authors": [
+        "Cainan Davidson",
+        "Deva Ramanan",
+        "Neehar Peri"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40346"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40346,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "RefAV: Towards Planning-Centric Scenario Mining",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Davidson_RefAV_Towards_Planning-Centric_Scenario_Mining_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Davidson_RefAV_Towards_Planning-Centric_Scenario_Mining_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Relightable Holoported Characters: Capturing and Relighting Dynamic Human Performance from Sparse Views",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Singh_Relightable_Holoported_Characters_Capturing_and_Relighting_Dynamic_Human_Performance_from_CVPR_2026_paper.html",
+      "authors": [
+        "Kunwar Maheep Singh",
+        "Jianchun Chen",
+        "Vladislav Golyanik",
+        "Stephan Garbin",
+        "Thabo Beeler",
+        "Rishabh Dabral",
+        "Marc Habermann",
+        "Christian Theobalt"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40390"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40390,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Relightable Holoported Characters: Capturing and Relighting Dynamic Human Performance from Sparse Views",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Singh_Relightable_Holoported_Characters_Capturing_and_Relighting_Dynamic_Human_Performance_from_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Singh_Relightable_Holoported_Characters_Capturing_and_Relighting_Dynamic_Human_Performance_from_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Residual Primitive Fitting of 3D Shapes with SuperFrusta",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ganeshan_Residual_Primitive_Fitting_of_3D_Shapes_with_SuperFrusta_CVPR_2026_paper.html",
+      "authors": [
+        "Aditya Ganeshan",
+        "Matheus Gadelha",
+        "Thibault Groueix",
+        "Zhiqin Chen",
+        "Siddhartha Chaudhuri",
+        "Vladimir G. Kim",
+        "Wang Yifan",
+        "Daniel Ritchie"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40293"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40293,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Residual Primitive Fitting of 3D Shapes with SuperFrusta",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ganeshan_Residual_Primitive_Fitting_of_3D_Shapes_with_SuperFrusta_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ganeshan_Residual_Primitive_Fitting_of_3D_Shapes_with_SuperFrusta_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Rethinking Dataset Distillation: Hard Truths about Soft Labels",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dey_Rethinking_Dataset_Distillation_Hard_Truths_about_Soft_Labels_CVPR_2026_paper.html",
+      "authors": [
+        "Priyam Dey",
+        "Aditya Sahdev",
+        "Sunny Bhati",
+        "Konda Reddy Mopuri",
+        "R. Venkatesh Babu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40285"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40285,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Rethinking Dataset Distillation: Hard Truths about Soft Labels",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dey_Rethinking_Dataset_Distillation_Hard_Truths_about_Soft_Labels_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Dey_Rethinking_Dataset_Distillation_Hard_Truths_about_Soft_Labels_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RetimeGS_Continuous-Time_Reconstruction_of_4D_Gaussian_Splatting_CVPR_2026_paper.html",
+      "authors": [
+        "Xuezhen Wang",
+        "Li Ma",
+        "Yulin Shen",
+        "Zeyu Wang",
+        "Pedro V. Sander"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40312"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40312,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "RetimeGS: Continuous-Time Reconstruction of 4D Gaussian Splatting",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RetimeGS_Continuous-Time_Reconstruction_of_4D_Gaussian_Splatting_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_RetimeGS_Continuous-Time_Reconstruction_of_4D_Gaussian_Splatting_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Revisiting_Geometric_Obfuscation_with_Dual_Convergent_Lines_for_Privacy-Preserving_Image_CVPR_2026_paper.html",
+      "authors": [
+        "Jeonggon Kim",
+        "Heejoon Moon",
+        "Je Hyeong Hong"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40339"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40339,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Revisiting_Geometric_Obfuscation_with_Dual_Convergent_Lines_for_Privacy-Preserving_Image_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_Revisiting_Geometric_Obfuscation_with_Dual_Convergent_Lines_for_Privacy-Preserving_Image_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "RobotSeg: A Model and Dataset for Segmenting Robots in Image and Video",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Mei_RobotSeg_A_Model_and_Dataset_for_Segmenting_Robots_in_Image_CVPR_2026_paper.html",
+      "authors": [
+        "Haiyang Mei",
+        "Qiming Huang",
+        "Hai Ci",
+        "Mike Zheng Shou"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40297"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40297,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "RobotSeg: A Model and Dataset for Segmenting Robots in Image and Video",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Mei_RobotSeg_A_Model_and_Dataset_for_Segmenting_Robots_in_Image_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Mei_RobotSeg_A_Model_and_Dataset_for_Segmenting_Robots_in_Image_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "S^2AM3D: Scale-controllable Part Segmentation of 3D Point Clouds",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Su_S2AM3D_Scale-controllable_Part_Segmentation_of_3D_Point_Clouds_CVPR_2026_paper.html",
+      "authors": [
+        "Han Su",
+        "Tianyu Huang",
+        "Zichen Wan",
+        "Xiaohe Wu",
+        "Wangmeng Zuo"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40267"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40267,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "S$^2$AM3D: Scale-controllable Part Segmentation of 3D Point Clouds",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Su_S2AM3D_Scale-controllable_Part_Segmentation_of_3D_Point_Clouds_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Su_S2AM3D_Scale-controllable_Part_Segmentation_of_3D_Point_Clouds_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SAM 3D Body: Robust Full-Body Human Mesh Recovery",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_SAM_3D_Body_Robust_Full-Body_Human_Mesh_Recovery_CVPR_2026_paper.html",
+      "authors": [
+        "Xitong Yang",
+        "Devansh Kukreja",
+        "Don Pinkus",
+        "Taosha Fan",
+        "Jinhyung Park",
+        "Soyong Shin",
+        "Jinkun Cao",
+        "Jia-Wei Liu",
+        "Nicolás Ugrinovic",
+        "Anushka Sagar",
+        "Jitendra Malik",
+        "Matt Feiszli",
+        "Piotr Dollár",
+        "Kris Kitani"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40311"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40311,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SAM 3D Body: Robust Full-Body Human Mesh Recovery",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_SAM_3D_Body_Robust_Full-Body_Human_Mesh_Recovery_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_SAM_3D_Body_Robust_Full-Body_Human_Mesh_Recovery_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SAM 3D: 3Dfy Anything in Images",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SAM_3D_3Dfy_Anything_in_Images_CVPR_2026_paper.html",
+      "authors": [
+        "Xingyu Chen",
+        "Fu-Jen Chu",
+        "Pierre Gleize",
+        "Kevin J Liang",
+        "Alexander Sax",
+        "Hao Tang",
+        "Weiyao Wang",
+        "Michelle Guo",
+        "Thibaut Hardin",
+        "Xiang Li",
+        "Aohan Lin",
+        "Jia-Wei Liu",
+        "Ziqi Ma",
+        "Anushka Sagar",
+        "Bowen Song",
+        "Xiaodong Wang",
+        "Jianing &quot;Jed&quot; Yang",
+        "Bowen Zhang",
+        "Piotr Dollár",
+        "Georgia Gkioxari",
+        "Matt Feiszli",
+        "Jitendra Malik"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40370"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40370,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SAM 3D: 3Dfy Anything in Images",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SAM_3D_3Dfy_Anything_in_Images_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_SAM_3D_3Dfy_Anything_in_Images_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Scalable Multi-View Subspace Clustering with Tensorized Anchor Guidance",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jia_Scalable_Multi-View_Subspace_Clustering_with_Tensorized_Anchor_Guidance_CVPR_2026_paper.html",
+      "authors": [
+        "Miao Jia",
+        "Xingchen Hu",
+        "Jiyuan Liu",
+        "Siwei Wang",
+        "Min Wang",
+        "Zijian Chen"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40288"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40288,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Scalable Multi-View Subspace Clustering with Tensorized Anchor Guidance",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jia_Scalable_Multi-View_Subspace_Clustering_with_Tensorized_Anchor_Guidance_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jia_Scalable_Multi-View_Subspace_Clustering_with_Tensorized_Anchor_Guidance_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SDTrack: A Baseline for Event-based Tracking via Spiking Neural Networks",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shan_SDTrack_A_Baseline_for_Event-based_Tracking_via_Spiking_Neural_Networks_CVPR_2026_paper.html",
+      "authors": [
+        "Yimeng Shan",
+        "Zhenbang Ren",
+        "Haodi Wu",
+        "Wenjie Wei",
+        "Rui-Jie Zhu",
+        "Shuai Wang",
+        "Dehao Zhang",
+        "Yichen Xiao",
+        "Jieyuan Zhang",
+        "Kexin Shi",
+        "Jingzhinan Wang",
+        "Jason K. Eshraghian",
+        "Haicheng Qu",
+        "Malu Zhang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40394"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40394,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SDTrack: A Baseline for Event-based Tracking via Spiking Neural Networks",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shan_SDTrack_A_Baseline_for_Event-based_Tracking_via_Spiking_Neural_Networks_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shan_SDTrack_A_Baseline_for_Event-based_Tracking_via_Spiking_Neural_Networks_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.html",
+      "authors": [
+        "Jiwoo Chung",
+        "Sangeek Hyun",
+        "MinKyu Lee",
+        "Byeongju Han",
+        "Geonho Cha",
+        "Dongyoon Wee",
+        "Youngjun Hong",
+        "Jae-Pil Heo"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40353"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40353,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chung_SeaCache_Spectral-Evolution-Aware_Cache_for_Accelerating_Diffusion_Models_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SEATrack: Simple, Efficient, and Adaptive Multimodal Tracker",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Su_SEATrack_Simple_Efficient_and_Adaptive_Multimodal_Tracker_CVPR_2026_paper.html",
+      "authors": [
+        "Junbin Su",
+        "Ziteng Xue",
+        "Shihui Zhang",
+        "Kun Chen",
+        "Weiming Hu",
+        "Zhipeng Zhang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40392"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40392,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SEATrack: Simple, Efficient, and Adaptive Multimodal Tracker",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Su_SEATrack_Simple_Efficient_and_Adaptive_Multimodal_Tracker_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Su_SEATrack_Simple_Efficient_and_Adaptive_Multimodal_Tracker_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SeeGroup: Multi-Layer Depth Estimation of Transparent Surfaces via Self-Determined Grouping",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wen_SeeGroup_Multi-Layer_Depth_Estimation_of_Transparent_Surfaces_via_Self-Determined_Grouping_CVPR_2026_paper.html",
+      "authors": [
+        "Hongyu Wen",
+        "Jia Deng"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40359"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40359,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SeeGroup: Multi-Layer Depth Estimation of Transparent Surfaces via Self-Determined Grouping",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wen_SeeGroup_Multi-Layer_Depth_Estimation_of_Transparent_Surfaces_via_Self-Determined_Grouping_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wen_SeeGroup_Multi-Layer_Depth_Estimation_of_Transparent_Surfaces_via_Self-Determined_Grouping_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SegMoTE: Token-Level Mixture of Experts for Medical Image Segmentation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_SegMoTE_Token-Level_Mixture_of_Experts_for_Medical_Image_Segmentation_CVPR_2026_paper.html",
+      "authors": [
+        "Yujie Lu",
+        "Jingwen Li",
+        "Sibo Ju",
+        "Yanzhou Su",
+        "He Yao",
+        "Yisong Liu",
+        "Min Zhu",
+        "Junlong Cheng"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40258"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40258,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SegMoTE: Token-Level Mixture of Experts for Medical Image Segmentation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_SegMoTE_Token-Level_Mixture_of_Experts_for_Medical_Image_Segmentation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lu_SegMoTE_Token-Level_Mixture_of_Experts_for_Medical_Image_Segmentation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Selfi: Self-improving Reconstruction Engine via 3D Geometric Feature Alignment",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Deng_Selfi_Self-improving_Reconstruction_Engine_via_3D_Geometric_Feature_Alignment_CVPR_2026_paper.html",
+      "authors": [
+        "Youming Deng",
+        "Songyou Peng",
+        "Junyi Zhang",
+        "Kathryn Heal",
+        "Tiancheng Sun",
+        "John Flynn",
+        "Steve Marschner",
+        "Lucy Chai"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40355"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40355,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Selfi: Self-improving Reconstruction Engine via 3D Geometric Feature Alignment",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Deng_Selfi_Self-improving_Reconstruction_Engine_via_3D_Geometric_Feature_Alignment_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Deng_Selfi_Self-improving_Reconstruction_Engine_via_3D_Geometric_Feature_Alignment_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Haghighi_SenCache_Accelerating_Diffusion_Model_Inference_via_Sensitivity-Aware_Caching_CVPR_2026_paper.html",
+      "authors": [
+        "Yasaman Haghighi",
+        "Alex Alahi"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40360"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40360,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SenCache: Accelerating Diffusion Model Inference via Sensitivity-Aware Caching",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Haghighi_SenCache_Accelerating_Diffusion_Model_Inference_via_Sensitivity-Aware_Caching_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Haghighi_SenCache_Accelerating_Diffusion_Model_Inference_via_Sensitivity-Aware_Caching_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SimScale: Learning to Drive via Real-World Simulation at Scale",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tian_SimScale_Learning_to_Drive_via_Real-World_Simulation_at_Scale_CVPR_2026_paper.html",
+      "authors": [
+        "Haochen Tian",
+        "Tianyu Li",
+        "Haochen Liu",
+        "Jiazhi Yang",
+        "Yihang Qiu",
+        "Guang Li",
+        "junli wang",
+        "Yinfeng Gao",
+        "Zhang Zhang",
+        "Liang Wang",
+        "Hangjun Ye",
+        "Long Chen",
+        "Hongyang Li"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40379"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40379,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SimScale: Learning to Drive via Real-World Simulation at Scale",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tian_SimScale_Learning_to_Drive_via_Real-World_Simulation_at_Scale_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tian_SimScale_Learning_to_Drive_via_Real-World_Simulation_at_Scale_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zarei_SliderEdit_Continuous_Image_Editing_with_Fine-Grained_Instruction_Control_CVPR_2026_paper.html",
+      "authors": [
+        "Arman Zarei",
+        "Samyadeep Basu",
+        "Mobina Pournemat",
+        "Sayan Nag",
+        "Ryan A. Rossi",
+        "Soheil Feizi"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40301"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40301,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SliderEdit: Continuous Image Editing with Fine-Grained Instruction Control",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zarei_SliderEdit_Continuous_Image_Editing_with_Fine-Grained_Instruction_Control_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zarei_SliderEdit_Continuous_Image_Editing_with_Fine-Grained_Instruction_Control_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_SmokeSVD_Smoke_Reconstruction_from_A_Single_View_via_Progressive_Novel_CVPR_2026_paper.html",
+      "authors": [
+        "Chen Li",
+        "Shanshan Dong",
+        "Sheng Qiu",
+        "Jianmin Han",
+        "Yibo Zhao",
+        "Zan Gao",
+        "Taku Komura",
+        "Kemeng Huang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40279"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40279,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_SmokeSVD_Smoke_Reconstruction_from_A_Single_View_via_Progressive_Novel_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_SmokeSVD_Smoke_Reconstruction_from_A_Single_View_via_Progressive_Novel_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SoccerMaster: A Vision Foundation Model for Soccer Understanding",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_SoccerMaster_A_Vision_Foundation_Model_for_Soccer_Understanding_CVPR_2026_paper.html",
+      "authors": [
+        "Haolin Yang",
+        "Jiayuan Rao",
+        "Haoning Wu",
+        "Weidi Xie"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40354"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40354,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SoccerMaster: A Vision Foundation Model for Soccer Understanding",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_SoccerMaster_A_Vision_Foundation_Model_for_Soccer_Understanding_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_SoccerMaster_A_Vision_Foundation_Model_for_Soccer_Understanding_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.html",
+      "authors": [
+        "Ziyi Chen",
+        "Yingnan Guo",
+        "Zedong Chu",
+        "Minghua Luo",
+        "Yanfen Shen",
+        "Mingchao Sun",
+        "Junjun Hu",
+        "Shichao Xie",
+        "Yang Kuan",
+        "Pei Shi",
+        "Zhining Gu",
+        "Lu Liu",
+        "Honglin Han",
+        "Xiaolong Wu",
+        "Mu Xu",
+        "Yu Zhang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40337"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40337,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_SocialNav_Training_Human-Inspired_Foundation_Model_for_Socially-Aware_Embodied_Navigation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SPARK: Sim-ready Part-level Articulated Reconstruction with VLM Knowledge",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/He_SPARK_Sim-ready_Part-level_Articulated_Reconstruction_with_VLM_Knowledge_CVPR_2026_paper.html",
+      "authors": [
+        "Yumeng He",
+        "Ying Jiang",
+        "Jiayin Lu",
+        "Yin Yang",
+        "Chenfanfu Jiang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40344"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40344,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SPARK: Sim-ready Part-level Articulated Reconstruction with VLM Knowledge",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/He_SPARK_Sim-ready_Part-level_Articulated_Reconstruction_with_VLM_Knowledge_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/He_SPARK_Sim-ready_Part-level_Articulated_Reconstruction_with_VLM_Knowledge_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "SparseWorld-TC: Trajectory-Conditioned Sparse Occupancy World Model",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Du_SparseWorld-TC_Trajectory-Conditioned_Sparse_Occupancy_World_Model_CVPR_2026_paper.html",
+      "authors": [
+        "Jiayuan Du",
+        "Yiming Zhao",
+        "Zhenglong Guo",
+        "Yong Pan",
+        "Wenbo Hou",
+        "Zhihui Hao",
+        "Kun Zhan",
+        "Qijun Chen"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40286"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40286,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "SparseWorld-TC: Trajectory-Conditioned Sparse Occupancy World Model",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Du_SparseWorld-TC_Trajectory-Conditioned_Sparse_Occupancy_World_Model_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Du_SparseWorld-TC_Trajectory-Conditioned_Sparse_Occupancy_World_Model_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Spectrum from Defocus: Fast Spectral Imaging with Chromatic Focal Stack",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Aydin_Spectrum_from_Defocus_Fast_Spectral_Imaging_with_Chromatic_Focal_Stack_CVPR_2026_paper.html",
+      "authors": [
+        "M. Kerem Aydin",
+        "Yi-Chun Hung",
+        "Jaclyn Pytlarz",
+        "Qi Guo",
+        "Emma Alexander"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40309"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40309,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Spectrum from Defocus: Fast Spectral Imaging with Chromatic Focal Stack",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Aydin_Spectrum_from_Defocus_Fast_Spectral_Imaging_with_Chromatic_Focal_Stack_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Aydin_Spectrum_from_Defocus_Fast_Spectral_Imaging_with_Chromatic_Focal_Stack_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Streaming Diffusion Model for Fast Infrared and Visible Video Fusion",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.html",
+      "authors": [
+        "Jinyuan Liu",
+        "Ludan Sun",
+        "Tengyu Ma",
+        "Chunyan Yang",
+        "Zhiying Jiang",
+        "Long Ma",
+        "Risheng Liu",
+        "Xin Fan"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40367"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40367,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Streaming Diffusion Model for Fast Infrared and Visible Video Fusion",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_Streaming_Diffusion_Model_for_Fast_Infrared_and_Visible_Video_Fusion_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Structural Action Transformer for 3D Dexterous Manipulation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lei_Structural_Action_Transformer_for_3D_Dexterous_Manipulation_CVPR_2026_paper.html",
+      "authors": [
+        "Xiaohan Lei",
+        "Min Wang",
+        "Bohong Weng",
+        "Wengang Zhou",
+        "Houqiang Li"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40389"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40389,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Structural Action Transformer for 3D Dexterous Manipulation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lei_Structural_Action_Transformer_for_3D_Dexterous_Manipulation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lei_Structural_Action_Transformer_for_3D_Dexterous_Manipulation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/He_TEAR_Temporal-aware_Automated_Red-teaming_for_Text-to-Video_Models_CVPR_2026_paper.html",
+      "authors": [
+        "Jiaming He",
+        "Guanyu Hou",
+        "Hongwei Li",
+        "Zhicong Huang",
+        "Kangjie Chen",
+        "Yi Yu",
+        "Wenbo Jiang",
+        "Guowen Xu",
+        "Tianwei Zhang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40357"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40357,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "TEAR: Temporal-aware Automated Red-teaming for Text-to-Video Models",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/He_TEAR_Temporal-aware_Automated_Red-teaming_for_Text-to-Video_Models_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/He_TEAR_Temporal-aware_Automated_Red-teaming_for_Text-to-Video_Models_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "TESO: Online Tracking of Essential Matrix by Stochastic Optimization",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Moravec_TESO_Online_Tracking_of_Essential_Matrix_by_Stochastic_Optimization_CVPR_2026_paper.html",
+      "authors": [
+        "Jaroslav Moravec",
+        "Radim Sara",
+        "Akihiro Sugimoto"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40320"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40320,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "TESO: Online Tracking of Essential Matrix by Stochastic Optimization",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Moravec_TESO_Online_Tracking_of_Essential_Matrix_by_Stochastic_Optimization_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Moravec_TESO_Online_Tracking_of_Essential_Matrix_by_Stochastic_Optimization_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Texvent: Asynchronous Event Data Simulation via Text Prompt",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Texvent_Asynchronous_Event_Data_Simulation_via_Text_Prompt_CVPR_2026_paper.html",
+      "authors": [
+        "Ruofei Wang",
+        "Peiqi Duan",
+        "Ka Chun Cheung",
+        "Simon See",
+        "Boxin Shi",
+        "Renjie Wan"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40338"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40338,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Texvent: Asynchronous Event Data Simulation via Text Prompt",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Texvent_Asynchronous_Event_Data_Simulation_via_Text_Prompt_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Texvent_Asynchronous_Event_Data_Simulation_via_Text_Prompt_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "The SA-FARI Dataset: Segment Anything in Footage of Animals for Recognition and Identification",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wasmuht_The_SA-FARI_Dataset_Segment_Anything_in_Footage_of_Animals_for_CVPR_2026_paper.html",
+      "authors": [
+        "Dante Wasmuht",
+        "Otto Brookes",
+        "Maximilian Schall",
+        "Pablo Palencia",
+        "Christopher Beirne",
+        "Tilo Burghardt",
+        "Majid Mirmehdi",
+        "Hjalmar Kühl",
+        "Mimi Arandjelovic",
+        "Sam Pottie",
+        "Peter Bermant",
+        "Brandon Asheim",
+        "Yi Jin Toh",
+        "Adam Elzinga",
+        "Jason Allan Holmberg",
+        "Andrew Whitworth",
+        "Eleanor Flatt",
+        "Laura Gustafson",
+        "Chaitanya Ryali",
+        "Yuan-Ting Hu",
+        "Baishan Guo",
+        "Andrew Westbury",
+        "Kate Saenko",
+        "Dídac Surís"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40322"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40322,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "The SA-FARI Dataset: Segment Anything in Footage of Animals for Recognition and Identification",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wasmuht_The_SA-FARI_Dataset_Segment_Anything_in_Footage_of_Animals_for_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wasmuht_The_SA-FARI_Dataset_Segment_Anything_in_Footage_of_Animals_for_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_Thinking_with_Drafts_Speculative_Temporal_Reasoning_for_Efficient_Long_Video_CVPR_2026_paper.html",
+      "authors": [
+        "Pengfei Hu",
+        "Meng Cao",
+        "Yingyao Wang",
+        "Yi Wang",
+        "Jiahua Dong",
+        "Jun Song",
+        "Cheng Yu",
+        "Bo Zheng",
+        "Xiaodan Liang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40300"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40300,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Thinking with Drafts: Speculative Temporal Reasoning for Efficient Long Video Understanding",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_Thinking_with_Drafts_Speculative_Temporal_Reasoning_for_Efficient_Long_Video_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hu_Thinking_with_Drafts_Speculative_Temporal_Reasoning_for_Efficient_Long_Video_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shi_Towards_Photorealistic_and_Efficient_Bokeh_Rendering_via_Diffusion_Framework_CVPR_2026_paper.html",
+      "authors": [
+        "Linxiao Shi",
+        "Siming Zheng",
+        "Zerong Wang",
+        "Hao Zhang",
+        "Jinwei Chen",
+        "Bo Li",
+        "Shifeng Chen",
+        "Peng-Tao Jiang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40356"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40356,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shi_Towards_Photorealistic_and_Efficient_Bokeh_Rendering_via_Diffusion_Framework_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shi_Towards_Photorealistic_and_Efficient_Bokeh_Rendering_via_Diffusion_Framework_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "U^2Flow: Uncertainty-Aware Unsupervised Optical Flow Estimation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_U2Flow_Uncertainty-Aware_Unsupervised_Optical_Flow_Estimation_CVPR_2026_paper.html",
+      "authors": [
+        "Xunpei Sun",
+        "Wenwei Lin",
+        "Yi Chang",
+        "Gang Chen"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40396"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40396,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "U^2Flow: Uncertainty-Aware Unsupervised Optical Flow Estimation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_U2Flow_Uncertainty-Aware_Unsupervised_Optical_Flow_Estimation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_U2Flow_Uncertainty-Aware_Unsupervised_Optical_Flow_Estimation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Understanding_and_Enforcing_Weight_Disentanglement_in_Task_Arithmetic_CVPR_2026_paper.html",
+      "authors": [
+        "Shangge Liu",
+        "Yuehan Yin",
+        "Lei Wang",
+        "Qi Fan",
+        "Yinghuan Shi",
+        "Wenbin Li",
+        "Yang Gao",
+        "Dacheng Tao"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40387"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40387,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Understanding_and_Enforcing_Weight_Disentanglement_in_Task_Arithmetic_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_Understanding_and_Enforcing_Weight_Disentanglement_in_Task_Arithmetic_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Understanding Task Transfer in Vision-Language Models",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sachdeva_Understanding_Task_Transfer_in_Vision-Language_Models_CVPR_2026_paper.html",
+      "authors": [
+        "Bhuvan Sachdeva",
+        "Karan Uppal",
+        "Abhinav Java",
+        "Vineeth Balasubramanian"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40378"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40378,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Understanding Task Transfer in Vision-Language Models",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sachdeva_Understanding_Task_Transfer_in_Vision-Language_Models_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sachdeva_Understanding_Task_Transfer_in_Vision-Language_Models_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "UnReflectAnything: RGB-Only Highlight Removal by Rendering Synthetic Specular Supervision",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Rota_UnReflectAnything_RGB-Only_Highlight_Removal_by_Rendering_Synthetic_Specular_Supervision_CVPR_2026_paper.html",
+      "authors": [
+        "Alberto Rota",
+        "Mert Kiray",
+        "Mert Asim Karaoglu",
+        "Patrick Ruhkamp",
+        "Elena De Momi",
+        "Nassir Navab",
+        "Benjamin Busam"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40393"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40393,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "UnReflectAnything: RGB-Only Highlight Removal by Rendering Synthetic Specular Supervision",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Rota_UnReflectAnything_RGB-Only_Highlight_Removal_by_Rendering_Synthetic_Specular_Supervision_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Rota_UnReflectAnything_RGB-Only_Highlight_Removal_by_Rendering_Synthetic_Specular_Supervision_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "VGGT-Segmentor: Geometry-Enhanced Cross-View Segmentation",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_VGGT-Segmentor_Geometry-Enhanced_Cross-View_Segmentation_CVPR_2026_paper.html",
+      "authors": [
+        "Yulu Gao",
+        "Bohao Zhang",
+        "Zongheng Tang",
+        "Jitong Liao",
+        "wenjun wu",
+        "Si Liu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40296"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40296,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "VGGT-Segmentor: Geometry-Enhanced Cross-View Segmentation",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_VGGT-Segmentor_Geometry-Enhanced_Cross-View_Segmentation_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_VGGT-Segmentor_Geometry-Enhanced_Cross-View_Segmentation_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "VGGT-Ω",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_VGGT-ohm_CVPR_2026_paper.html",
+      "authors": [
+        "Jianyuan Wang",
+        "Minghao Chen",
+        "Shangzhan Zhang",
+        "Nikita Karaev",
+        "Johannes Schönberger",
+        "Patrick Labatut",
+        "Piotr Bojanowski",
+        "David Novotny",
+        "Andrea Vedaldi",
+        "Christian Rupprecht"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40381"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40381,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "VGGT-Ω",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_VGGT-ohm_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_VGGT-ohm_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "ViT^3: Unlocking Test-Time Training in Vision",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_ViT3_Unlocking_Test-Time_Training_in_Vision_CVPR_2026_paper.html",
+      "authors": [
+        "Dongchen Han",
+        "Yining Li",
+        "Tianyu Li",
+        "Zixuan Cao",
+        "Ziming Wang",
+        "Jun Song",
+        "Cheng Yu",
+        "Bo Zheng",
+        "Gao Huang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40332"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40332,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "ViT$^3$: Unlocking Test-Time Training in Vision",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_ViT3_Unlocking_Test-Time_Training_in_Vision_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Han_ViT3_Unlocking_Test-Time_Training_in_Vision_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "VS-Bench: Evaluating VLMs for Strategic Abilities in Multi-Agent Environments",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_VS-Bench_Evaluating_VLMs_for_Strategic_Abilities_in_Multi-Agent_Environments_CVPR_2026_paper.html",
+      "authors": [
+        "Zelai Xu",
+        "Zhexuan Xu",
+        "Xiangmin Yi",
+        "Huining Yuan",
+        "Mo Guang",
+        "Kaiwen Long",
+        "Xinlei Chen",
+        "Yi Wu",
+        "Chao Yu",
+        "Yu Wang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40284"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40284,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "VS-Bench: Evaluating VLMs for Strategic Abilities in Multi-Agent Environments",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_VS-Bench_Evaluating_VLMs_for_Strategic_Abilities_in_Multi-Agent_Environments_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_VS-Bench_Evaluating_VLMs_for_Strategic_Abilities_in_Multi-Agent_Environments_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Wan-Weaver: Interleaved Multi-modal Generation via Decoupled Training",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xing_Wan-Weaver_Interleaved_Multi-modal_Generation_via_Decoupled_Training_CVPR_2026_paper.html",
+      "authors": [
+        "Jinbo Xing",
+        "Zeyinzi Jiang",
+        "Yuxiang Tuo",
+        "Chaojie Mao",
+        "Xiaotang Gai",
+        "Xi Chen",
+        "Jingfeng Zhang",
+        "Yulin Pan",
+        "Zhen Han",
+        "Jie Xiao",
+        "Keyu Yan",
+        "Chenwei Xie",
+        "Chongyang Zhong",
+        "Kai Zhu",
+        "Tong Shen",
+        "Lianghua Huang",
+        "Yu Liu",
+        "Yujiu Yang"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40336"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40336,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Wan-Weaver: Interleaved Multi-modal Generation via Decoupled Training",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xing_Wan-Weaver_Interleaved_Multi-modal_Generation_via_Decoupled_Training_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xing_Wan-Weaver_Interleaved_Multi-modal_Generation_via_Decoupled_Training_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_WorldLens_Full-Spectrum_Evaluations_of_Driving_World_Models_in_Real_World_CVPR_2026_paper.html",
+      "authors": [
+        "Ao Liang",
+        "Lingdong Kong",
+        "Tianyi Yan",
+        "Hongsi Liu",
+        "Yu Yang",
+        "Ziqi Huang",
+        "Wei Yin",
+        "Jialong Zuo",
+        "Yixuan Hu",
+        "Dekai Zhu",
+        "Dongyue Lu",
+        "Youquan Liu",
+        "Guangfeng Jiang",
+        "Linfeng Li",
+        "Xiangtai Li",
+        "Long Zhuo",
+        "Lai Xing Ng",
+        "Benoit R. Cottereau",
+        "Changxin Gao",
+        "Liang Pan",
+        "Wei Tsang Ooi",
+        "Ziwei Liu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40329"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40329,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_WorldLens_Full-Spectrum_Evaluations_of_Driving_World_Models_in_Real_World_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liang_WorldLens_Full-Spectrum_Evaluations_of_Driving_World_Models_in_Real_World_CVPR_2026_paper.pdf"
+    },
+    {
+      "title": "Z-Order Transformer for Feed-Forward Gaussian Splatting",
+      "track": "Conference",
+      "openreview_url": null,
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Z-Order_Transformer_for_Feed-Forward_Gaussian_Splatting_CVPR_2026_paper.html",
+      "authors": [
+        "Can Wang",
+        "Lei Liu",
+        "Wei Jiang",
+        "Dong Xu"
+      ],
+      "official_urls": [
+        "https://cvpr.thecvf.com/virtual/2026/oral/40291"
+      ],
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 40291,
+          "event_type": "Oral"
+        }
+      ],
+      "proceedings_title": "Z-Order Transformer for Feed-Forward Gaussian Splatting",
+      "proceedings_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Z-Order_Transformer_for_Feed-Forward_Gaussian_Splatting_CVPR_2026_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Z-Order_Transformer_for_Feed-Forward_Gaussian_Splatting_CVPR_2026_paper.pdf"
+    }
+  ]
+}

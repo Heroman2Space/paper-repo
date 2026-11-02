@@ -1,0 +1,6101 @@
+{
+  "conference": "ICML 2026",
+  "snapshot_date": "2026-11-02",
+  "source_url": "https://icml.cc/static/virtual/data/icml-2026-orals-posters.json",
+  "source_sha256": "b1711de4e583723b579090a6fba17c11fa70792b29c3193779adc1dfb775ebf5",
+  "sources": [
+    {
+      "url": "https://icml.cc/static/virtual/data/icml-2026-orals-posters.json",
+      "sha256": "b1711de4e583723b579090a6fba17c11fa70792b29c3193779adc1dfb775ebf5"
+    }
+  ],
+  "filter": "Accept (Oral) or scheduled Oral event with a conference source",
+  "deduplication_key": "source venue + absolute submission ID and related event links",
+  "scope_note": "Current public official Oral records; workshops excluded. Not a certified final acceptance count.",
+  "notes": [
+    "根据官方关联事件 ID 和同赛道投稿编号，合并 Oral / Poster 记录；论文链接及主标题采用 Poster 记录，标题变体保存在 JSON。",
+    "按正式 Oral 日程识别：该会议的 Oral 论文在 `decision` 字段中仍标记为 `Accept (spotlight)`，不能只筛选录用字段。",
+    "排除没有投稿来源、作者和论文链接的通用日程项 “Oral Presentations”；保留 159 篇主赛道与 9 篇立场论文。"
+  ],
+  "counts": {
+    "Conference": 159,
+    "Position_Paper_Track": 9
+  },
+  "total": 168,
+  "papers": [
+    {
+      "title": "$\\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 9091,
+      "openreview_url": "https://openreview.net/forum?id=OC2z7iSQKa",
+      "paper_url": "https://openreview.net/forum?id=OC2z7iSQKa",
+      "authors": [
+        "Victor Barres",
+        "Honghua Dong",
+        "Soham Ray",
+        "Xujie Si",
+        "Karthik Narasimhan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64377",
+        "https://icml.cc/virtual/2026/oral/71171"
+      ],
+      "oral_session": "Oral 6B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71171,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -9091
+        },
+        {
+          "event_id": 64377,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 9091
+        }
+      ]
+    },
+    {
+      "title": "3ViewSense: Spatial and Mental Perspective Reasoning from Orthographic Views in Vision-Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 26767,
+      "openreview_url": "https://openreview.net/forum?id=Hm8OEDKpiO",
+      "paper_url": "https://openreview.net/forum?id=Hm8OEDKpiO",
+      "authors": [
+        "Shaoxiong Zhan",
+        "Yanlin Lai",
+        "Zheng Liu",
+        "Zijian Lin",
+        "Lin Hai",
+        "Xiaodong Cai",
+        "Shen Li",
+        "Wen Huang",
+        "Hai-Tao Zheng"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65015",
+        "https://icml.cc/virtual/2026/oral/71163"
+      ],
+      "oral_session": "Oral 5G Spatial Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71163,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -26767
+        },
+        {
+          "event_id": 65015,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 26767
+        }
+      ]
+    },
+    {
+      "title": "A Random Matrix Perspective on the Consistency of Diffusion Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 2449,
+      "openreview_url": "https://openreview.net/forum?id=iPjuUQbkfl",
+      "paper_url": "https://openreview.net/forum?id=iPjuUQbkfl",
+      "authors": [
+        "Binxu Wang",
+        "Jacob A Zavatone-Veth",
+        "Cengiz Pehlevan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62241",
+        "https://icml.cc/virtual/2026/oral/71191"
+      ],
+      "oral_session": "Oral 6G Theory: Transformers & GNNs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71191,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -2449
+        },
+        {
+          "event_id": 62241,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 2449
+        }
+      ]
+    },
+    {
+      "title": "A Recursive Decomposition Framework for Causal Structure Learning in the Presence of Latent Variables",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 6495,
+      "openreview_url": "https://openreview.net/forum?id=jdbQzlnYll",
+      "paper_url": "https://openreview.net/forum?id=jdbQzlnYll",
+      "authors": [
+        "Zheng Li",
+        "Feng Xie",
+        "Shenglan Nie",
+        "Xichen Guo",
+        "Ruxin Wang",
+        "Hao Zhang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62126",
+        "https://icml.cc/virtual/2026/oral/71123"
+      ],
+      "oral_session": "Oral 4D Causal & Probabilistic Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71123,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -6495
+        },
+        {
+          "event_id": 62126,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 6495
+        }
+      ]
+    },
+    {
+      "title": "A Systematic Study of Behavioral Cloning for Scientific Data Annotation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 18671,
+      "openreview_url": "https://openreview.net/forum?id=UcbCkTkUjD",
+      "paper_url": "https://openreview.net/forum?id=UcbCkTkUjD",
+      "authors": [
+        "Ishaan Singh Chandok",
+        "Core Francisco Park"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63687",
+        "https://icml.cc/virtual/2026/oral/71044"
+      ],
+      "oral_session": "Oral 1E Understanding: Interpretability & Cognition",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71044,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -18671
+        },
+        {
+          "event_id": 63687,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 18671
+        }
+      ]
+    },
+    {
+      "title": "Activation Oracles: Training and Evaluating LLMs as General-Purpose Activation Explainers",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 18430,
+      "openreview_url": "https://openreview.net/forum?id=DbZjxkZrZm",
+      "paper_url": "https://openreview.net/forum?id=DbZjxkZrZm",
+      "authors": [
+        "Adam Karvonen",
+        "James Chua",
+        "Clément Dumas",
+        "Kit Fraser-Taliente",
+        "Subhash Kantamneni",
+        "Julian Minder",
+        "Euan Ong",
+        "Arnab Sen Sharma",
+        "Daniel Wen",
+        "Owain Evans",
+        "Samuel Marks"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65446",
+        "https://icml.cc/virtual/2026/oral/71092"
+      ],
+      "oral_session": "Oral 3C LLM Social Impact & Interpretability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71092,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -18430
+        },
+        {
+          "event_id": 65446,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 18430
+        }
+      ]
+    },
+    {
+      "title": "Agent0-VL: Exploring Self-Evolving Agent for Tool-Integrated Vision-Language Reasoning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10083,
+      "openreview_url": "https://openreview.net/forum?id=aA02f0y0LY",
+      "paper_url": "https://openreview.net/forum?id=aA02f0y0LY",
+      "authors": [
+        "Jiaqi Liu",
+        "Kaiwen Xiong",
+        "Peng Xia",
+        "Yiyang Zhou",
+        "Haonian Ji",
+        "Lu Feng",
+        "Siwei Han",
+        "Mingyu Ding",
+        "Huaxiu Yao"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63095",
+        "https://icml.cc/virtual/2026/oral/71164"
+      ],
+      "oral_session": "Oral 5G Spatial Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71164,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10083
+        },
+        {
+          "event_id": 63095,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10083
+        }
+      ]
+    },
+    {
+      "title": "AI Engram: In Search of Memory Traces in Artificial Intelligence",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 15158,
+      "openreview_url": "https://openreview.net/forum?id=QZO3oby12w",
+      "paper_url": "https://openreview.net/forum?id=QZO3oby12w",
+      "authors": [
+        "Jea Kwon",
+        "Dong-Kyum Kim",
+        "Jiwon Kim",
+        "Yonghyun Kim",
+        "Woong Kook",
+        "MEEYOUNG CHA"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64138",
+        "https://icml.cc/virtual/2026/oral/71045"
+      ],
+      "oral_session": "Oral 1E Understanding: Interpretability & Cognition",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71045,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -15158
+        },
+        {
+          "event_id": 64138,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 15158
+        }
+      ]
+    },
+    {
+      "title": "Any-Order GPT as Masked Diffusion Model: Decoupling Formulation and Architecture",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 21712,
+      "openreview_url": "https://openreview.net/forum?id=sEYoG3tAXN",
+      "paper_url": "https://openreview.net/forum?id=sEYoG3tAXN",
+      "authors": [
+        "Shuchen Xue",
+        "Tianyu Xie",
+        "Tianyang Hu",
+        "Zijin Feng",
+        "Jiacheng Sun",
+        "Kenji Kawaguchi",
+        "Zhenguo Li",
+        "Zhi-Ming Ma"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61245",
+        "https://icml.cc/virtual/2026/oral/71083"
+      ],
+      "oral_session": "Oral 3A Diffusion Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71083,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -21712
+        },
+        {
+          "event_id": 61245,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 21712
+        }
+      ]
+    },
+    {
+      "title": "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29333,
+      "openreview_url": "https://openreview.net/forum?id=DdU1o2ZvWi",
+      "paper_url": "https://openreview.net/forum?id=DdU1o2ZvWi",
+      "authors": [
+        "Chufan Shi",
+        "Cheng Yang",
+        "Yaokang Wu",
+        "Linghao Jin",
+        "Bo Shui",
+        "Taylor Berg-Kirkpatrick",
+        "Xuezhe Ma"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65441",
+        "https://icml.cc/virtual/2026/oral/71047"
+      ],
+      "oral_session": "Oral 1F Vision-Language Models & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71047,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29333
+        },
+        {
+          "event_id": 65441,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29333
+        }
+      ]
+    },
+    {
+      "title": "Asymmetric Perturbation in Solving Bilinear Saddle-Point Optimization",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 14671,
+      "openreview_url": "https://openreview.net/forum?id=fyae4jQ9Lw",
+      "paper_url": "https://openreview.net/forum?id=fyae4jQ9Lw",
+      "authors": [
+        "Kenshi Abe",
+        "Mitsuki Sakamoto",
+        "Kaito Ariu",
+        "Atsushi Iwasaki"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62508",
+        "https://icml.cc/virtual/2026/oral/71051"
+      ],
+      "oral_session": "Oral 1G Optimization & Games",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71051,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -14671
+        },
+        {
+          "event_id": 62508,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 14671
+        }
+      ]
+    },
+    {
+      "title": "Bad Seeing or Bad Thinking? Rewarding Perception for Multimodal Reasoning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 3619,
+      "openreview_url": "https://openreview.net/forum?id=duzdftKtUA",
+      "paper_url": "https://openreview.net/forum?id=duzdftKtUA",
+      "authors": [
+        "Haozhe WANG",
+        "Qixin Xu",
+        "Changpeng Wang",
+        "Taofeng Xue",
+        "Chong Peng",
+        "Wenhu Chen",
+        "Fangzhen Lin"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62726",
+        "https://icml.cc/virtual/2026/oral/71095"
+      ],
+      "oral_session": "Oral 3D Computer Vision",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71095,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -3619
+        },
+        {
+          "event_id": 62726,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 3619
+        }
+      ]
+    },
+    {
+      "title": "Benchmarking at the Edge of Comprehension",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 26775,
+      "openreview_url": "https://openreview.net/forum?id=BhahZSDowo",
+      "paper_url": "https://openreview.net/forum?id=BhahZSDowo",
+      "authors": [
+        "Samuele Marro",
+        "Jialin Yu",
+        "Emanuele La Malfa",
+        "Oishi Deb",
+        "Jiawei Li",
+        "Yibo Yang",
+        "Ebey Abraham",
+        "Sunando Sengupta",
+        "Eric Sommerlade",
+        "Michael Wooldridge",
+        "Phil Torr"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65626",
+        "https://icml.cc/virtual/2026/oral/71031"
+      ],
+      "oral_session": "Oral 1B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71031,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -26775
+        },
+        {
+          "event_id": 65626,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 26775
+        }
+      ]
+    },
+    {
+      "title": "CAT-Q: Cost-efficient and Accurate Ternary Quantization for LLMs",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 13958,
+      "openreview_url": "https://openreview.net/forum?id=9uZJLXt7fq",
+      "paper_url": "https://openreview.net/forum?id=9uZJLXt7fq",
+      "authors": [
+        "Shigeng Wang",
+        "Chao Li",
+        "Yangyuxuan Kang",
+        "Jiawei Fan",
+        "Anbang Yao"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65816",
+        "https://icml.cc/virtual/2026/oral/71111"
+      ],
+      "oral_session": "Oral 4A LLM Training & Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71111,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -13958
+        },
+        {
+          "event_id": 65816,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 13958
+        }
+      ]
+    },
+    {
+      "title": "CausalGame: Benchmarking Causal Thinking of LLM Agents in Games",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 16331,
+      "openreview_url": "https://openreview.net/forum?id=WNqIX3IFZU",
+      "paper_url": "https://openreview.net/forum?id=WNqIX3IFZU",
+      "authors": [
+        "Zhenhao Chen",
+        "Yongqiang Chen",
+        "Chenxi Liu",
+        "Junchi Yu",
+        "Xiangchen Song",
+        "Zijian Li",
+        "Jialin Li",
+        "Phil Torr",
+        "Bo Han",
+        "Kun Zhang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63530",
+        "https://icml.cc/virtual/2026/oral/71152"
+      ],
+      "oral_session": "Oral 5D AI Evaluation & Methodology",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71152,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -16331
+        },
+        {
+          "event_id": 63530,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 16331
+        }
+      ]
+    },
+    {
+      "title": "Characterizing Agents in Production",
+      "alternate_titles": [
+        "Measuring Agents in Production"
+      ],
+      "track": "Conference",
+      "submission_id": 29413,
+      "openreview_url": "https://openreview.net/forum?id=mWxEAgz3xu",
+      "paper_url": "https://openreview.net/forum?id=mWxEAgz3xu",
+      "authors": [
+        "Melissa Pan",
+        "Negar Arabzadeh",
+        "Riccardo Cogo",
+        "Yuxuan Zhu",
+        "Alexander Xiong",
+        "Lakshya A Agrawal",
+        "Huanzhi Mao",
+        "Emma Shen",
+        "Sid Pallerla",
+        "Liana Patel",
+        "Shu Liu",
+        "Tianneng Shi",
+        "Xiaoyuan Liu",
+        "Jared Davis",
+        "Emmanuele Lacavalla",
+        "Alessandro Basile",
+        "Shuyi Yang",
+        "Paul Castro",
+        "Daniel Kang",
+        "Koushik Sen",
+        "Dawn Song",
+        "Joseph E Gonzalez",
+        "Ion Stoica",
+        "Matei Zaharia",
+        "Marquita Ellis"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61834",
+        "https://icml.cc/virtual/2026/oral/71172"
+      ],
+      "oral_session": "Oral 6B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71172,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29413
+        },
+        {
+          "event_id": 61834,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29413
+        }
+      ]
+    },
+    {
+      "title": "Characterizing, Evaluating, and Optimizing Complex Reasoning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 15498,
+      "openreview_url": "https://openreview.net/forum?id=IMFgiWw4jd",
+      "paper_url": "https://openreview.net/forum?id=IMFgiWw4jd",
+      "authors": [
+        "Haoran Zhang",
+        "Yafu Li",
+        "Zhi Wang",
+        "Zhilin Wang",
+        "Shunkai Zhang",
+        "Xiaoye Qu",
+        "Yu Cheng"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64958",
+        "https://icml.cc/virtual/2026/oral/71153"
+      ],
+      "oral_session": "Oral 5D AI Evaluation & Methodology",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71153,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -15498
+        },
+        {
+          "event_id": 64958,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 15498
+        }
+      ]
+    },
+    {
+      "title": "Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-dimensional Control Tasks",
+      "alternate_titles": [
+        "Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks"
+      ],
+      "track": "Conference",
+      "submission_id": 12142,
+      "openreview_url": "https://openreview.net/forum?id=aNWIVNjocB",
+      "paper_url": "https://openreview.net/forum?id=aNWIVNjocB",
+      "authors": [
+        "Stefan Huber",
+        "Hannes Unger",
+        "Georg Schäfer",
+        "Jakob Rehrl"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63070",
+        "https://icml.cc/virtual/2026/oral/71071"
+      ],
+      "oral_session": "Oral 2E Reinforcement Learning: Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71071,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -12142
+        },
+        {
+          "event_id": 63070,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 12142
+        }
+      ]
+    },
+    {
+      "title": "CLEAR: Context-Aware Learning with End-to-End Mask-Free Inference for Adaptive Subtitle Removal",
+      "alternate_titles": [
+        "CLEAR: Context-Aware Learning with End-to-End Mask-Free Inference for Adaptive Video Subtitle Removal"
+      ],
+      "track": "Conference",
+      "submission_id": 6481,
+      "openreview_url": "https://openreview.net/forum?id=HszNb2xE7P",
+      "paper_url": "https://openreview.net/forum?id=HszNb2xE7P",
+      "authors": [
+        "Qingdong He",
+        "Chaoyi Wang",
+        "Peng TANG",
+        "Yifan Yang",
+        "Xiaobin Hu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65005",
+        "https://icml.cc/virtual/2026/oral/71048"
+      ],
+      "oral_session": "Oral 1F Vision-Language Models & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71048,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -6481
+        },
+        {
+          "event_id": 65005,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 6481
+        }
+      ]
+    },
+    {
+      "title": "CoEvol-NO: State and Coordinate Co-Evolution with an Error-Driven Predictor-Corrector Paradigm for Neural Operator Transformer",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 11927,
+      "openreview_url": "https://openreview.net/forum?id=pG9Wn3Aheq",
+      "paper_url": "https://openreview.net/forum?id=pG9Wn3Aheq",
+      "authors": [
+        "Jianqiao Zeng",
+        "Ruocheng Wang",
+        "Yanzhi Liu",
+        "Hao Xiong",
+        "Junchi Yan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61526",
+        "https://icml.cc/virtual/2026/oral/71127"
+      ],
+      "oral_session": "Oral 4E AI for Science: Dynamical Systems and Processes",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71127,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -11927
+        },
+        {
+          "event_id": 61526,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 11927
+        }
+      ]
+    },
+    {
+      "title": "ConFlux: Multivariate Time Series in Flux, One Unified Forecast in Confluence",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 22359,
+      "openreview_url": "https://openreview.net/forum?id=qugRvYjaFx",
+      "paper_url": "https://openreview.net/forum?id=qugRvYjaFx",
+      "authors": [
+        "Shiyu Wang",
+        "Yuchen Fang",
+        "Juntong Ni",
+        "Ziyi Zhang",
+        "Baichuan Mo",
+        "Xinyue Zhong",
+        "Chengxin Wang",
+        "Zhou Ye",
+        "Yang Xiang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61370",
+        "https://icml.cc/virtual/2026/oral/71135"
+      ],
+      "oral_session": "Oral 4G Time Series Modeling & Sampling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71135,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -22359
+        },
+        {
+          "event_id": 61370,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 22359
+        }
+      ]
+    },
+    {
+      "title": "Controlled LLM Training on Spectral Sphere",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 3033,
+      "openreview_url": "https://openreview.net/forum?id=5kTn1c3vtt",
+      "paper_url": "https://openreview.net/forum?id=5kTn1c3vtt",
+      "authors": [
+        "Tian Xie",
+        "Haoming Luo",
+        "Haoyu Tang",
+        "Hu Yiwen",
+        "Jason Liu",
+        "Qingnan Ren",
+        "Yang Wang",
+        "Xin Zhao",
+        "Rui Yan",
+        "Bing Su",
+        "Chong Luo",
+        "Baining Guo"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66212",
+        "https://icml.cc/virtual/2026/oral/71055"
+      ],
+      "oral_session": "Oral 2A DL: Architectures & Inference",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71055,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -3033
+        },
+        {
+          "event_id": 66212,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 3033
+        }
+      ]
+    },
+    {
+      "title": "CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 33520,
+      "openreview_url": "https://openreview.net/forum?id=BkMSFFtm5M",
+      "paper_url": "https://openreview.net/forum?id=BkMSFFtm5M",
+      "authors": [
+        "Xianzhen Luo",
+        "Jingyuan Zhang",
+        "Shiqi Zhou",
+        "JinYang Huang",
+        "Chuan Xiao",
+        "Qingfu Zhu",
+        "Zhiyuan Ma",
+        "YUE XING",
+        "Yang Yue",
+        "WencongZeng",
+        "Wanxiang Che"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65622",
+        "https://icml.cc/virtual/2026/oral/71173"
+      ],
+      "oral_session": "Oral 6B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71173,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -33520
+        },
+        {
+          "event_id": 65622,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 33520
+        }
+      ]
+    },
+    {
+      "title": "daVinci-Dev: Agent-native Mid-training for Software Engineering",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 24732,
+      "openreview_url": "https://openreview.net/forum?id=a86luANykT",
+      "paper_url": "https://openreview.net/forum?id=a86luANykT",
+      "authors": [
+        "Ji Zeng",
+        "Dayuan Fu",
+        "Tiantian Mi",
+        "Zhuang Yumin",
+        "Yaxing Huang",
+        "Xuefeng Li",
+        "Lyumanshan Ye",
+        "Muhang Xie",
+        "Qishuo Hua",
+        "Zhen Huang",
+        "Mohan Jiang",
+        "Hanning Wang",
+        "Shijie Xia",
+        "Yang Xiao",
+        "Jie Sun",
+        "Yunze Wu",
+        "Pengfei Liu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63099",
+        "https://icml.cc/virtual/2026/oral/71032"
+      ],
+      "oral_session": "Oral 1B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71032,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -24732
+        },
+        {
+          "event_id": 63099,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 24732
+        }
+      ]
+    },
+    {
+      "title": "Detecting the Semantic Fixed Point: A Geometric Framework for Efficient Inference",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 4904,
+      "openreview_url": "https://openreview.net/forum?id=DACN5xM4h7",
+      "paper_url": "https://openreview.net/forum?id=DACN5xM4h7",
+      "authors": [
+        "Jiawei Gu",
+        "Ziyue Qiao",
+        "Xiao Luo"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65483",
+        "https://icml.cc/virtual/2026/oral/71056"
+      ],
+      "oral_session": "Oral 2A DL: Architectures & Inference",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71056,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -4904
+        },
+        {
+          "event_id": 65483,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 4904
+        }
+      ]
+    },
+    {
+      "title": "Diffract: Spectral View of LLM Domain Adaptation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 25700,
+      "openreview_url": "https://openreview.net/forum?id=XBUHoiAGDE",
+      "paper_url": "https://openreview.net/forum?id=XBUHoiAGDE",
+      "authors": [
+        "Nikita Borodin",
+        "Maria Krylova",
+        "Artem Zabolotnyi",
+        "Dmitry Aspisov",
+        "Egor Shikov",
+        "Nikita Tyuplyaev",
+        "Oleg Travkin",
+        "Roman Alferov",
+        "Dmitry Vinichenko"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63441",
+        "https://icml.cc/virtual/2026/oral/71079"
+      ],
+      "oral_session": "Oral 2G Theory: Deep Learning Expressivity",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71079,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -25700
+        },
+        {
+          "event_id": 63441,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 25700
+        }
+      ]
+    },
+    {
+      "title": "DISCO: Mitigating Bias in Deep Learning with Conditional Distance Correlation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 12280,
+      "openreview_url": "https://openreview.net/forum?id=TYjTWxDOOC",
+      "paper_url": "https://openreview.net/forum?id=TYjTWxDOOC",
+      "authors": [
+        "Emre Kavak",
+        "Tom Nuno Wolf",
+        "Christian Wachinger"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63808",
+        "https://icml.cc/virtual/2026/oral/71124"
+      ],
+      "oral_session": "Oral 4D Causal & Probabilistic Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71124,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -12280
+        },
+        {
+          "event_id": 63808,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 12280
+        }
+      ]
+    },
+    {
+      "title": "DiScoFormer: Plug-In Density and Score Estimation with Transformers",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 28957,
+      "openreview_url": "https://openreview.net/forum?id=gyOWJpP8cQ",
+      "paper_url": "https://openreview.net/forum?id=gyOWJpP8cQ",
+      "authors": [
+        "Vasily Ilin",
+        "Peter Sushko",
+        "Ranjay Krishna"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62400",
+        "https://icml.cc/virtual/2026/oral/71039"
+      ],
+      "oral_session": "Oral 1D DL: Representations & Distributions",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71039,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -28957
+        },
+        {
+          "event_id": 62400,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 28957
+        }
+      ]
+    },
+    {
+      "title": "Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 18262,
+      "openreview_url": "https://openreview.net/forum?id=vNfbqRzash",
+      "paper_url": "https://openreview.net/forum?id=vNfbqRzash",
+      "authors": [
+        "Shengxian Ding",
+        "Haonan Gao",
+        "Pangpang Liu",
+        "Xinyuan Tian",
+        "Yize Zhao"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60908",
+        "https://icml.cc/virtual/2026/oral/71125"
+      ],
+      "oral_session": "Oral 4D Causal & Probabilistic Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71125,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -18262
+        },
+        {
+          "event_id": 60908,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 18262
+        }
+      ]
+    },
+    {
+      "title": "Distributional Inverse Reinforcement Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 12812,
+      "openreview_url": "https://openreview.net/forum?id=ZcnZ6vs4yX",
+      "paper_url": "https://openreview.net/forum?id=ZcnZ6vs4yX",
+      "authors": [
+        "Feiyang Wu",
+        "Ye Zhao",
+        "Anqi Wu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63146",
+        "https://icml.cc/virtual/2026/oral/71147"
+      ],
+      "oral_session": "Oral 5C Reinforcement Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71147,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -12812
+        },
+        {
+          "event_id": 63146,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 12812
+        }
+      ]
+    },
+    {
+      "title": "dnaHNet: A Scalable and Hierarchical Foundation Model for Genomic Sequence Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 8635,
+      "openreview_url": "https://openreview.net/forum?id=6pN2KNCspk",
+      "paper_url": "https://openreview.net/forum?id=6pN2KNCspk",
+      "authors": [
+        "Arnav Shah",
+        "Junzhe Li",
+        "Parsa Idehpour",
+        "Adibvafa Fallahpour",
+        "Brandon Wang",
+        "Sukjun Hwang",
+        "BO WANG",
+        "Patrick Hsu",
+        "Hani Goodarzi",
+        "Albert Gu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66118",
+        "https://icml.cc/virtual/2026/oral/71035"
+      ],
+      "oral_session": "Oral 1C AI for Science: Proteins and Genomic Sequences",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71035,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -8635
+        },
+        {
+          "event_id": 66118,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 8635
+        }
+      ]
+    },
+    {
+      "title": "Do We Need Adam? Surprisingly Strong and Sparse Reinforcement Learning with SGD in LLMs",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29124,
+      "openreview_url": "https://openreview.net/forum?id=z31fdV4WRu",
+      "paper_url": "https://openreview.net/forum?id=z31fdV4WRu",
+      "authors": [
+        "Sagnik Mukherjee",
+        "Lifan Yuan",
+        "Pavan Jayasinha",
+        "Dilek Hakkani-Tür",
+        "Hao Peng"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60553",
+        "https://icml.cc/virtual/2026/oral/71027"
+      ],
+      "oral_session": "Oral 1A LLM Adaptation and Dataset Selection",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71027,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29124
+        },
+        {
+          "event_id": 60553,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29124
+        }
+      ]
+    },
+    {
+      "title": "Don't Force the Fit: Bounded Log-Likelihood Loss for Enhanced Reasoning in Large Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10670,
+      "openreview_url": "https://openreview.net/forum?id=mTMA9yvsnx",
+      "paper_url": "https://openreview.net/forum?id=mTMA9yvsnx",
+      "authors": [
+        "Feng Zhao",
+        "Hong Zhang",
+        "Yu Yang",
+        "Ruilin Zhao",
+        "Guandong Xu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61840",
+        "https://icml.cc/virtual/2026/oral/71059"
+      ],
+      "oral_session": "Oral 2B LLM Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71059,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10670
+        },
+        {
+          "event_id": 61840,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10670
+        }
+      ]
+    },
+    {
+      "title": "DOUBT: Decoupled Object-level Understanding and Bridging via vMF-based Trustworthiness for Hallucination Detection in MLLMs",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 24632,
+      "openreview_url": "https://openreview.net/forum?id=QMf9CBpEIf",
+      "paper_url": "https://openreview.net/forum?id=QMf9CBpEIf",
+      "authors": [
+        "Kaiqi Chen",
+        "Yang Qin",
+        "Changhao He",
+        "Xi Peng",
+        "Peng Hu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64161",
+        "https://icml.cc/virtual/2026/oral/71175"
+      ],
+      "oral_session": "Oral 6C LLM Understanding & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71175,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -24632
+        },
+        {
+          "event_id": 64161,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 24632
+        }
+      ]
+    },
+    {
+      "title": "DPO Unchained: Your Training Algorithm is Secretly Disentangled in Human Choice Theory (and Its Loss' Convexity is Dispensable)",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 11585,
+      "openreview_url": "https://openreview.net/forum?id=j4c3i3a5kH",
+      "paper_url": "https://openreview.net/forum?id=j4c3i3a5kH",
+      "authors": [
+        "Wenxuan Zhou",
+        "Shujian Zhang",
+        "brice magdalou",
+        "John Lambert",
+        "Ehsan Amid",
+        "Richard Nock",
+        "Andrew Hard"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62171",
+        "https://icml.cc/virtual/2026/oral/71131"
+      ],
+      "oral_session": "Oral 4F Learning Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71131,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -11585
+        },
+        {
+          "event_id": 62171,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 11585
+        }
+      ]
+    },
+    {
+      "title": "DroneDINO: Towards Heterogeneous Routed Mixture of Experts for Drone-based Unified Object Detection",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 33813,
+      "openreview_url": "https://openreview.net/forum?id=vPGmYeL1rG",
+      "paper_url": "https://openreview.net/forum?id=vPGmYeL1rG",
+      "authors": [
+        "Rui Chen",
+        "Dongdong Li",
+        "Yan Fan",
+        "Yan Liu",
+        "Yangliu Kuai",
+        "Pengfei Zhu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60907",
+        "https://icml.cc/virtual/2026/oral/71096"
+      ],
+      "oral_session": "Oral 3D Computer Vision",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71096,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -33813
+        },
+        {
+          "event_id": 60907,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 33813
+        }
+      ]
+    },
+    {
+      "title": "ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 5744,
+      "openreview_url": "https://openreview.net/forum?id=L31hKCWRsN",
+      "paper_url": "https://openreview.net/forum?id=L31hKCWRsN",
+      "authors": [
+        "Xinyi Hu",
+        "Yuhao Shen",
+        "Zhang Baolin",
+        "Hengxin Zhang",
+        "Jun Dai",
+        "Shuang Ge",
+        "Yue Li",
+        "Mingcheng Wan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64670",
+        "https://icml.cc/virtual/2026/oral/71057"
+      ],
+      "oral_session": "Oral 2A DL: Architectures & Inference",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71057,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -5744
+        },
+        {
+          "event_id": 64670,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 5744
+        }
+      ]
+    },
+    {
+      "title": "Equilibrium Pricing in Oligopolistic Data Markets",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 30824,
+      "openreview_url": "https://openreview.net/forum?id=TAqejOfEAJ",
+      "paper_url": "https://openreview.net/forum?id=TAqejOfEAJ",
+      "authors": [
+        "Bhaskar Ray Chaudhury",
+        "Jugal Garg",
+        "Eklavya Sharma",
+        "Jiaxin Song"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63852",
+        "https://icml.cc/virtual/2026/oral/71184"
+      ],
+      "oral_session": "Oral 6E Game Theory & Big Tech",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71184,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -30824
+        },
+        {
+          "event_id": 63852,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 30824
+        }
+      ]
+    },
+    {
+      "title": "Equivalence of Context and Parameter Updates in Modern Transformer Blocks",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10534,
+      "openreview_url": "https://openreview.net/forum?id=aZ5Di8Ii4X",
+      "paper_url": "https://openreview.net/forum?id=aZ5Di8Ii4X",
+      "authors": [
+        "Adrian Goldwaser",
+        "Michael Munn",
+        "Xavi Gonzalvo",
+        "Benoit Dherin"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63048",
+        "https://icml.cc/virtual/2026/oral/71192"
+      ],
+      "oral_session": "Oral 6G Theory: Transformers & GNNs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71192,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10534
+        },
+        {
+          "event_id": 63048,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10534
+        }
+      ]
+    },
+    {
+      "title": "Error Propagation Mechanisms and Compensation Strategies for Quantized Diffusion Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 9064,
+      "openreview_url": "https://openreview.net/forum?id=4YIY66tpvQ",
+      "paper_url": "https://openreview.net/forum?id=4YIY66tpvQ",
+      "authors": [
+        "Songwei Liu",
+        "Chao Zeng",
+        "Chenqian Yan",
+        "Xurui Peng",
+        "WANG",
+        "Fangmin Chen",
+        "Xing Mei"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66340",
+        "https://icml.cc/virtual/2026/oral/71084"
+      ],
+      "oral_session": "Oral 3A Diffusion Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71084,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -9064
+        },
+        {
+          "event_id": 66340,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 9064
+        }
+      ]
+    },
+    {
+      "title": "Evaluating Robustness of Reasoning Models on Parameterized Logical Problems",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 25337,
+      "openreview_url": "https://openreview.net/forum?id=gnLZWOubWa",
+      "paper_url": "https://openreview.net/forum?id=gnLZWOubWa",
+      "authors": [
+        "Naïm Es-sebbani",
+        "Esteban Marquer",
+        "Yakoub Salhi",
+        "Zied Bouraoui"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62420",
+        "https://icml.cc/virtual/2026/oral/71060"
+      ],
+      "oral_session": "Oral 2B LLM Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71060,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -25337
+        },
+        {
+          "event_id": 62420,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 25337
+        }
+      ]
+    },
+    {
+      "title": "Exact Functional ANOVA Decomposition for Categorical Inputs",
+      "alternate_titles": [
+        "Exact Functional ANOVA Decomposition for Categorical Inputs Models"
+      ],
+      "track": "Conference",
+      "submission_id": 23185,
+      "openreview_url": "https://openreview.net/forum?id=qC9FEfYjai",
+      "paper_url": "https://openreview.net/forum?id=qC9FEfYjai",
+      "authors": [
+        "Baptiste Ferrere",
+        "Nicolas Bousquet",
+        "Gamboa Fabrice",
+        "Jean-Michel Loubes",
+        "Joseph Muré"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61430",
+        "https://icml.cc/virtual/2026/oral/71107"
+      ],
+      "oral_session": "Oral 3G Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71107,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -23185
+        },
+        {
+          "event_id": 61430,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 23185
+        }
+      ]
+    },
+    {
+      "title": "Expressivity-Efficiency Tradeoffs for Hybrid Sequence Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29042,
+      "openreview_url": "https://openreview.net/forum?id=82EJxJzG6r",
+      "paper_url": "https://openreview.net/forum?id=82EJxJzG6r",
+      "authors": [
+        "John Cooper",
+        "Mingchen Ma",
+        "Ilias Diakonikolas",
+        "Frederic Sala"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66000",
+        "https://icml.cc/virtual/2026/oral/71167"
+      ],
+      "oral_session": "Oral 6A LLMs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71167,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29042
+        },
+        {
+          "event_id": 66000,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29042
+        }
+      ]
+    },
+    {
+      "title": "Faster Activation Functions at the Edge for Post-Training Speedups",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 26888,
+      "openreview_url": "https://openreview.net/forum?id=u2o6hPE8ik",
+      "paper_url": "https://openreview.net/forum?id=u2o6hPE8ik",
+      "authors": [
+        "Anton Lydike",
+        "Jun Bi",
+        "Jackson Woodruff"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61061",
+        "https://icml.cc/virtual/2026/oral/71179"
+      ],
+      "oral_session": "Oral 6D Scalability, Software, Hardware",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71179,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -26888
+        },
+        {
+          "event_id": 61061,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 26888
+        }
+      ]
+    },
+    {
+      "title": "FlashSinkhorn: IO-Aware Entropic Optimal Transport on GPU",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 2382,
+      "openreview_url": "https://openreview.net/forum?id=VzIA4MASxK",
+      "paper_url": "https://openreview.net/forum?id=VzIA4MASxK",
+      "authors": [
+        "Felix X.-F. Ye",
+        "Xingjie Li",
+        "An Yu",
+        "Ming-Ching Chang",
+        "LINSONG CHU",
+        "Davis Wertheimer"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63564",
+        "https://icml.cc/virtual/2026/oral/71180"
+      ],
+      "oral_session": "Oral 6D Scalability, Software, Hardware",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71180,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -2382
+        },
+        {
+          "event_id": 63564,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 2382
+        }
+      ]
+    },
+    {
+      "title": "FlashSketch: Sketch-Kernel Co-Design for Fast Sparse Sketching on GPUs",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 30311,
+      "openreview_url": "https://openreview.net/forum?id=cCwxV6rSXF",
+      "paper_url": "https://openreview.net/forum?id=cCwxV6rSXF",
+      "authors": [
+        "Rajat Vadiraj Dwaraknath",
+        "Sungyoon Kim",
+        "Mert Pilanci"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62887",
+        "https://icml.cc/virtual/2026/oral/71181"
+      ],
+      "oral_session": "Oral 6D Scalability, Software, Hardware",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71181,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -30311
+        },
+        {
+          "event_id": 62887,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 30311
+        }
+      ]
+    },
+    {
+      "title": "FlatLand: Personalized Graph Federated Learning via Tailored Lorentz Space",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 32843,
+      "openreview_url": "https://openreview.net/forum?id=H6PagZKyil",
+      "paper_url": "https://openreview.net/forum?id=H6PagZKyil",
+      "authors": [
+        "Jiahong Liu",
+        "Ram Samarth B B",
+        "Xinyu Fu",
+        "Menglin Yang",
+        "Weixi Zhang",
+        "ZHITAO YING",
+        "Irwin King"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65064",
+        "https://icml.cc/virtual/2026/oral/71159"
+      ],
+      "oral_session": "Oral 5F Graph & Federated Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71159,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -32843
+        },
+        {
+          "event_id": 65064,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 32843
+        }
+      ]
+    },
+    {
+      "title": "FLIP2: Expanding Protein Fitness Landscape Benchmarks for Real-World Machine Learning Applications",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 3711,
+      "openreview_url": "https://openreview.net/forum?id=Ue8aOgz9T9",
+      "paper_url": "https://openreview.net/forum?id=Ue8aOgz9T9",
+      "authors": [
+        "Kieran Didi",
+        "Sarah Alamdari",
+        "Alex Lu",
+        "Bruce Wittmann",
+        "Kadina Johnston",
+        "Ava Amini",
+        "Ali Madani",
+        "Maya Czeneszew",
+        "Christian Dallago",
+        "Kevin Yang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63684",
+        "https://icml.cc/virtual/2026/oral/71036"
+      ],
+      "oral_session": "Oral 1C AI for Science: Proteins and Genomic Sequences",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71036,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -3711
+        },
+        {
+          "event_id": 63684,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 3711
+        }
+      ]
+    },
+    {
+      "title": "Focus and Dilution: The Multi-stage Learning Process of Attention",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 16346,
+      "openreview_url": "https://openreview.net/forum?id=LF4YsCYfrf",
+      "paper_url": "https://openreview.net/forum?id=LF4YsCYfrf",
+      "authors": [
+        "Zheng-An Chen",
+        "Pengxiao Lin",
+        "Zhi-Qin John Xu",
+        "Tao Luo"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64653",
+        "https://icml.cc/virtual/2026/oral/71193"
+      ],
+      "oral_session": "Oral 6G Theory: Transformers & GNNs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71193,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -16346
+        },
+        {
+          "event_id": 64653,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 16346
+        }
+      ]
+    },
+    {
+      "title": "Foundations of Equivariant Deep Learning: Unifying Graph and Sheaf Neural Networks",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 34584,
+      "openreview_url": "https://openreview.net/forum?id=aIH1jyU37z",
+      "paper_url": "https://openreview.net/forum?id=aIH1jyU37z",
+      "authors": [
+        "Yoshihiro Maruyama"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63078",
+        "https://icml.cc/virtual/2026/oral/71080"
+      ],
+      "oral_session": "Oral 2G Theory: Deep Learning Expressivity",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71080,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -34584
+        },
+        {
+          "event_id": 63078,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 34584
+        }
+      ]
+    },
+    {
+      "title": "From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 118,
+      "openreview_url": "https://openreview.net/forum?id=2NRrsz4nUB",
+      "paper_url": "https://openreview.net/forum?id=2NRrsz4nUB",
+      "authors": [
+        "Bing Hu",
+        "Zaijing Li",
+        "Rui Shao",
+        "Junda Chen",
+        "April Hua Liu",
+        "Wei-Shi Zheng",
+        "Liqiang Nie"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66596",
+        "https://icml.cc/virtual/2026/oral/71115"
+      ],
+      "oral_session": "Oral 4B Robotics: Vision-Language-Action Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71115,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -118
+        },
+        {
+          "event_id": 66596,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 118
+        }
+      ]
+    },
+    {
+      "title": "From Feasible to Practical: Pareto-Optimal Synthesis Planning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 27959,
+      "openreview_url": "https://openreview.net/forum?id=qpPf5mI1qn",
+      "paper_url": "https://openreview.net/forum?id=qpPf5mI1qn",
+      "authors": [
+        "Friedrich Hastedt",
+        "Dongda Zhang",
+        "Antonio Del rio chanona"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61380",
+        "https://icml.cc/virtual/2026/oral/71067"
+      ],
+      "oral_session": "Oral 2D AI for Science: Differential Equations & Molecular Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71067,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -27959
+        },
+        {
+          "event_id": 61380,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 27959
+        }
+      ]
+    },
+    {
+      "title": "From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10019,
+      "openreview_url": "https://openreview.net/forum?id=VMsumctGvg",
+      "paper_url": "https://openreview.net/forum?id=VMsumctGvg",
+      "authors": [
+        "Yihan Lin",
+        "Haoyang Li",
+        "Yang Li",
+        "Haitao Shen",
+        "Yihan Zhao",
+        "Chao Shao",
+        "Jing Zhang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63621",
+        "https://icml.cc/virtual/2026/oral/71116"
+      ],
+      "oral_session": "Oral 4B Robotics: Vision-Language-Action Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71116,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10019
+        },
+        {
+          "event_id": 63621,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10019
+        }
+      ]
+    },
+    {
+      "title": "From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 6724,
+      "openreview_url": "https://openreview.net/forum?id=S2Fd1GEyv6",
+      "paper_url": "https://openreview.net/forum?id=S2Fd1GEyv6",
+      "authors": [
+        "Lehui Li",
+        "Yuyao Wang",
+        "Jisheng Yan",
+        "Wei Zhang",
+        "Jinliang Deng",
+        "Haoliang Sun",
+        "Zhongyi Han",
+        "Yongshun Gong"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63982",
+        "https://icml.cc/virtual/2026/oral/71136"
+      ],
+      "oral_session": "Oral 4G Time Series Modeling & Sampling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71136,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -6724
+        },
+        {
+          "event_id": 63982,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 6724
+        }
+      ]
+    },
+    {
+      "title": "Geometric Flow Grounding: A Unified Manifold Decoupling Framework for Dynamics Discovery and Verification",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 3446,
+      "openreview_url": "https://openreview.net/forum?id=IYSBJvVRTx",
+      "paper_url": "https://openreview.net/forum?id=IYSBJvVRTx",
+      "authors": [
+        "Chang Yu",
+        "Yuxuan Luo",
+        "Yixuan Du",
+        "Yuqing Zhou",
+        "Siyuan Li",
+        "Jingbo Zhou",
+        "jiawei jiang",
+        "Zhen Lei",
+        "Stan Z Li"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64932",
+        "https://icml.cc/virtual/2026/oral/71128"
+      ],
+      "oral_session": "Oral 4E AI for Science: Dynamical Systems and Processes",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71128,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -3446
+        },
+        {
+          "event_id": 64932,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 3446
+        }
+      ]
+    },
+    {
+      "title": "GoodDiffusion: Proactive Copyright Protection for Diffusion Generative Models via Learnable Sample-specific Signatures",
+      "alternate_titles": [
+        "GoodDiffusion: Proactive Copyright Protection for Diffusion Bridge Models via Learnable Sample-specific Signatures"
+      ],
+      "track": "Conference",
+      "submission_id": 9548,
+      "openreview_url": "https://openreview.net/forum?id=wkV9jSqwa9",
+      "paper_url": "https://openreview.net/forum?id=wkV9jSqwa9",
+      "authors": [
+        "Shixi Qin",
+        "zhiyong yang",
+        "Shilong Bao",
+        "Zitai Wang",
+        "Qianqian Xu",
+        "Qingming Huang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60784",
+        "https://icml.cc/virtual/2026/oral/71188"
+      ],
+      "oral_session": "Oral 6F Social Impacts: GenAI & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71188,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -9548
+        },
+        {
+          "event_id": 60784,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 9548
+        }
+      ]
+    },
+    {
+      "title": "Guaranteed Optimal Compositional Explanations for Neurons",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 12996,
+      "openreview_url": "https://openreview.net/forum?id=MHiiwC3oFR",
+      "paper_url": "https://openreview.net/forum?id=MHiiwC3oFR",
+      "authors": [
+        "Biagio La Rosa",
+        "Leilani Gilpin"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64551",
+        "https://icml.cc/virtual/2026/oral/71046"
+      ],
+      "oral_session": "Oral 1E Understanding: Interpretability & Cognition",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71046,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -12996
+        },
+        {
+          "event_id": 64551,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 12996
+        }
+      ]
+    },
+    {
+      "title": "High-accuracy and dimension-free sampling with diffusions",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29290,
+      "openreview_url": "https://openreview.net/forum?id=YA9jB86LDw",
+      "paper_url": "https://openreview.net/forum?id=YA9jB86LDw",
+      "authors": [
+        "Khashayar Gatmiry",
+        "Sitan Chen",
+        "Adil Salim"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63314",
+        "https://icml.cc/virtual/2026/oral/71085"
+      ],
+      "oral_session": "Oral 3A Diffusion Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71085,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29290
+        },
+        {
+          "event_id": 63314,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29290
+        }
+      ]
+    },
+    {
+      "title": "High-accuracy sampling for diffusion models and log-concave distributions",
+      "alternate_titles": [
+        "High-Accuracy Sampling for Diffusion Models and Log-Concave Distributions"
+      ],
+      "track": "Conference",
+      "submission_id": 10218,
+      "openreview_url": "https://openreview.net/forum?id=GW3umRqsZZ",
+      "paper_url": "https://openreview.net/forum?id=GW3umRqsZZ",
+      "authors": [
+        "Fan Chen",
+        "Sinho Chewi",
+        "Constantinos Daskalakis",
+        "Alexander Rakhlin"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65132",
+        "https://icml.cc/virtual/2026/oral/71132"
+      ],
+      "oral_session": "Oral 4F Learning Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71132,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10218
+        },
+        {
+          "event_id": 65132,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10218
+        }
+      ]
+    },
+    {
+      "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 505,
+      "openreview_url": "https://openreview.net/forum?id=UGAP2F6FfV",
+      "paper_url": "https://openreview.net/forum?id=UGAP2F6FfV",
+      "authors": [
+        "Yuanyuan Gao",
+        "Hao Li",
+        "Yifei Liu",
+        "Xinhao Ji",
+        "Yuning Gong",
+        "Yuanjun Liao",
+        "Fangfu Liu",
+        "Manyuan Zhang",
+        "Yuchen Yang",
+        "Dan Xu",
+        "Xue Yang",
+        "Huaxi Huang",
+        "Hongjie Zhang",
+        "Ziwei Liu",
+        "Xiao Sun",
+        "Dingwen Zhang",
+        "Zhihang Zhong"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63725",
+        "https://icml.cc/virtual/2026/oral/71165"
+      ],
+      "oral_session": "Oral 5G Spatial Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71165,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -505
+        },
+        {
+          "event_id": 63725,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 505
+        }
+      ]
+    },
+    {
+      "title": "How much can language models memorize?",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 27372,
+      "openreview_url": "https://openreview.net/forum?id=bA6BgSbaUi",
+      "paper_url": "https://openreview.net/forum?id=bA6BgSbaUi",
+      "authors": [
+        "John Morris",
+        "Chawin Sitawarin",
+        "Narine Kokhlikyan",
+        "Chuan Guo",
+        "Edward Suh",
+        "Alexander Rush",
+        "Kamalika Chaudhuri",
+        "Saeed Mahloujifar"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62989",
+        "https://icml.cc/virtual/2026/oral/71168"
+      ],
+      "oral_session": "Oral 6A LLMs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71168,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -27372
+        },
+        {
+          "event_id": 62989,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 27372
+        }
+      ]
+    },
+    {
+      "title": "Incentivizing Truthfulness and Collaborative Fairness in Bayesian Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 13973,
+      "openreview_url": "https://openreview.net/forum?id=YgzbofmRr6",
+      "paper_url": "https://openreview.net/forum?id=YgzbofmRr6",
+      "authors": [
+        "Rachael Hwee Ling Sim",
+        "Jue Fan",
+        "Xiao Tian",
+        "Xinyi Xu",
+        "Patrick Jaillet",
+        "Bryan Kian Hsiang Low"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63259",
+        "https://icml.cc/virtual/2026/oral/71101"
+      ],
+      "oral_session": "Oral 3E Peer Review & Mechanism Design",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71101,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -13973
+        },
+        {
+          "event_id": 63259,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 13973
+        }
+      ]
+    },
+    {
+      "title": "Information Flow Reveals When to Trust Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 5728,
+      "openreview_url": "https://openreview.net/forum?id=vd8HzoFZ7v",
+      "paper_url": "https://openreview.net/forum?id=vd8HzoFZ7v",
+      "authors": [
+        "Rui Xu",
+        "Yi Chen",
+        "Jiujiu Chen",
+        "Sihong Xie"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60884",
+        "https://icml.cc/virtual/2026/oral/71120"
+      ],
+      "oral_session": "Oral 4C LLM Alignment & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71120,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -5728
+        },
+        {
+          "event_id": 60884,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 5728
+        }
+      ]
+    },
+    {
+      "title": "Is Your LLM Overcharging You? Tokenization, Transparency, and Incentives",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 16279,
+      "openreview_url": "https://openreview.net/forum?id=aGaBFE9pta",
+      "paper_url": "https://openreview.net/forum?id=aGaBFE9pta",
+      "authors": [
+        "Ander Artola Velasco",
+        "Stratis Tsirtsis",
+        "Nastaran Okati",
+        "Manuel Gomez-Rodriguez"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63083",
+        "https://icml.cc/virtual/2026/oral/71102"
+      ],
+      "oral_session": "Oral 3E Peer Review & Mechanism Design",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71102,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -16279
+        },
+        {
+          "event_id": 63083,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 16279
+        }
+      ]
+    },
+    {
+      "title": "Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 23848,
+      "openreview_url": "https://openreview.net/forum?id=BSi2mfMDsx",
+      "paper_url": "https://openreview.net/forum?id=BSi2mfMDsx",
+      "authors": [
+        "Zhicheng Fang",
+        "Jingjie Zheng",
+        "Chenxu Fu",
+        "Wei Xu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65657",
+        "https://icml.cc/virtual/2026/oral/71103"
+      ],
+      "oral_session": "Oral 3F AI Safety & Jailbreaks",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71103,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -23848
+        },
+        {
+          "event_id": 65657,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 23848
+        }
+      ]
+    },
+    {
+      "title": "Joint Learning in the Gaussian Single Index Model",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 16300,
+      "openreview_url": "https://openreview.net/forum?id=xf1OYJfvqj",
+      "paper_url": "https://openreview.net/forum?id=xf1OYJfvqj",
+      "authors": [
+        "Loucas Pillaud-Vivien",
+        "Adrien Schertzer"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60683",
+        "https://icml.cc/virtual/2026/oral/71108"
+      ],
+      "oral_session": "Oral 3G Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71108,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -16300
+        },
+        {
+          "event_id": 60683,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 16300
+        }
+      ]
+    },
+    {
+      "title": "Large Language Models Develop Novel Social Biases Through Adaptive Exploration",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 17998,
+      "openreview_url": "https://openreview.net/forum?id=pc7fqaOcAH",
+      "paper_url": "https://openreview.net/forum?id=pc7fqaOcAH",
+      "authors": [
+        "Addison J. Wu",
+        "Ryan Liu",
+        "Xuechunzi Bai",
+        "Thomas Griffiths"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61494",
+        "https://icml.cc/virtual/2026/oral/71093"
+      ],
+      "oral_session": "Oral 3C LLM Social Impact & Interpretability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71093,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -17998
+        },
+        {
+          "event_id": 61494,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 17998
+        }
+      ]
+    },
+    {
+      "title": "LASER: Learning Active Sensing for Continuum Field Reconstruction",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 4564,
+      "openreview_url": "https://openreview.net/forum?id=hnoSRifw1F",
+      "paper_url": "https://openreview.net/forum?id=hnoSRifw1F",
+      "authors": [
+        "Huayu Deng",
+        "Jinghui Zhong",
+        "Xiangming Zhu",
+        "Yunbo Wang",
+        "Xiaokang Yang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62307",
+        "https://icml.cc/virtual/2026/oral/71040"
+      ],
+      "oral_session": "Oral 1D DL: Representations & Distributions",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71040,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -4564
+        },
+        {
+          "event_id": 62307,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 4564
+        }
+      ]
+    },
+    {
+      "title": "Learning Human-Robot Collaboration via Heterogeneous-Agent Lyapunov Policy Optimization",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 17140,
+      "openreview_url": "https://openreview.net/forum?id=uBvlUE2wrP",
+      "paper_url": "https://openreview.net/forum?id=uBvlUE2wrP",
+      "authors": [
+        "Hao Zhang",
+        "Yaru Niu",
+        "Yikai Wang",
+        "Ding Zhao",
+        "Eric Tseng"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61049",
+        "https://icml.cc/virtual/2026/oral/71075"
+      ],
+      "oral_session": "Oral 2F Robotics and Multi-agent RL",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71075,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -17140
+        },
+        {
+          "event_id": 61049,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 17140
+        }
+      ]
+    },
+    {
+      "title": "Learning to Theorize the World from Observation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 34203,
+      "openreview_url": "https://openreview.net/forum?id=wsA8LgHU5U",
+      "paper_url": "https://openreview.net/forum?id=wsA8LgHU5U",
+      "authors": [
+        "Doojin Baek",
+        "Gyubin Lee",
+        "Junyeob Baek",
+        "Hosung Lee",
+        "Sungjin Ahn"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60765",
+        "https://icml.cc/virtual/2026/oral/71176"
+      ],
+      "oral_session": "Oral 6C LLM Understanding & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71176,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -34203
+        },
+        {
+          "event_id": 60765,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 34203
+        }
+      ]
+    },
+    {
+      "title": "Learning Unmasking Policies for Diffusion Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 7998,
+      "openreview_url": "https://openreview.net/forum?id=F9NDKf5oPy",
+      "paper_url": "https://openreview.net/forum?id=F9NDKf5oPy",
+      "authors": [
+        "Metod Jazbec",
+        "Theo X. Olausson",
+        "Louis Béthune",
+        "Pierre Ablin",
+        "Michael Kirchhof",
+        "Joao Monteiro",
+        "Victor Guilherme Turrisi da Costa",
+        "Jason Ramapuram",
+        "Marco Cuturi"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65277",
+        "https://icml.cc/virtual/2026/oral/71028"
+      ],
+      "oral_session": "Oral 1A LLM Adaptation and Dataset Selection",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71028,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -7998
+        },
+        {
+          "event_id": 65277,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 7998
+        }
+      ]
+    },
+    {
+      "title": "Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs",
+      "alternate_titles": [
+        "Less is Enough: Synthesizing Diverse Data in LLM Feature Space with Sparse Autoencoders"
+      ],
+      "track": "Conference",
+      "submission_id": 5566,
+      "openreview_url": "https://openreview.net/forum?id=GVupwQ0578",
+      "paper_url": "https://openreview.net/forum?id=GVupwQ0578",
+      "authors": [
+        "Zhongzhi Li",
+        "Xuansheng Wu",
+        "Yijiang Li",
+        "Lijie Hu",
+        "Ninghao Liu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65133",
+        "https://icml.cc/virtual/2026/oral/71029"
+      ],
+      "oral_session": "Oral 1A LLM Adaptation and Dataset Selection",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71029,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -5566
+        },
+        {
+          "event_id": 65133,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 5566
+        }
+      ]
+    },
+    {
+      "title": "Lottery Prior: Randomized Neural Compression for Zero-Shot Inverse Problems",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 26571,
+      "openreview_url": "https://openreview.net/forum?id=YNoQhMrps4",
+      "paper_url": "https://openreview.net/forum?id=YNoQhMrps4",
+      "authors": [
+        "Haotian Wu",
+        "Di You",
+        "Pier Luigi Dragotti",
+        "Deniz Gunduz"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63286",
+        "https://icml.cc/virtual/2026/oral/71097"
+      ],
+      "oral_session": "Oral 3D Computer Vision",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71097,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -26571
+        },
+        {
+          "event_id": 63286,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 26571
+        }
+      ]
+    },
+    {
+      "title": "Markov Chain Monte Carlo without Evaluating the Target: an Auxiliary Variable Approach",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 2845,
+      "openreview_url": "https://openreview.net/forum?id=dDkl5ZcyTl",
+      "paper_url": "https://openreview.net/forum?id=dDkl5ZcyTl",
+      "authors": [
+        "Wei Yuan",
+        "Guanyang Wang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62793",
+        "https://icml.cc/virtual/2026/oral/71137"
+      ],
+      "oral_session": "Oral 4G Time Series Modeling & Sampling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71137,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -2845
+        },
+        {
+          "event_id": 62793,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 2845
+        }
+      ]
+    },
+    {
+      "title": "Maximum Likelihood Reinforcement Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 17973,
+      "openreview_url": "https://openreview.net/forum?id=EeuLO2BjFN",
+      "paper_url": "https://openreview.net/forum?id=EeuLO2BjFN",
+      "authors": [
+        "Fahim Tajwar",
+        "Guanning Zeng",
+        "Yueer Zhou",
+        "Yuda Song",
+        "Daman Arora",
+        "Yiding Jiang",
+        "Jeff Schneider",
+        "Russ Salakhutdinov",
+        "Haiwen Feng",
+        "Andrea Zanette"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65332",
+        "https://icml.cc/virtual/2026/oral/71072"
+      ],
+      "oral_session": "Oral 2E Reinforcement Learning: Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71072,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -17973
+        },
+        {
+          "event_id": 65332,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 17973
+        }
+      ]
+    },
+    {
+      "title": "Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 30425,
+      "openreview_url": "https://openreview.net/forum?id=PQaxfoEcRc",
+      "paper_url": "https://openreview.net/forum?id=PQaxfoEcRc",
+      "authors": [
+        "Jianhui Chen",
+        "Yuzhang Luo",
+        "Liangming Pan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64259",
+        "https://icml.cc/virtual/2026/oral/71094"
+      ],
+      "oral_session": "Oral 3C LLM Social Impact & Interpretability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71094,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -30425
+        },
+        {
+          "event_id": 64259,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 30425
+        }
+      ]
+    },
+    {
+      "title": "Midtraining Bridges Pretraining and Posttraining Distributions",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 28958,
+      "openreview_url": "https://openreview.net/forum?id=5PfEQzE9bf",
+      "paper_url": "https://openreview.net/forum?id=5PfEQzE9bf",
+      "authors": [
+        "Emmy Liu",
+        "Graham Neubig",
+        "Chenyan Xiong"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66254",
+        "https://icml.cc/virtual/2026/oral/71139"
+      ],
+      "oral_session": "Oral 5A LLM Training & Inference Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71139,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -28958
+        },
+        {
+          "event_id": 66254,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 28958
+        }
+      ]
+    },
+    {
+      "title": "Mind Your Margin and Boundary: Are Your Distilled Datasets Truly Robust?",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 5770,
+      "openreview_url": "https://openreview.net/forum?id=Y3K0pPyVcs",
+      "paper_url": "https://openreview.net/forum?id=Y3K0pPyVcs",
+      "authors": [
+        "Muquan Li",
+        "Yingyi Ma",
+        "Yihong Huang",
+        "Hang Gou",
+        "KE QIN",
+        "Ming Li",
+        "Yuan-Fang Li",
+        "Tao He"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63330",
+        "https://icml.cc/virtual/2026/oral/71143"
+      ],
+      "oral_session": "Oral 5B Data-efficient Learning & Distillation",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71143,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -5770
+        },
+        {
+          "event_id": 63330,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 5770
+        }
+      ]
+    },
+    {
+      "title": "Minimax Optimal Strategy for Delayed Observations in Online Reinforcement Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10416,
+      "openreview_url": "https://openreview.net/forum?id=fFupHW7Jqx",
+      "paper_url": "https://openreview.net/forum?id=fFupHW7Jqx",
+      "authors": [
+        "Harin Lee",
+        "Kevin Jamieson"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62587",
+        "https://icml.cc/virtual/2026/oral/71073"
+      ],
+      "oral_session": "Oral 2E Reinforcement Learning: Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71073,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10416
+        },
+        {
+          "event_id": 62587,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10416
+        }
+      ]
+    },
+    {
+      "title": "Mitigating Reward Hacking in RLHF via Bayesian Non-negative Reward Modeling",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 3987,
+      "openreview_url": "https://openreview.net/forum?id=DfhMMHXDuu",
+      "paper_url": "https://openreview.net/forum?id=DfhMMHXDuu",
+      "authors": [
+        "Zhibin Duan",
+        "Guowei Rong",
+        "Zhuo Li",
+        "Bo Chen",
+        "Mingyuan Zhou",
+        "Dandan Guo"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65437",
+        "https://icml.cc/virtual/2026/oral/71087"
+      ],
+      "oral_session": "Oral 3B Reinforcement Learning: RLHF and Post-training",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71087,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -3987
+        },
+        {
+          "event_id": 65437,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 3987
+        }
+      ]
+    },
+    {
+      "title": "Mixtures Closest To A Given Measure: A Semidefinite Programming Approach",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 21667,
+      "openreview_url": "https://openreview.net/forum?id=0JDzkrKzaA",
+      "paper_url": "https://openreview.net/forum?id=0JDzkrKzaA",
+      "authors": [
+        "Srećko Ðurašinović",
+        "Jean B Lasserre",
+        "Victor Magron"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66790",
+        "https://icml.cc/virtual/2026/oral/71052"
+      ],
+      "oral_session": "Oral 1G Optimization & Games",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71052,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -21667
+        },
+        {
+          "event_id": 66790,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 21667
+        }
+      ]
+    },
+    {
+      "title": "Modeling Hierarchical Thinking in Large Reasoning Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 28662,
+      "openreview_url": "https://openreview.net/forum?id=N44P3zrrgO",
+      "paper_url": "https://openreview.net/forum?id=N44P3zrrgO",
+      "authors": [
+        "G M Shahariar",
+        "Erfan Shayegani",
+        "Ali Nazari",
+        "Nael Abu-Ghazaleh"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64487",
+        "https://icml.cc/virtual/2026/oral/71121"
+      ],
+      "oral_session": "Oral 4C LLM Alignment & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71121,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -28662
+        },
+        {
+          "event_id": 64487,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 28662
+        }
+      ]
+    },
+    {
+      "title": "Monitoring Monitorability",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 30711,
+      "openreview_url": "https://openreview.net/forum?id=b82fgbMVpz",
+      "paper_url": "https://openreview.net/forum?id=b82fgbMVpz",
+      "authors": [
+        "Melody Guan",
+        "Miles Wang",
+        "Micah Carroll",
+        "Zehao Dou",
+        "Annie Wei",
+        "Marcus Williams",
+        "Benjamin Arnav",
+        "Joost Huizinga",
+        "Ian Kivlichan",
+        "Amelia Glaese",
+        "Jakub Pachocki",
+        "Bowen Baker"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62992",
+        "https://icml.cc/virtual/2026/oral/71064"
+      ],
+      "oral_session": "Oral 2C AI Safety & Alignment",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71064,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -30711
+        },
+        {
+          "event_id": 62992,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 30711
+        }
+      ]
+    },
+    {
+      "title": "Motion Attribution for Video Generation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 19206,
+      "openreview_url": "https://openreview.net/forum?id=zAl9heLw4q",
+      "paper_url": "https://openreview.net/forum?id=zAl9heLw4q",
+      "authors": [
+        "Xindi Wu",
+        "Despoina Paschalidou",
+        "Jun Gao",
+        "Antonio Torralba",
+        "Laura Leal-Taixé",
+        "Olga Russakovsky",
+        "Sanja Fidler",
+        "Jonathan Lorraine"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60542",
+        "https://icml.cc/virtual/2026/oral/71049"
+      ],
+      "oral_session": "Oral 1F Vision-Language Models & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71049,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -19206
+        },
+        {
+          "event_id": 60542,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 19206
+        }
+      ]
+    },
+    {
+      "title": "Multimodal Nested Learning for Decoupled and Coordinated Optimization",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 2958,
+      "openreview_url": "https://openreview.net/forum?id=8XOncDWc5j",
+      "paper_url": "https://openreview.net/forum?id=8XOncDWc5j",
+      "authors": [
+        "Yanglin Feng",
+        "Yang Qin",
+        "Dezhong Peng",
+        "Rui Wang",
+        "Xiaomin Song",
+        "Peng Hu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65954",
+        "https://icml.cc/virtual/2026/oral/71041"
+      ],
+      "oral_session": "Oral 1D DL: Representations & Distributions",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71041,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -2958
+        },
+        {
+          "event_id": 65954,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 2958
+        }
+      ]
+    },
+    {
+      "title": "MuonSSM: Orthogonalizing State Space Models for Sequence Modeling",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 20651,
+      "openreview_url": "https://openreview.net/forum?id=GmP3VcfHi0",
+      "paper_url": "https://openreview.net/forum?id=GmP3VcfHi0",
+      "authors": [
+        "Thai Khanh Nguyen",
+        "Uyen N.B. Vo",
+        "Thieu Vo",
+        "Tan Nguyen",
+        "Cuong Pham"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65102",
+        "https://icml.cc/virtual/2026/oral/71058"
+      ],
+      "oral_session": "Oral 2A DL: Architectures & Inference",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71058,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -20651
+        },
+        {
+          "event_id": 65102,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 20651
+        }
+      ]
+    },
+    {
+      "title": "MV-FGAD: Towards Efficient and Effective Federated Graph Anomaly Detection via Multi-view Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 8777,
+      "openreview_url": "https://openreview.net/forum?id=yBcY0bY45t",
+      "paper_url": "https://openreview.net/forum?id=yBcY0bY45t",
+      "authors": [
+        "Junyi Yan",
+        "KE LIANG",
+        "Hao Yu",
+        "Meng Liu",
+        "Hao Tan",
+        "Tianrui Liu",
+        "Jun-Jie Huang",
+        "Xinwang Liu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60641",
+        "https://icml.cc/virtual/2026/oral/71160"
+      ],
+      "oral_session": "Oral 5F Graph & Federated Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71160,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -8777
+        },
+        {
+          "event_id": 60641,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 8777
+        }
+      ]
+    },
+    {
+      "title": "Nash Equilibria in Games with Playerwise Concave Coupling Constraints: Existence and Computation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 9364,
+      "openreview_url": "https://openreview.net/forum?id=BGmc3O41ZH",
+      "paper_url": "https://openreview.net/forum?id=BGmc3O41ZH",
+      "authors": [
+        "Philip Jordan",
+        "Maryam Kamgarpour"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65678",
+        "https://icml.cc/virtual/2026/oral/71185"
+      ],
+      "oral_session": "Oral 6E Game Theory & Big Tech",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71185,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -9364
+        },
+        {
+          "event_id": 65678,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 9364
+        }
+      ]
+    },
+    {
+      "title": "Necessary Conditions for Compositional Generalization of Embedding Models",
+      "alternate_titles": [
+        "Compositional Generalization Requires Linear, Orthogonal Representations in Vision Embedding Models"
+      ],
+      "track": "Conference",
+      "submission_id": 805,
+      "openreview_url": "https://openreview.net/forum?id=AQZZWVp6XA",
+      "paper_url": "https://openreview.net/forum?id=AQZZWVp6XA",
+      "authors": [
+        "Arnas Uselis",
+        "Andrea Dittadi",
+        "Seong Joon Oh"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65761",
+        "https://icml.cc/virtual/2026/oral/71155"
+      ],
+      "oral_session": "Oral 5E Theory: Optimization, Generalization, Privacy",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71155,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -805
+        },
+        {
+          "event_id": 65761,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 805
+        }
+      ]
+    },
+    {
+      "title": "Non-Euclidean Gradient Descent Operates at the Edge of Stability",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 21595,
+      "openreview_url": "https://openreview.net/forum?id=piWlEHb4Db",
+      "paper_url": "https://openreview.net/forum?id=piWlEHb4Db",
+      "authors": [
+        "Rustem Islamov",
+        "Michael Crawshaw",
+        "Jeremy Cohen",
+        "Robert Gower"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61486",
+        "https://icml.cc/virtual/2026/oral/71156"
+      ],
+      "oral_session": "Oral 5E Theory: Optimization, Generalization, Privacy",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71156,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -21595
+        },
+        {
+          "event_id": 61486,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 21595
+        }
+      ]
+    },
+    {
+      "title": "OMAC: A Holistic Optimization Framework for LLM-Based Multi-Agent Collaboration",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 3669,
+      "openreview_url": "https://openreview.net/forum?id=6C4YQcq8YX",
+      "paper_url": "https://openreview.net/forum?id=6C4YQcq8YX",
+      "authors": [
+        "Shijun Li",
+        "Hilaf Hasson",
+        "Joydeep Ghosh"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66164",
+        "https://icml.cc/virtual/2026/oral/71174"
+      ],
+      "oral_session": "Oral 6B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71174,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -3669
+        },
+        {
+          "event_id": 66164,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 3669
+        }
+      ]
+    },
+    {
+      "title": "On Computation and Reinforcement Learning",
+      "alternate_titles": [
+        "On the Role of Computation in Reinforcement Learning"
+      ],
+      "track": "Conference",
+      "submission_id": 28913,
+      "openreview_url": "https://openreview.net/forum?id=HKzMnBX5B2",
+      "paper_url": "https://openreview.net/forum?id=HKzMnBX5B2",
+      "authors": [
+        "Raj Ghugare",
+        "Michał Bortkiewicz",
+        "Alicja Ziarko",
+        "Benjamin Eysenbach"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65047",
+        "https://icml.cc/virtual/2026/oral/71148"
+      ],
+      "oral_session": "Oral 5C Reinforcement Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71148,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -28913
+        },
+        {
+          "event_id": 65047,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 28913
+        }
+      ]
+    },
+    {
+      "title": "On Minimum Depth and Width of Floating-Point Neural Networks for Representing Floating-Point Functions",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 23834,
+      "openreview_url": "https://openreview.net/forum?id=8IxY2DUiBi",
+      "paper_url": "https://openreview.net/forum?id=8IxY2DUiBi",
+      "authors": [
+        "Sejun Park",
+        "Yeachan Park",
+        "Geonho Hwang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65974",
+        "https://icml.cc/virtual/2026/oral/71081"
+      ],
+      "oral_session": "Oral 2G Theory: Deep Learning Expressivity",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71081,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -23834
+        },
+        {
+          "event_id": 65974,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 23834
+        }
+      ]
+    },
+    {
+      "title": "On the Convergence Rate of LoRA Gradient Descent",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10345,
+      "openreview_url": "https://openreview.net/forum?id=9GRlBVAXq8",
+      "paper_url": "https://openreview.net/forum?id=9GRlBVAXq8",
+      "authors": [
+        "Siqiao Mu",
+        "Diego Klabjan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65870",
+        "https://icml.cc/virtual/2026/oral/71053"
+      ],
+      "oral_session": "Oral 1G Optimization & Games",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71053,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10345
+        },
+        {
+          "event_id": 65870,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10345
+        }
+      ]
+    },
+    {
+      "title": "On the Difficulty of Learning a Meta-network for Training Data Selection",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 9458,
+      "openreview_url": "https://openreview.net/forum?id=RzgNmKi5Hw",
+      "paper_url": "https://openreview.net/forum?id=RzgNmKi5Hw",
+      "authors": [
+        "Zilin Du",
+        "Junqi Zhao",
+        "Albert Boyang Li"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63990",
+        "https://icml.cc/virtual/2026/oral/71144"
+      ],
+      "oral_session": "Oral 5B Data-efficient Learning & Distillation",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71144,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -9458
+        },
+        {
+          "event_id": 63990,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 9458
+        }
+      ]
+    },
+    {
+      "title": "On the Identifiability of Poisson Branching Structural Causal Model Under Latent Confounding",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 16405,
+      "openreview_url": "https://openreview.net/forum?id=73YmKB7KpW",
+      "paper_url": "https://openreview.net/forum?id=73YmKB7KpW",
+      "authors": [
+        "Jie Qiao",
+        "Zihuai Zeng",
+        "Ruichu Cai",
+        "Zhengming Chen",
+        "Zhifeng Hao"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66099",
+        "https://icml.cc/virtual/2026/oral/71126"
+      ],
+      "oral_session": "Oral 4D Causal & Probabilistic Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71126,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -16405
+        },
+        {
+          "event_id": 66099,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 16405
+        }
+      ]
+    },
+    {
+      "title": "On the Limits of LLM Adaptability: Impact of LLM Pre-Training on Annotation Task Performance",
+      "alternate_titles": [
+        "On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance"
+      ],
+      "track": "Conference",
+      "submission_id": 29276,
+      "openreview_url": "https://openreview.net/forum?id=oTv2bKG5Qg",
+      "paper_url": "https://openreview.net/forum?id=oTv2bKG5Qg",
+      "authors": [
+        "Etienne Casanova",
+        "Rafal Kocielnik",
+        "R. Michael Alvarez"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61615",
+        "https://icml.cc/virtual/2026/oral/71177"
+      ],
+      "oral_session": "Oral 6C LLM Understanding & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71177,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29276
+        },
+        {
+          "event_id": 61615,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29276
+        }
+      ]
+    },
+    {
+      "title": "Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger Bridges",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 12849,
+      "openreview_url": "https://openreview.net/forum?id=Cxdj2GYZ4c",
+      "paper_url": "https://openreview.net/forum?id=Cxdj2GYZ4c",
+      "authors": [
+        "Usman A Khan",
+        "Joseph Durham"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65504",
+        "https://icml.cc/virtual/2026/oral/71076"
+      ],
+      "oral_session": "Oral 2F Robotics and Multi-agent RL",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71076,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -12849
+        },
+        {
+          "event_id": 65504,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 12849
+        }
+      ]
+    },
+    {
+      "title": "Optimal Decision-Making Based on Prediction Sets",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 28664,
+      "openreview_url": "https://openreview.net/forum?id=VAXW59dyfk",
+      "paper_url": "https://openreview.net/forum?id=VAXW59dyfk",
+      "authors": [
+        "Tao Wang",
+        "Edgar Dobriban"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63638",
+        "https://icml.cc/virtual/2026/oral/71074"
+      ],
+      "oral_session": "Oral 2E Reinforcement Learning: Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71074,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -28664
+        },
+        {
+          "event_id": 63638,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 28664
+        }
+      ]
+    },
+    {
+      "title": "OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 1265,
+      "openreview_url": "https://openreview.net/forum?id=lcLxGrk5N9",
+      "paper_url": "https://openreview.net/forum?id=lcLxGrk5N9",
+      "authors": [
+        "Shaobo Wang",
+        "Xuan Ouyang",
+        "Tianyi Xu",
+        "Yuzheng Hu",
+        "Jialin Liu",
+        "Guo Chen",
+        "Tianyu Zhang",
+        "Junhao Zheng",
+        "Kexin Yang",
+        "Xingzhang Ren",
+        "Dayiheng Liu",
+        "Linfeng Zhang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61926",
+        "https://icml.cc/virtual/2026/oral/71030"
+      ],
+      "oral_session": "Oral 1A LLM Adaptation and Dataset Selection",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71030,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -1265
+        },
+        {
+          "event_id": 61926,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 1265
+        }
+      ]
+    },
+    {
+      "title": "Orthogonal Concept Erasure for Diffusion Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 20003,
+      "openreview_url": "https://openreview.net/forum?id=VE2aKpTWrK",
+      "paper_url": "https://openreview.net/forum?id=VE2aKpTWrK",
+      "authors": [
+        "Yuhao Sun",
+        "Lingyun Yu",
+        "Hao-Xiang Xu",
+        "Fengyuan Miao",
+        "Zhuoer Xu",
+        "Hongtao Xie"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63634",
+        "https://icml.cc/virtual/2026/oral/71189"
+      ],
+      "oral_session": "Oral 6F Social Impacts: GenAI & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71189,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -20003
+        },
+        {
+          "event_id": 63634,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 20003
+        }
+      ]
+    },
+    {
+      "title": "Path-dependent Discrete Amortized Inference",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 17782,
+      "openreview_url": "https://openreview.net/forum?id=viJvYPJHIj",
+      "paper_url": "https://openreview.net/forum?id=viJvYPJHIj",
+      "authors": [
+        "Tiago Silva",
+        "Esmeralda S. Whitammer",
+        "Salem Lahlou"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60879",
+        "https://icml.cc/virtual/2026/oral/71138"
+      ],
+      "oral_session": "Oral 4G Time Series Modeling & Sampling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71138,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -17782
+        },
+        {
+          "event_id": 60879,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 17782
+        }
+      ]
+    },
+    {
+      "title": "PhenoBrain: Phenotype-Conditioned Long-Range Communication for Multi-Modal Brain Network Analysis",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10058,
+      "openreview_url": "https://openreview.net/forum?id=9NqKL9QQ4a",
+      "paper_url": "https://openreview.net/forum?id=9NqKL9QQ4a",
+      "authors": [
+        "Lingyuan Meng",
+        "KE LIANG",
+        "Hao Li",
+        "Meng Liu",
+        "Weijia Shi",
+        "Miaomiao Li",
+        "Yang Gao",
+        "Xinwang Liu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65858",
+        "https://icml.cc/virtual/2026/oral/71161"
+      ],
+      "oral_session": "Oral 5F Graph & Federated Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71161,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10058
+        },
+        {
+          "event_id": 65858,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10058
+        }
+      ]
+    },
+    {
+      "title": "PhotoAgent: Exploratory Visual Aesthetic Planning with Large Vision Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 9216,
+      "openreview_url": "https://openreview.net/forum?id=Ws8swqL5ob",
+      "paper_url": "https://openreview.net/forum?id=Ws8swqL5ob",
+      "authors": [
+        "Mingde Yao",
+        "Zhiyuan You",
+        "King-Man Tam",
+        "Menglu Wang",
+        "Tianfan Xue"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63474",
+        "https://icml.cc/virtual/2026/oral/71050"
+      ],
+      "oral_session": "Oral 1F Vision-Language Models & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71050,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -9216
+        },
+        {
+          "event_id": 63474,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 9216
+        }
+      ]
+    },
+    {
+      "title": "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 4224,
+      "openreview_url": "https://openreview.net/forum?id=et8jpWLUuD",
+      "paper_url": "https://openreview.net/forum?id=et8jpWLUuD",
+      "authors": [
+        "Zeju Qiu",
+        "Lixin LIU",
+        "Adrian Weller",
+        "Han Shi",
+        "Weiyang Liu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62626",
+        "https://icml.cc/virtual/2026/oral/71112"
+      ],
+      "oral_session": "Oral 4A LLM Training & Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71112,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -4224
+        },
+        {
+          "event_id": 62626,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 4224
+        }
+      ]
+    },
+    {
+      "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 27200,
+      "openreview_url": "https://openreview.net/forum?id=IkjsHRpuYY",
+      "paper_url": "https://openreview.net/forum?id=IkjsHRpuYY",
+      "authors": [
+        "Hanlin Zhang",
+        "Jikai Jin",
+        "Vasilis Syrgkanis",
+        "Sham Kakade"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64901",
+        "https://icml.cc/virtual/2026/oral/71169"
+      ],
+      "oral_session": "Oral 6A LLMs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71169,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -27200
+        },
+        {
+          "event_id": 64901,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 27200
+        }
+      ]
+    },
+    {
+      "title": "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 7365,
+      "openreview_url": "https://openreview.net/forum?id=VzdSHEab4G",
+      "paper_url": "https://openreview.net/forum?id=VzdSHEab4G",
+      "authors": [
+        "Huihan Liu",
+        "Changyeon Kim",
+        "Bo Liu",
+        "Minghuan Liu",
+        "Yuke Zhu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63561",
+        "https://icml.cc/virtual/2026/oral/71117"
+      ],
+      "oral_session": "Oral 4B Robotics: Vision-Language-Action Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71117,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -7365
+        },
+        {
+          "event_id": 63561,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 7365
+        }
+      ]
+    },
+    {
+      "title": "PRISM: Gauge-Invariant Tangent-Space Differentially Private LoRA",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 27245,
+      "openreview_url": "https://openreview.net/forum?id=SiCjKmArjQ",
+      "paper_url": "https://openreview.net/forum?id=SiCjKmArjQ",
+      "authors": [
+        "Shihao Wang",
+        "Xueru Zhang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63899",
+        "https://icml.cc/virtual/2026/oral/71157"
+      ],
+      "oral_session": "Oral 5E Theory: Optimization, Generalization, Privacy",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71157,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -27245
+        },
+        {
+          "event_id": 63899,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 27245
+        }
+      ]
+    },
+    {
+      "title": "Privacy-Aware Video Anomaly Detection: Guided Orthogonal Projection and a Comprehensive Evaluation Framework",
+      "alternate_titles": [
+        "Privacy-Aware Video Anomaly Detection through Orthogonal Subspace Projection"
+      ],
+      "track": "Conference",
+      "submission_id": 20966,
+      "openreview_url": "https://openreview.net/forum?id=fjUUmUCy9m",
+      "paper_url": "https://openreview.net/forum?id=fjUUmUCy9m",
+      "authors": [
+        "Wenxiang Diao",
+        "Lei Wang",
+        "Andrew Busch",
+        "Jun Zhou",
+        "Yongsheng Gao"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62535",
+        "https://icml.cc/virtual/2026/oral/71190"
+      ],
+      "oral_session": "Oral 6F Social Impacts: GenAI & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71190,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -20966
+        },
+        {
+          "event_id": 62535,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 20966
+        }
+      ]
+    },
+    {
+      "title": "Procedural Pretraining: Warming Up Language Models with Abstract Data",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 14639,
+      "openreview_url": "https://openreview.net/forum?id=XFTTezxLdU",
+      "paper_url": "https://openreview.net/forum?id=XFTTezxLdU",
+      "authors": [
+        "Liangze Jiang",
+        "Zachary Shinnick",
+        "Anton Hengel",
+        "Hemanth Saratchandran",
+        "Damien Teney"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63432",
+        "https://icml.cc/virtual/2026/oral/71170"
+      ],
+      "oral_session": "Oral 6A LLMs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71170,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -14639
+        },
+        {
+          "event_id": 63432,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 14639
+        }
+      ]
+    },
+    {
+      "title": "Protein Autoregressive Modeling via Multiscale Structure Generation",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 19327,
+      "openreview_url": "https://openreview.net/forum?id=08tW615mgI",
+      "paper_url": "https://openreview.net/forum?id=08tW615mgI",
+      "authors": [
+        "Yanru Qu",
+        "Cheng-Yen Hsieh",
+        "Zaixiang Zheng",
+        "Ge Liu",
+        "Quanquan Gu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66808",
+        "https://icml.cc/virtual/2026/oral/71037"
+      ],
+      "oral_session": "Oral 1C AI for Science: Proteins and Genomic Sequences",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71037,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -19327
+        },
+        {
+          "event_id": 66808,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 19327
+        }
+      ]
+    },
+    {
+      "title": "Protein Fold Classification at Scale: Benchmarking and Pretraining",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 27393,
+      "openreview_url": "https://openreview.net/forum?id=jPKqiaPTEd",
+      "paper_url": "https://openreview.net/forum?id=jPKqiaPTEd",
+      "authors": [
+        "Dexiong Chen",
+        "Andrei Manolache",
+        "Mathias Niepert",
+        "Karsten Borgwardt"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62145",
+        "https://icml.cc/virtual/2026/oral/71038"
+      ],
+      "oral_session": "Oral 1C AI for Science: Proteins and Genomic Sequences",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71038,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -27393
+        },
+        {
+          "event_id": 62145,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 27393
+        }
+      ]
+    },
+    {
+      "title": "Quantifying Frontier LLM Capabilities for Container Sandbox Escape",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 34047,
+      "openreview_url": "https://openreview.net/forum?id=19AbP986bv",
+      "paper_url": "https://openreview.net/forum?id=19AbP986bv",
+      "authors": [
+        "Rahul Marchand",
+        "Art Cathain",
+        "Jerome Wynne",
+        "Philippos Giavridis",
+        "Sam Deverett",
+        "John Wilkinson",
+        "Jason Gwartz",
+        "Harry Coppock"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66709",
+        "https://icml.cc/virtual/2026/oral/71104"
+      ],
+      "oral_session": "Oral 3F AI Safety & Jailbreaks",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71104,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -34047
+        },
+        {
+          "event_id": 66709,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 34047
+        }
+      ]
+    },
+    {
+      "title": "Rare Event Analysis of Large Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 25239,
+      "openreview_url": "https://openreview.net/forum?id=2RJN5vDHG0",
+      "paper_url": "https://openreview.net/forum?id=2RJN5vDHG0",
+      "authors": [
+        "Jake McAllister Dorman",
+        "Edward Gillman",
+        "Dominic C Rose",
+        "Jamie Mair",
+        "Juan Garrahan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66583",
+        "https://icml.cc/virtual/2026/oral/71154"
+      ],
+      "oral_session": "Oral 5D AI Evaluation & Methodology",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71154,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -25239
+        },
+        {
+          "event_id": 66583,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 25239
+        }
+      ]
+    },
+    {
+      "title": "Rational Transductors",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10387,
+      "openreview_url": "https://openreview.net/forum?id=uEZpyELNuB",
+      "paper_url": "https://openreview.net/forum?id=uEZpyELNuB",
+      "authors": [
+        "Mehryar Mohri"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61046",
+        "https://icml.cc/virtual/2026/oral/71133"
+      ],
+      "oral_session": "Oral 4F Learning Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71133,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10387
+        },
+        {
+          "event_id": 61046,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10387
+        }
+      ]
+    },
+    {
+      "title": "Reinforcement Learning with Evolving Rubrics for Deep Research",
+      "alternate_titles": [
+        "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research"
+      ],
+      "track": "Conference",
+      "submission_id": 8746,
+      "openreview_url": "https://openreview.net/forum?id=97NEP1pyS3",
+      "paper_url": "https://openreview.net/forum?id=97NEP1pyS3",
+      "authors": [
+        "Rulin Shao",
+        "Akari Asai",
+        "Shannon Shen",
+        "Hamish Ivison",
+        "Varsha Kishore",
+        "Jingming Zhuo",
+        "Xinran Zhao",
+        "Molly Park",
+        "Samuel Finlayson",
+        "David Sontag",
+        "Tyler Murray",
+        "Sewon Min",
+        "Pradeep Dasigi",
+        "Luca Soldaini",
+        "Faeze Brahman",
+        "Scott Yih",
+        "Sherry Wu",
+        "Luke Zettlemoyer",
+        "Yoon Kim",
+        "Hannaneh Hajishirzi",
+        "Pang Wei Koh"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65886",
+        "https://icml.cc/virtual/2026/oral/71088"
+      ],
+      "oral_session": "Oral 3B Reinforcement Learning: RLHF and Post-training",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71088,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -8746
+        },
+        {
+          "event_id": 65886,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 8746
+        }
+      ]
+    },
+    {
+      "title": "ReQAT: Achieving Full-Precision Reasoning Accuracy with 4-bit Floating-Point Quantization-Aware Training",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 15241,
+      "openreview_url": "https://openreview.net/forum?id=aKY52fnzgc",
+      "paper_url": "https://openreview.net/forum?id=aKY52fnzgc",
+      "authors": [
+        "Janghwan Lee",
+        "Sihwa Lee",
+        "Jinseok Kim",
+        "Yongjik Kim",
+        "Jieun Lim",
+        "Jinwook Oh",
+        "Jungwook Choi"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63073",
+        "https://icml.cc/virtual/2026/oral/71113"
+      ],
+      "oral_session": "Oral 4A LLM Training & Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71113,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -15241
+        },
+        {
+          "event_id": 63073,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 15241
+        }
+      ]
+    },
+    {
+      "title": "Revenue Efficiency of Correlated Equilibria in First Price Auctions",
+      "alternate_titles": [
+        "Revenue Guarantees of No-Swap-Regret Dynamics in First Price Auctions"
+      ],
+      "track": "Conference",
+      "submission_id": 16108,
+      "openreview_url": "https://openreview.net/forum?id=n50Ipdt5d5",
+      "paper_url": "https://openreview.net/forum?id=n50Ipdt5d5",
+      "authors": [
+        "Anders Bo Ipsen",
+        "Stratis Skoulakis"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61773",
+        "https://icml.cc/virtual/2026/oral/71054"
+      ],
+      "oral_session": "Oral 1G Optimization & Games",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71054,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -16108
+        },
+        {
+          "event_id": 61773,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 16108
+        }
+      ]
+    },
+    {
+      "title": "ReViT: Rotational-equivariant Vision Transformers for Neural PDE Solvers",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 3165,
+      "openreview_url": "https://openreview.net/forum?id=fy2IXBBThK",
+      "paper_url": "https://openreview.net/forum?id=fy2IXBBThK",
+      "authors": [
+        "Hao Wei",
+        "Björn List",
+        "Nils Thuerey"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62510",
+        "https://icml.cc/virtual/2026/oral/71068"
+      ],
+      "oral_session": "Oral 2D AI for Science: Differential Equations & Molecular Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71068,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -3165
+        },
+        {
+          "event_id": 62510,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 3165
+        }
+      ]
+    },
+    {
+      "title": "Reward-free Alignment for Conflicting Objectives",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 2,
+      "openreview_url": "https://openreview.net/forum?id=vSzRJyg6k0",
+      "paper_url": "https://openreview.net/forum?id=vSzRJyg6k0",
+      "authors": [
+        "Peter Chen",
+        "Xiaopeng Li",
+        "Xi Chen",
+        "Tianyi Lin"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60903",
+        "https://icml.cc/virtual/2026/oral/71122"
+      ],
+      "oral_session": "Oral 4C LLM Alignment & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71122,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -2
+        },
+        {
+          "event_id": 60903,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 2
+        }
+      ]
+    },
+    {
+      "title": "Rex: A Family of Reversible Exponential (Stochastic) Runge-Kutta Solvers",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 18066,
+      "openreview_url": "https://openreview.net/forum?id=7pQIzVNctu",
+      "paper_url": "https://openreview.net/forum?id=7pQIzVNctu",
+      "authors": [
+        "Zander Blasingame",
+        "Chen Liu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66025",
+        "https://icml.cc/virtual/2026/oral/71069"
+      ],
+      "oral_session": "Oral 2D AI for Science: Differential Equations & Molecular Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71069,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -18066
+        },
+        {
+          "event_id": 66025,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 18066
+        }
+      ]
+    },
+    {
+      "title": "Riemannian Metric Matching for Scalable Geometric Modeling of Distributions",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 27386,
+      "openreview_url": "https://openreview.net/forum?id=KVzXnWPLgX",
+      "paper_url": "https://openreview.net/forum?id=KVzXnWPLgX",
+      "authors": [
+        "Jacob Bamberger",
+        "Adam Gosztolai",
+        "Pierre Vandergheynst",
+        "Michael Bronstein",
+        "Iolo Jones"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64721",
+        "https://icml.cc/virtual/2026/oral/71042"
+      ],
+      "oral_session": "Oral 1D DL: Representations & Distributions",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71042,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -27386
+        },
+        {
+          "event_id": 64721,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 27386
+        }
+      ]
+    },
+    {
+      "title": "RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 30319,
+      "openreview_url": "https://openreview.net/forum?id=8m30ogkPk2",
+      "paper_url": "https://openreview.net/forum?id=8m30ogkPk2",
+      "authors": [
+        "Yinpei Dai",
+        "Hongze Fu",
+        "Jayjun Lee",
+        "Yuejiang Liu",
+        "Haoran Zhang",
+        "Jianing Yang",
+        "Chelsea Finn",
+        "Nima Fazeli",
+        "Joyce Chai"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65933",
+        "https://icml.cc/virtual/2026/oral/71077"
+      ],
+      "oral_session": "Oral 2F Robotics and Multi-agent RL",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71077,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -30319
+        },
+        {
+          "event_id": 65933,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 30319
+        }
+      ]
+    },
+    {
+      "title": "Robust Contextual Optimization with Missing Covariates",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 18320,
+      "openreview_url": "https://openreview.net/forum?id=37KrsS7g7c",
+      "paper_url": "https://openreview.net/forum?id=37KrsS7g7c",
+      "authors": [
+        "Qingyuan Xu",
+        "Ruiwei Jiang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66499",
+        "https://icml.cc/virtual/2026/oral/71158"
+      ],
+      "oral_session": "Oral 5E Theory: Optimization, Generalization, Privacy",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71158,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -18320
+        },
+        {
+          "event_id": 66499,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 18320
+        }
+      ]
+    },
+    {
+      "title": "Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 24796,
+      "openreview_url": "https://openreview.net/forum?id=LTF6LtBo0E",
+      "paper_url": "https://openreview.net/forum?id=LTF6LtBo0E",
+      "authors": [
+        "Yanchen Yin",
+        "Dongqi Han",
+        "Linghui Li"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64633",
+        "https://icml.cc/virtual/2026/oral/71105"
+      ],
+      "oral_session": "Oral 3F AI Safety & Jailbreaks",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71105,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -24796
+        },
+        {
+          "event_id": 64633,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 24796
+        }
+      ]
+    },
+    {
+      "title": "Scalable Event Cloud Network for Event-based Classification",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 24135,
+      "openreview_url": "https://openreview.net/forum?id=yAAUcDLYMR",
+      "paper_url": "https://openreview.net/forum?id=yAAUcDLYMR",
+      "authors": [
+        "Hongwei Ren",
+        "Fei Ma",
+        "Xiaopeng LIN",
+        "Yuetong Fang",
+        "Hongxiang Huang",
+        "Yue Zhou",
+        "Yulong Huang",
+        "Haotian FU",
+        "Ziyi Yang",
+        "Youxin Jiang",
+        "Xiangqian Wu",
+        "Bojun Cheng"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60645",
+        "https://icml.cc/virtual/2026/oral/71098"
+      ],
+      "oral_session": "Oral 3D Computer Vision",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71098,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -24135
+        },
+        {
+          "event_id": 60645,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 24135
+        }
+      ]
+    },
+    {
+      "title": "Second-Order Smooth Planning with Optimal-Transport Bellman Smoothing",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 34048,
+      "openreview_url": "https://openreview.net/forum?id=LrNH0O3s45",
+      "paper_url": "https://openreview.net/forum?id=LrNH0O3s45",
+      "authors": [
+        "Tuan Dam"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64595",
+        "https://icml.cc/virtual/2026/oral/71149"
+      ],
+      "oral_session": "Oral 5C Reinforcement Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71149,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -34048
+        },
+        {
+          "event_id": 64595,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 34048
+        }
+      ]
+    },
+    {
+      "title": "Simultaneous Speech-to-Speech Translation Without Aligned Data",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 12388,
+      "openreview_url": "https://openreview.net/forum?id=76XSBLdBdg",
+      "paper_url": "https://openreview.net/forum?id=76XSBLdBdg",
+      "authors": [
+        "Tom Labiausse",
+        "Romain Fabre",
+        "Yannick Estève",
+        "Alexandre Défossez",
+        "Neil Zeghidour"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66094",
+        "https://icml.cc/virtual/2026/oral/71089"
+      ],
+      "oral_session": "Oral 3B Reinforcement Learning: RLHF and Post-training",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71089,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -12388
+        },
+        {
+          "event_id": 66094,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 12388
+        }
+      ]
+    },
+    {
+      "title": "Skip a Layer or Loop It? Learning Program-of-Layers in LLMs",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 1388,
+      "openreview_url": "https://openreview.net/forum?id=pl10b6EQAN",
+      "paper_url": "https://openreview.net/forum?id=pl10b6EQAN",
+      "authors": [
+        "Ziyue Li",
+        "Yang Li",
+        "Tianyi Zhou"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61483",
+        "https://icml.cc/virtual/2026/oral/71114"
+      ],
+      "oral_session": "Oral 4A LLM Training & Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71114,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -1388
+        },
+        {
+          "event_id": 61483,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 1388
+        }
+      ]
+    },
+    {
+      "title": "SoftJAX & SoftTorch: Empowering Automatic Differentiation Libraries with Informative Gradients",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 28291,
+      "openreview_url": "https://openreview.net/forum?id=RKHDV40omz",
+      "paper_url": "https://openreview.net/forum?id=RKHDV40omz",
+      "authors": [
+        "Anselm Paulus",
+        "Andreas René Geist",
+        "Vit Musil",
+        "Sebastian Hoffmann",
+        "Georg Martius"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64057",
+        "https://icml.cc/virtual/2026/oral/71182"
+      ],
+      "oral_session": "Oral 6D Scalability, Software, Hardware",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71182,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -28291
+        },
+        {
+          "event_id": 64057,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 28291
+        }
+      ]
+    },
+    {
+      "title": "Solving Time-Dependent Differential Equations with Physical Dynamical Systems",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 20509,
+      "openreview_url": "https://openreview.net/forum?id=0YHSZPkMp8",
+      "paper_url": "https://openreview.net/forum?id=0YHSZPkMp8",
+      "authors": [
+        "Chuan Liu",
+        "Yijie Chen",
+        "Ruibing Song",
+        "Wenhao Huang",
+        "Chunshu Wu",
+        "Deqian Kong",
+        "Ying Nian Wu",
+        "Kaiyuan Yang",
+        "Ang Li",
+        "Tony Geng"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66760",
+        "https://icml.cc/virtual/2026/oral/71129"
+      ],
+      "oral_session": "Oral 4E AI for Science: Dynamical Systems and Processes",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71129,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -20509
+        },
+        {
+          "event_id": 66760,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 20509
+        }
+      ]
+    },
+    {
+      "title": "SpatioLM: Towards General Physical Spatial Intelligence in Vision-Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 12457,
+      "openreview_url": "https://openreview.net/forum?id=CHavqrN1X9",
+      "paper_url": "https://openreview.net/forum?id=CHavqrN1X9",
+      "authors": [
+        "jing wu",
+        "Jianhua Wu",
+        "Jiayi Guan",
+        "Jiahong Chen",
+        "Jinghui Lu",
+        "Hangjun Ye",
+        "Bingzhao Gao",
+        "Long Chen"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65576",
+        "https://icml.cc/virtual/2026/oral/71166"
+      ],
+      "oral_session": "Oral 5G Spatial Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71166,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -12457
+        },
+        {
+          "event_id": 65576,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 12457
+        }
+      ]
+    },
+    {
+      "title": "Stabilizing the Q-Gradient Field for Policy Smoothness in Actor-Critic Methods",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 15092,
+      "openreview_url": "https://openreview.net/forum?id=UpA00uD6Ek",
+      "paper_url": "https://openreview.net/forum?id=UpA00uD6Ek",
+      "authors": [
+        "Jeong Woon Lee",
+        "Kyoleen Kwak",
+        "Daeho Kim",
+        "Hyoseok Hwang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63664",
+        "https://icml.cc/virtual/2026/oral/71150"
+      ],
+      "oral_session": "Oral 5C Reinforcement Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71150,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -15092
+        },
+        {
+          "event_id": 63664,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 15092
+        }
+      ]
+    },
+    {
+      "title": "Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29624,
+      "openreview_url": "https://openreview.net/forum?id=ds3ZOevkwx",
+      "paper_url": "https://openreview.net/forum?id=ds3ZOevkwx",
+      "authors": [
+        "Lukasz Borchmann",
+        "Jordy Van Landeghem",
+        "Michał Turski",
+        "Shreyansh Padarha",
+        "Ryan Kearns",
+        "Adam Mahdi",
+        "Niels Rogge",
+        "Clémentine Fourrier",
+        "Siwei Han",
+        "Huaxiu Yao",
+        "Artemis Llabrés",
+        "Yiming Xu",
+        "Dimosthenis Karatzas",
+        "Hao Zhang",
+        "Anupam Datta"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62732",
+        "https://icml.cc/virtual/2026/oral/71033"
+      ],
+      "oral_session": "Oral 1B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71033,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29624
+        },
+        {
+          "event_id": 62732,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29624
+        }
+      ]
+    },
+    {
+      "title": "SVRG and Beyond via Posterior Correction",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 39,
+      "openreview_url": "https://openreview.net/forum?id=3NQSeJOfkz",
+      "paper_url": "https://openreview.net/forum?id=3NQSeJOfkz",
+      "authors": [
+        "Nico Daheim",
+        "Thomas Moellenhoff",
+        "James Ming Liang Ang",
+        "Mohammad Emtiyaz Khan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66471",
+        "https://icml.cc/virtual/2026/oral/71109"
+      ],
+      "oral_session": "Oral 3G Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71109,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -39
+        },
+        {
+          "event_id": 66471,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 39
+        }
+      ]
+    },
+    {
+      "title": "TG-RAG: A Retrieval-Augmented Framework for Reasoning Guidance in Specialized Domains",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 16034,
+      "openreview_url": "https://openreview.net/forum?id=W34UyCRQel",
+      "paper_url": "https://openreview.net/forum?id=W34UyCRQel",
+      "authors": [
+        "Liang Su",
+        "Mingyang Zhang",
+        "Yun Xiong",
+        "Tengfei LIU",
+        "Siwei Zhang",
+        "Xi Chen",
+        "Li Sun"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/63556",
+        "https://icml.cc/virtual/2026/oral/71061"
+      ],
+      "oral_session": "Oral 2B LLM Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71061,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -16034
+        },
+        {
+          "event_id": 63556,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 16034
+        }
+      ]
+    },
+    {
+      "title": "The Expressivity Limits of Transformers",
+      "alternate_titles": [
+        "How Many Different Outputs Can a Transformer Generate?"
+      ],
+      "track": "Conference",
+      "submission_id": 11091,
+      "openreview_url": "https://openreview.net/forum?id=x4xOtzoYa6",
+      "paper_url": "https://openreview.net/forum?id=x4xOtzoYa6",
+      "authors": [
+        "Maxime Meyer",
+        "Mario Michelessa",
+        "Caroline Chaux",
+        "Vincent Tan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60738",
+        "https://icml.cc/virtual/2026/oral/71082"
+      ],
+      "oral_session": "Oral 2G Theory: Deep Learning Expressivity",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71082,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -11091
+        },
+        {
+          "event_id": 60738,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 11091
+        }
+      ]
+    },
+    {
+      "title": "The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 2358,
+      "openreview_url": "https://openreview.net/forum?id=kpgURPRMGf",
+      "paper_url": "https://openreview.net/forum?id=kpgURPRMGf",
+      "authors": [
+        "Zanlin Ni",
+        "Shenzhi Wang",
+        "Yang Yue",
+        "Tianyu Yu",
+        "Weilin Zhao",
+        "Yeguo Hua",
+        "Tianyi Chen",
+        "Jun Song",
+        "YuCheng",
+        "Bo Zheng",
+        "Gao Huang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/61998",
+        "https://icml.cc/virtual/2026/oral/71086"
+      ],
+      "oral_session": "Oral 3A Diffusion Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71086,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -2358
+        },
+        {
+          "event_id": 61998,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 2358
+        }
+      ]
+    },
+    {
+      "title": "The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29393,
+      "openreview_url": "https://openreview.net/forum?id=wrGSN9kAVD",
+      "paper_url": "https://openreview.net/forum?id=wrGSN9kAVD",
+      "authors": [
+        "Mohammad Taufeeque",
+        "Stefan Heimersheim",
+        "Adam Gleave",
+        "Chris Cundy"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60766",
+        "https://icml.cc/virtual/2026/oral/71065"
+      ],
+      "oral_session": "Oral 2C AI Safety & Alignment",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71065,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29393
+        },
+        {
+          "event_id": 60766,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29393
+        }
+      ]
+    },
+    {
+      "title": "The Signal is in the Steps: Local Scoring for Reasoning Data Selection",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29329,
+      "openreview_url": "https://openreview.net/forum?id=GcB3a6IonG",
+      "paper_url": "https://openreview.net/forum?id=GcB3a6IonG",
+      "authors": [
+        "Hoang Anh Just",
+        "Myeongseob Ko",
+        "Ruoxi Jia"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65123",
+        "https://icml.cc/virtual/2026/oral/71145"
+      ],
+      "oral_session": "Oral 5B Data-efficient Learning & Distillation",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71145,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29329
+        },
+        {
+          "event_id": 65123,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29329
+        }
+      ]
+    },
+    {
+      "title": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 11119,
+      "openreview_url": "https://openreview.net/forum?id=Efq2VvYk1o",
+      "paper_url": "https://openreview.net/forum?id=Efq2VvYk1o",
+      "authors": [
+        "Long (Tony) Lian",
+        "Sida Wang",
+        "Felix Juefei-Xu",
+        "Tsu-Jui Fu",
+        "Xiuyu Li",
+        "Adam Yala",
+        "Trevor Darrell",
+        "Alane Suhr",
+        "Yuandong Tian",
+        "Xi Victoria Lin"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65330",
+        "https://icml.cc/virtual/2026/oral/71140"
+      ],
+      "oral_session": "Oral 5A LLM Training & Inference Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71140,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -11119
+        },
+        {
+          "event_id": 65330,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 11119
+        }
+      ]
+    },
+    {
+      "title": "To Grok Grokking: Provable Grokking in Ridge Regression",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 17708,
+      "openreview_url": "https://openreview.net/forum?id=5nNNVY8NW4",
+      "paper_url": "https://openreview.net/forum?id=5nNNVY8NW4",
+      "authors": [
+        "Mingyue Xu",
+        "Gal Vardi",
+        "Itay Safran"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66206",
+        "https://icml.cc/virtual/2026/oral/71134"
+      ],
+      "oral_session": "Oral 4F Learning Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71134,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -17708
+        },
+        {
+          "event_id": 66206,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 17708
+        }
+      ]
+    },
+    {
+      "title": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 6173,
+      "openreview_url": "https://openreview.net/forum?id=vIZz7LvObC",
+      "paper_url": "https://openreview.net/forum?id=vIZz7LvObC",
+      "authors": [
+        "Gül Sena Altıntaş",
+        "Malikeh Ehghaghi",
+        "Brian Lester",
+        "Fengyuan Liu",
+        "Wanru Zhao",
+        "Marco Ciccone",
+        "Colin Raffel"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60925",
+        "https://icml.cc/virtual/2026/oral/71141"
+      ],
+      "oral_session": "Oral 5A LLM Training & Inference Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71141,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -6173
+        },
+        {
+          "event_id": 60925,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 6173
+        }
+      ]
+    },
+    {
+      "title": "Towards Fair Sequential Decision-Making: A Causal Decomposition Approach",
+      "alternate_titles": [
+        "A Causal Decomposition Approach for Fair Contextual Multi-Armed Bandits"
+      ],
+      "track": "Conference",
+      "submission_id": 5469,
+      "openreview_url": "https://openreview.net/forum?id=kHEL0GD175",
+      "paper_url": "https://openreview.net/forum?id=kHEL0GD175",
+      "authors": [
+        "Jiajun Chen",
+        "Jin Tian",
+        "Chris Quinn"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62056",
+        "https://icml.cc/virtual/2026/oral/71110"
+      ],
+      "oral_session": "Oral 3G Theory",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71110,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -5469
+        },
+        {
+          "event_id": 62056,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 5469
+        }
+      ]
+    },
+    {
+      "title": "Towards Hierarchy–Uniformity Equilibrium: Recovering Semantic Depth in Hypergraph Contrastive Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 10759,
+      "openreview_url": "https://openreview.net/forum?id=88qwqo7VSK",
+      "paper_url": "https://openreview.net/forum?id=88qwqo7VSK",
+      "authors": [
+        "Ruiting Zhao",
+        "Ming Li",
+        "Lixin Cui",
+        "Lu Bai",
+        "Feilong Cao",
+        "Ke Lv",
+        "Pietro Lió"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65990",
+        "https://icml.cc/virtual/2026/oral/71162"
+      ],
+      "oral_session": "Oral 5F Graph & Federated Learning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71162,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -10759
+        },
+        {
+          "event_id": 65990,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 10759
+        }
+      ]
+    },
+    {
+      "title": "Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 2864,
+      "openreview_url": "https://openreview.net/forum?id=KY5Q9V9F5C",
+      "paper_url": "https://openreview.net/forum?id=KY5Q9V9F5C",
+      "authors": [
+        "Wenbo Pan",
+        "Zhichao Liu",
+        "Xianlong Wang",
+        "Yu Haining",
+        "Xiaohua Jia"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64718",
+        "https://icml.cc/virtual/2026/oral/71178"
+      ],
+      "oral_session": "Oral 6C LLM Understanding & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71178,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -2864
+        },
+        {
+          "event_id": 64718,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 2864
+        }
+      ]
+    },
+    {
+      "title": "Towards Sub-second Biological Foundation Model Infrastructure: A Quantized Consistency Diffusion Framework for Molecular Docking",
+      "alternate_titles": [
+        "Towards Sub-Second Molecular Docking as a Structural Primitive: A Quantized Consistency Diffusion Framework"
+      ],
+      "track": "Conference",
+      "submission_id": 31748,
+      "openreview_url": "https://openreview.net/forum?id=NyPHOtsJfE",
+      "paper_url": "https://openreview.net/forum?id=NyPHOtsJfE",
+      "authors": [
+        "Kexin Zhang",
+        "Weichen Qin",
+        "Yue Teng",
+        "Jiale Yu",
+        "Yuanyuan Ma",
+        "jinyu lin",
+        "Liping Sun",
+        "Jie Zheng",
+        "Jingyi Yu"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64402",
+        "https://icml.cc/virtual/2026/oral/71070"
+      ],
+      "oral_session": "Oral 2D AI for Science: Differential Equations & Molecular Modeling",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71070,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -31748
+        },
+        {
+          "event_id": 64402,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 31748
+        }
+      ]
+    },
+    {
+      "title": "Training-Free Bayesian Filtering with Generative Emulators",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 25416,
+      "openreview_url": "https://openreview.net/forum?id=ibcZNZwKfZ",
+      "paper_url": "https://openreview.net/forum?id=ibcZNZwKfZ",
+      "authors": [
+        "Thomas Savary",
+        "François Rozet",
+        "Gilles Louppe"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62217",
+        "https://icml.cc/virtual/2026/oral/71130"
+      ],
+      "oral_session": "Oral 4E AI for Science: Dynamical Systems and Processes",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71130,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -25416
+        },
+        {
+          "event_id": 62217,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 25416
+        }
+      ]
+    },
+    {
+      "title": "Transforming Weather Data from Pixel to Latent Space",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 30459,
+      "openreview_url": "https://openreview.net/forum?id=NlSWKeQPoZ",
+      "paper_url": "https://openreview.net/forum?id=NlSWKeQPoZ",
+      "authors": [
+        "Sijie Zhao",
+        "Feng Liu",
+        "Xueliang Zhang",
+        "Hao Chen",
+        "Tao Han",
+        "JUNCHAO GONG",
+        "Ran Tao",
+        "Pengfeng Xiao",
+        "Xinyu Gu",
+        "LEI BAI"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64426",
+        "https://icml.cc/virtual/2026/oral/71146"
+      ],
+      "oral_session": "Oral 5B Data-efficient Learning & Distillation",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71146,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -30459
+        },
+        {
+          "event_id": 64426,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 30459
+        }
+      ]
+    },
+    {
+      "title": "Understanding Reasoning Collapse in LLM Agent Reinforcement Learning",
+      "alternate_titles": [
+        "RAGEN-2: Reasoning Collapse in Agentic RL"
+      ],
+      "track": "Conference",
+      "submission_id": 4856,
+      "openreview_url": "https://openreview.net/forum?id=01caH9oj7C",
+      "paper_url": "https://openreview.net/forum?id=01caH9oj7C",
+      "authors": [
+        "Zihan (Zenus) Wang",
+        "Chi Gui",
+        "Xing Jin",
+        "Qineng Wang",
+        "Licheng Liu",
+        "Kangrui Wang",
+        "Shiqi Chen",
+        "Linjie Li",
+        "Zhengyuan Yang",
+        "Pingyue Zhang",
+        "Yiping Lu",
+        "Jiajun Wu",
+        "Li Fei-Fei",
+        "Lijuan Wang",
+        "Yejin Choi",
+        "Manling Li"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66821",
+        "https://icml.cc/virtual/2026/oral/71062"
+      ],
+      "oral_session": "Oral 2B LLM Reasoning",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71062,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -4856
+        },
+        {
+          "event_id": 66821,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 4856
+        }
+      ]
+    },
+    {
+      "title": "Unsupervised Partner Design Enables Robust Ad-hoc Teamwork",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 4041,
+      "openreview_url": "https://openreview.net/forum?id=0xtMUL0eiF",
+      "paper_url": "https://openreview.net/forum?id=0xtMUL0eiF",
+      "authors": [
+        "Constantin Ruhdorfer",
+        "Matteo Bortoletto",
+        "Victor Oei",
+        "Anna Penzkofer",
+        "Andreas Bulling"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66728",
+        "https://icml.cc/virtual/2026/oral/71078"
+      ],
+      "oral_session": "Oral 2F Robotics and Multi-agent RL",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71078,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -4041
+        },
+        {
+          "event_id": 66728,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 4041
+        }
+      ]
+    },
+    {
+      "title": "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 8538,
+      "openreview_url": "https://openreview.net/forum?id=6zVV84vnCJ",
+      "paper_url": "https://openreview.net/forum?id=6zVV84vnCJ",
+      "authors": [
+        "Woojin Kim",
+        "Sieun Hyeon",
+        "Jusang Oh",
+        "Jaeyoung Do"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66107",
+        "https://icml.cc/virtual/2026/oral/71066"
+      ],
+      "oral_session": "Oral 2C AI Safety & Alignment",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71066,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -8538
+        },
+        {
+          "event_id": 66107,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 8538
+        }
+      ]
+    },
+    {
+      "title": "VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 23341,
+      "openreview_url": "https://openreview.net/forum?id=coHiGZOFtS",
+      "paper_url": "https://openreview.net/forum?id=coHiGZOFtS",
+      "authors": [
+        "Yichen Gong",
+        "Zhuohan Cai",
+        "Sunhao Dai",
+        "Yuqi Zhou",
+        "Zhangxuan Gu",
+        "Changhua Meng",
+        "Shuheng Shen"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/62831",
+        "https://icml.cc/virtual/2026/oral/71034"
+      ],
+      "oral_session": "Oral 1B Agentic Systems",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71034,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -23341
+        },
+        {
+          "event_id": 62831,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 23341
+        }
+      ]
+    },
+    {
+      "title": "Video-Based Optimal Transport for Feedback-Efficient Offline Preference-Based Reinforcement Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 25218,
+      "openreview_url": "https://openreview.net/forum?id=G8LVO5easu",
+      "paper_url": "https://openreview.net/forum?id=G8LVO5easu",
+      "authors": [
+        "Minh-Tung Luu",
+        "Hwanhee Kim",
+        "Younghwan Lee",
+        "Chang D. Yoo"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65169",
+        "https://icml.cc/virtual/2026/oral/71090"
+      ],
+      "oral_session": "Oral 3B Reinforcement Learning: RLHF and Post-training",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71090,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -25218
+        },
+        {
+          "event_id": 65169,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 25218
+        }
+      ]
+    },
+    {
+      "title": "WeDLM: Reconciling Diffusion Language Models with Standard Causal Attention for Fast Inference",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 19423,
+      "openreview_url": "https://openreview.net/forum?id=QwtmbKAOZU",
+      "paper_url": "https://openreview.net/forum?id=QwtmbKAOZU",
+      "authors": [
+        "Aiwei Liu",
+        "Minghua He",
+        "Shaoxun Zeng",
+        "Sijun Zhang",
+        "Linhao Zhang",
+        "Chuhan Wu",
+        "Wei Jia",
+        "Yuan Liu",
+        "Zhou Xiao",
+        "Jie Zhou"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64095",
+        "https://icml.cc/virtual/2026/oral/71142"
+      ],
+      "oral_session": "Oral 5A LLM Training & Inference Efficiency",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71142,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -19423
+        },
+        {
+          "event_id": 64095,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 19423
+        }
+      ]
+    },
+    {
+      "title": "What Preferences Can—and Cannot—Predict in Multi-Agent Online Learning",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 29743,
+      "openreview_url": "https://openreview.net/forum?id=5W30WwL8wt",
+      "paper_url": "https://openreview.net/forum?id=5W30WwL8wt",
+      "authors": [
+        "Omar Abbadi",
+        "Rida Laraki",
+        "Panayotis Mertikopoulos"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/66240",
+        "https://icml.cc/virtual/2026/oral/71186"
+      ],
+      "oral_session": "Oral 6E Game Theory & Big Tech",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71186,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -29743
+        },
+        {
+          "event_id": 66240,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 29743
+        }
+      ]
+    },
+    {
+      "title": "When the Prompt Becomes Visual: Vision-Centric Jailbreak Attacks for Large Image Editing Models",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 9726,
+      "openreview_url": "https://openreview.net/forum?id=wQxRphkfxn",
+      "paper_url": "https://openreview.net/forum?id=wQxRphkfxn",
+      "authors": [
+        "Jiacheng Hou",
+        "Yining Sun",
+        "Ruochong Jin",
+        "Haochen Han",
+        "Fangming Liu",
+        "Victor Chan",
+        "Alex Jinpeng Wang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/60813",
+        "https://icml.cc/virtual/2026/oral/71106"
+      ],
+      "oral_session": "Oral 3F AI Safety & Jailbreaks",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71106,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -9726
+        },
+        {
+          "event_id": 60813,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 9726
+        }
+      ]
+    },
+    {
+      "title": "Which Algorithms Can Graph Neural Networks Learn?",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 26629,
+      "openreview_url": "https://openreview.net/forum?id=GnmuZIlvxw",
+      "paper_url": "https://openreview.net/forum?id=GnmuZIlvxw",
+      "authors": [
+        "Solveig Wittig",
+        "Antonis Vasileiou",
+        "Robert R. Nerem",
+        "Timo Stoll",
+        "Floris Geerts",
+        "Yusu Wang",
+        "Christopher Morris"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/65099",
+        "https://icml.cc/virtual/2026/oral/71194"
+      ],
+      "oral_session": "Oral 6G Theory: Transformers & GNNs",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71194,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -26629
+        },
+        {
+          "event_id": 65099,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 26629
+        }
+      ]
+    },
+    {
+      "title": "XR-1: Towards Versatile Vision-Language-Action Models via Learning Unified Vision-Motion Representations",
+      "alternate_titles": [],
+      "track": "Conference",
+      "submission_id": 20405,
+      "openreview_url": "https://openreview.net/forum?id=JO0IsGJg16",
+      "paper_url": "https://openreview.net/forum?id=JO0IsGJg16",
+      "authors": [
+        "Shichao Fan",
+        "Kun Wu",
+        "Zhengping Che",
+        "Xinhua Wang",
+        "Di Wu",
+        "Fei Liao",
+        "Ning Liu",
+        "Yixue Zhang",
+        "Zhen Zhao",
+        "Zhiyuan Xu",
+        "Meng Li",
+        "Qingjie Liu",
+        "Shanghang Zhang",
+        "Min Wan",
+        "Jian Tang"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/64826",
+        "https://icml.cc/virtual/2026/oral/71118"
+      ],
+      "oral_session": "Oral 4B Robotics: Vision-Language-Action Models",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71118,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -20405
+        },
+        {
+          "event_id": 64826,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 20405
+        }
+      ]
+    },
+    {
+      "title": "Position: AI Should Facilitate Democratic Deliberation at Scale",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 746,
+      "openreview_url": "https://openreview.net/forum?id=EOmwHHuNLU",
+      "paper_url": "https://openreview.net/forum?id=EOmwHHuNLU",
+      "authors": [
+        "José Ramón Enríquez",
+        "Jiaxin Pei",
+        "Alex Pentland"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67203",
+        "https://icml.cc/virtual/2026/oral/71183"
+      ],
+      "oral_session": "Oral 3C LLM Social Impact & Interpretability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71183,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -746
+        },
+        {
+          "event_id": 67203,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 746
+        }
+      ]
+    },
+    {
+      "title": "Position: AI/ML Deepfake Research is Misaligned with AI Generated Non-Consensual Intimate Imagery (AIG-NCII)",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 381,
+      "openreview_url": "https://openreview.net/forum?id=mLhZzo7BIb",
+      "paper_url": "https://openreview.net/forum?id=mLhZzo7BIb",
+      "authors": [
+        "Qiwei Li",
+        "Wells Lucas Santo",
+        "Sarita Schoenebeck",
+        "Eric Gilbert"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67084",
+        "https://icml.cc/virtual/2026/oral/71187"
+      ],
+      "oral_session": "Oral 6F Social Impacts: GenAI & Video",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71187,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -381
+        },
+        {
+          "event_id": 67084,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 381
+        }
+      ]
+    },
+    {
+      "title": "Position: Anthropomorphic Misalignment Research Needs Stronger Evidence",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 160,
+      "openreview_url": "https://openreview.net/forum?id=2XifsoNIrs",
+      "paper_url": "https://openreview.net/forum?id=2XifsoNIrs",
+      "authors": [
+        "Vansh Gupta",
+        "Peter Nutter",
+        "Samuel Stante",
+        "Andreas Krause",
+        "Florian Tramer",
+        "Lukas Fluri",
+        "Xin Chen",
+        "Anna Hedström"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67238",
+        "https://icml.cc/virtual/2026/oral/71063"
+      ],
+      "oral_session": "Oral 2C AI Safety & Alignment",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71063,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -160
+        },
+        {
+          "event_id": 67238,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 160
+        }
+      ]
+    },
+    {
+      "title": "Position: Don't Just \"Fix it in Post'': A Science of AI Must Study Learning Dynamics",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 881,
+      "openreview_url": "https://openreview.net/forum?id=VbHh05xQ7y",
+      "paper_url": "https://openreview.net/forum?id=VbHh05xQ7y",
+      "authors": [
+        "Stella Biderman",
+        "Mohammad Aflah Khan",
+        "Niloofar Mireshghallah",
+        "Catherine Arnett",
+        "Fazl Barez",
+        "Naomi Saphra"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67142",
+        "https://icml.cc/virtual/2026/oral/71043"
+      ],
+      "oral_session": "Oral 1E Understanding: Interpretability & Cognition",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71043,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -881
+        },
+        {
+          "event_id": 67142,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 881
+        }
+      ]
+    },
+    {
+      "title": "Position: Irresponsible AI: big tech’s influence on AI research and associated impacts",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 695,
+      "openreview_url": "https://openreview.net/forum?id=m9Zy7GXxP5",
+      "paper_url": "https://openreview.net/forum?id=m9Zy7GXxP5",
+      "authors": [
+        "Alex Hernandez-Garcia",
+        "Alexandra Volokhova",
+        "Ezekiel Williams",
+        "Dounia Shaaban Kabakibo",
+        "Mélisande Teng"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67085",
+        "https://icml.cc/virtual/2026/oral/71091"
+      ],
+      "oral_session": "Oral 6E Game Theory & Big Tech",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71091,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -695
+        },
+        {
+          "event_id": 67085,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 695
+        }
+      ]
+    },
+    {
+      "title": "Position: Stop Automating Peer Review Without Rigorous Evaluation",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 853,
+      "openreview_url": "https://openreview.net/forum?id=128yyxUoRk",
+      "paper_url": "https://openreview.net/forum?id=128yyxUoRk",
+      "authors": [
+        "Joachim Baumann",
+        "Jiaxin Pei",
+        "Sanmi Koyejo",
+        "Dirk Hovy"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67247",
+        "https://icml.cc/virtual/2026/oral/71099"
+      ],
+      "oral_session": "Oral 3E Peer Review & Mechanism Design",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71099,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -853
+        },
+        {
+          "event_id": 67247,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 853
+        }
+      ]
+    },
+    {
+      "title": "Position: The AI Imperative: Scaling High-Quality Peer Review in Machine Learning",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 759,
+      "openreview_url": "https://openreview.net/forum?id=0eAsCehpyb",
+      "paper_url": "https://openreview.net/forum?id=0eAsCehpyb",
+      "authors": [
+        "Qiyao Wei",
+        "Samuel Holt",
+        "Jing Yang",
+        "Markus Wulfmeier",
+        "Mihaela van der Schaar"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67249",
+        "https://icml.cc/virtual/2026/oral/71100"
+      ],
+      "oral_session": "Oral 3E Peer Review & Mechanism Design",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71100,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -759
+        },
+        {
+          "event_id": 67249,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 759
+        }
+      ]
+    },
+    {
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor’s Toolkit",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 590,
+      "openreview_url": "https://openreview.net/forum?id=dy2HwmOvFX",
+      "paper_url": "https://openreview.net/forum?id=dy2HwmOvFX",
+      "authors": [
+        "Sarah Ball",
+        "Phil Hackemann"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67118",
+        "https://icml.cc/virtual/2026/oral/71119"
+      ],
+      "oral_session": "Oral 4C LLM Alignment & Reliability",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71119,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -590
+        },
+        {
+          "event_id": 67118,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 590
+        }
+      ]
+    },
+    {
+      "title": "Position: There are futures that benchmark-driven AI cannot see",
+      "alternate_titles": [],
+      "track": "Position_Paper_Track",
+      "submission_id": 449,
+      "openreview_url": "https://openreview.net/forum?id=RzWlUbmRJi",
+      "paper_url": "https://openreview.net/forum?id=RzWlUbmRJi",
+      "authors": [
+        "Sobhan Lotfi",
+        "Ava Iranmanesh",
+        "Lachin Naghashyar",
+        "Ali Shirali",
+        "Fateme Haredasht",
+        "Sanmi Koyejo",
+        "Phil Torr",
+        "Yong Suk Lee",
+        "Fazl Barez",
+        "Joel Lehman",
+        "Peter Norvig",
+        "Arvind Narayanan"
+      ],
+      "official_urls": [
+        "https://icml.cc/virtual/2026/poster/67149",
+        "https://icml.cc/virtual/2026/oral/71151"
+      ],
+      "oral_session": "Oral 5D AI Evaluation & Methodology",
+      "has_scheduled_oral": true,
+      "selection_evidence": [
+        {
+          "event_id": 71151,
+          "event_type": "Oral",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": -449
+        },
+        {
+          "event_id": 67149,
+          "event_type": "Poster",
+          "decision": "Accept (spotlight)",
+          "source_submission_id": 449
+        }
+      ]
+    }
+  ]
+}
